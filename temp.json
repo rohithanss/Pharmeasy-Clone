@@ -574,7 +574,8 @@
       "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
     }
   ],
-  "beauty":[{
+  "beauty":[
+    {
     "id": "Beauty1",
     "adminId": "abhishek",
     "image": "https://cdn01.pharmeasy.in/dam/products_otc/B48723/sugar-pop-matte-lipcolour-13-magenta-2-1653658065.jpg?dim=700x0&dpr=1&q=100",
@@ -753,5 +754,216 @@
     "total_price": null,
     "status": null,
     "rating": 3.5
-  }]
+  }],
+  "skin care": [
+    {
+    "id": "sc1",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-2-1660816314.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Venusia Max Intensive Moisturizing Cream, For Dry To Very Dry Skin, Repairs & Smoothens Skin, 150g",
+    "quantity": 40,
+    "price": 432,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.5",
+    "description": "Dry and dull skin can take all your charm away. Do you want that to happen to you? Your answer will be no. So, get Venusia Max Intensive Moisturizing Cream for you to get rid of dry and dull skin and keep your glow intact. Our moisturizing cream for dry skin contains glycerin, shea butter, aloe butter, mango butter, and cocoa butter, all of which effectively improve the quality of your skin and transform it from dull to lively. It also enhances skin barriers by protecting your skin from dirt and pollution while keeping it hydrated for as long as 10 hours. Our moisturizing cream is dermatologically tested to be hypoallergenic and safe for your skin. It is entirely paraben, mineral oil, alcohol, and animal origin ingredients free. Apply it daily to get visibly healthy and shiny skin!"
+  },
+
+  {
+    "id": "sc2",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/I40419/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-500gm-2-1660816033.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Venusia Max Intensive Moisturizing Lotion, Repairs Dry Skin, Provides Soft & Smooth Skin, 500gm",
+    "quantity": 50,
+    "price": 771,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.6",
+    "description": "Dry and dull skin can take all your charm away. Do you want that to happen to you? Your answer will be no. So, apply Venusia Max Intensive Moisturizing lotion on your body to get rid of dry and dull skin and keep your glow intact. Our moisturizing lotion for dry skin contains glycerin, shea butter, aloe butter, mango butter, and cocoa butter, all of which effectively improve the quality of your skin and transform it from dull to lively. It also enhances skin barriers by protecting your skin from dirt and pollution while keeping it hydrated for as long as 12 hours. Our moisturizing lotion is dermatologically tested to be hypoallergenic and safe for your skin. It is entirely paraben, mineral oil, alcohol, and animal origin ingredients free. Apply it daily to get visibly healthy and shiny skin!"
+  },
+
+  {
+    "id": "sc3",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/196230/sebamed-clear-face-foam-150ml-1-1654078073.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Sebamed Clear Face Foam - 150ml",
+    "quantity": 50,
+    "price": 493,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.2",
+    "description": "Sebamed gives complete skin health management answers for all age gatherings, which support the skin's characteristic obstruction with pH 5.5. The skin health management arrangements incorporate Age Defense, Clear Face, and Baby Sebamed. All Sebamed items are clinically tried on delicate skin and are not tried on animals. It adequately enters the pores for gentle pore-profound purging. The new antibacterial dynamic fixing Montaline C40 is a Coconut Oil subordinate. It secures the skin against lipid disintegration during purification and gives a hydrating and smoothing impact"
+  },
+
+  {
+    "id": "sc4",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/N22542/himalaya-bleminor-antiblemish-cream-tube-of-30-ml-2-1654256127.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Himalaya Bleminor Antiblemish Cream Tube Of 30 Ml",
+    "quantity": 50,
+    "price": 159,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.2",
+    "description": "Himalaya Bleminor Anti Blemish Cream is an Ayurveda medication used to cure hyperpigmentation. Liquorice, Almond, Vateria Indica, and Silk Cotton Tree are the main constituents in Himalaya Bleminor Anti Blemish Cream. Its dosage is determined by the patient's age, gender, and medical history. The ingredients of the Bleminor cream tube are anti-inflammatory and antioxidants and help avoid hyperpigmentation due to repeated irritation. It also helps in altering skin discolouration. This Anti Blemish Cream Tube is safe to use and does not have any side effects."
+  },
+
+  {
+    "id": "sc5",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/239792/la-shield-spf-40-sunscreen-gel-50gm-2-1655119017.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "La Shield Spf 40 Sunscreen Gel 50gm",
+    "quantity": 50,
+    "price": 711,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.2",
+    "description": "This sunscreen product is an oil-free, non-greasy formulation, which spreads with ease on the skin, providing a matte effect. It is non-comedogenic (doesn't clog any pores), water-resistant and dermatologically tested, making it suitable for all skin types."
+  },
+
+  {
+    "id": "sc6",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/I07034/fash-x-gel-face-wash-200gm-2-1654167900.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Fash X Gel Face Wash 200gm",
+    "quantity": 50,
+    "price": 493,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "3.5",
+    "description": "Fash X gel is a gentle and non-irritating gel face wash that is best for people with sensitive and acne-prone skin. It lathers up nicely, cleanses dead cells and dirt, and keeps the skin free of excessive oil for 3-4 hours. The deep cleansing action ensures your skin gets rid of unwanted impurities and is squeaky clean and soft."
+  },
+
+  {
+    "id": "sc7",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/I01439/episoft-ac-sunscreen-spf30-lotion-75gm-1-1654168721.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Episoft Ac Sunscreen Spf30 Lotion 75gm",
+    "quantity": 50,
+    "price": 485,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.7",
+    "description": "Episoft AC Sunscreen SPF 30 Lotion is a moisturiser that also has a sunscreen component. It is made especially for acne-prone skin. Episoft AC Sunscreen SPF 30 Lotion hydrates and calms the skin, providing immediate relief from discomfort. It offers outstanding broad-spectrum protection against ultraviolet A (UVA) and ultraviolet B (UVB) radiation. The Episoft AC Sunscreen SPF 30 Lotion also helps post-acne hyperpigmentation, thanks to its innovative sunscreen combination, SPF 30, and Boot Star. The product is hypoallergenic, non-acnegenic, dermatologically tested, and devoid of skin irritants."
+  },
+
+  {
+    "id": "sc8",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/265998/tetmosol-medicated-soap-for-relief-from-skin-infections-lime-fragrance-100g-2-1654077736.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Tetmosol Medicated Soap For Relief From Skin Infections - Lime Fragrance - 100g",
+    "quantity": 90,
+    "price": 83,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.2",
+    "description": "Tetmosol Soap is a lime fragrance medicated soap that is often prescribed to deal with a variety of dermatological issues. Tetmosol Soap can be used by adults and children, both on the body as well as the scalp to provide relief from itching, sores, crusting and flaking as well as rashes. With regular use, this medicated soap from Tetmosol brings much-needed healing and relief to those suffering from skin problems. Use this soap under medical advice."
+  },
+
+  {
+    "id": "sc9",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/R85254/dettol-intense-cool-bathing-soap-bar-with-menthol-buy-4-get-1-free-125g-each-2-1656923385.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Dettol Intense Cool Bathing Soap Bar With Menthol- Buy 4 Get 1 Free - 125g Each",
+    "quantity": 100,
+    "price": 289,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.7",
+    "description": "Dettol Cool Soap has been dermatologically tested and kills 100 germs that cause human illnesses. Dettol soap is safe and hygienic and behaves as a barrier between your skin and harmful microorganisms in your environment. With a fresh menthol formula, this Dettol Cool Soap bar keeps you protected, cool and moisturized, leaving you ready to take on the day!"
+  },
+
+  {
+    "id": "sc10",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/F22228/abzorb-antifungal-soap-1-1654169473.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Abzorb Antifungal Soap",
+    "quantity": 100,
+    "price": 115,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.2",
+    "description": "Abzorb Antifungal Soap is an antifungal medication that treats skin infections. It works by killing the fungi on the skin by destroying their cell membrane. The soap bar is used to help assistvarious skin infections such as athlete's foot, jock itch, tinea versicolor, seborrheic dermatitis, etc., which may appear on the feet, hands, groin or genital areas, face, chest or back caused by fungi."
+  },
+
+  {
+    "id": "sc11",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/C84012/lite-glo-face-wash-tube-of-100-ml-2-1654165477.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Lite Glo Face Wash Tube Of 100 Ml",
+    "quantity": 50,
+    "price": 350,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.7",
+    "description": "Lite Glo Face Wash has dual benefits i.e. exfoliation of the skin and reduction of dryness. The Lite Glo Face Wash doesn’t cause irritation and leaves your face feeling soft and radiant. With regular usage, Lite Glo can help to maintain moisture levels of the face for better and healthy skincare."
+  },
+
+  {
+    "id": "sc12",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/L84068/episoft-ac-spf-30-cream-75gm-1-1654234607.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Episoft Ac Spf 30 Cream 75gm",
+    "quantity": 50,
+    "price": 485,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.2",
+    "description": "Episoft AC SPF 30 Cream is a sunscreen that has moisturising properties. It is gentle on your skin and protects you from the ultraviolet A (UVA) and ultraviolet B (UVB) rays of the sun. It replenishes your skin while protecting it and does not contain any added fragrance or paraben. This cream works efficiently on acne-prone skin as well as dry skin. It reduces the darkening of the skin and protects you from getting sunburn. This sunscreen contains Propylene glycol, D- Panthenol, Caprylic Triglyceride and Glycerine. These help in hydrating, nourishing and moisturising the skin. Episoft AC SPF 30 Cream is dermatologically tested and has no skin irritants. Since it is lightweight, it spreads across the skin with ease and acts as a non-greasy barrier that protects you from the environment."
+  },
+
+  {
+    "id": "sc13",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/242434/venusia-moisturizing-lotion-non-comedogenic-bottle-of-200-ml-2-1660816168.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Venusia Moisturizing Lotion (Non-Comedogenic) Bottle Of 200 Ml",
+    "quantity": 80,
+    "price": 424,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.2",
+    "description": "Your skin needs regular nourishment and moisturization to stay healthy and smooth as only then it will look beautiful and vibrant. So, nurture it with Venusia Moisturizing Lotion and make it look attractively charming. Our lotion is formulated to provide the goodness of Aloe Vera, Vitamin E and Squalene so that your skin stays protected from free radicals consequently harming the skin due to exposure to dirt and pollution. Use it daily and you will see your skin transforming from dry and dull to soft and glowing. And, if you are worried that your skin will look oily, just relax! Its non-greasy facet keeps stickiness away so that your skin stays fresh and hydrated and you look lively throughout the day. Venusia Moisture is a dermatologically recommended moisture and is Non-Comedogenic"
+  },
+
+  {
+    "id": "sc14",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/265117/candid-gold-powder-100gm-2-1654077667.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Candid Gold Powder 100gm",
+    "quantity": 50,
+    "price": 177,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "4.8",
+    "description": "Candid Gold Dusting Powder is a combination medicine of clotrimazole and allantoin used to treat various fungal skin infections. Clotrimazole is an antifungal agent that works against fungal skin infections. It offers relief from symptoms like itching, redness, hypopigmented spots, etc caused due to fungal skin infection. With regular use and correct application technique, it has been proven to prevent and reduce the symptoms of fungal and bacterial infections."
+  },
+
+  {
+    "id": "sc15",
+    "adminId": "rohithanss",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/X39340/venusia-moisturizing-cream-for-dry-sensitive-skin-box-of-100-g-1-1654233170.jpg?dim=700x0&dpr=1&q=100",
+    "product_name": "Venusia Moisturizing Cream For Dry Sensitive Skin Box Of 100 G",
+    "quantity": 80,
+    "price": 493,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "5",
+    "description": "For dehydrated and sensitive skin, the Venusia moisturizing cream is the perfect skincare product because it is infused with several key ingredients that keep sensitive skin hydrated throughout the day. The Venusia cream is a non-greasy complex of antioxidants like Vitamin E and Aloe Vera, that help protect as well as nourish the skin during the harshest weather conditions. This moisturizing cream comes in a compact pocket-sized plastic can and can thus serve as the most preferred skincare companion on short holidays as well."
+  }
+]
 }
