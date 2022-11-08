@@ -1,6 +1,6 @@
 # purple-crook-1402
 
-User-Side:
+User Side:
 * Home -
 * Products -
 * Cart -
