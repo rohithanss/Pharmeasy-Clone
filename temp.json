@@ -1,189 +1,511 @@
 {
-  "home care": ["abhishek"],
-  "beauty": [{
-    "id": "Beauty1",
+  "home care": [
+    { "id": "hc1",
+  "adminId": "abhishek",
+  "image": "https://cdn01.pharmeasy.in/dam/products_otc/I40695/dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.jpg",
+  "product_name": "Dettol Antiseptic Liquidbottle of550",
+  "quantity": 10,
+  "price": 214.06,
+  "discount": 10,
+  "total_price": 207.64,
+  "status": null,
+  "rating": "3.5",
+  "description": "desc" },
+
+  {
+    "id": "hc2",
     "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/B48723/sugar-pop-matte-lipcolour-13-magenta-2-1653658065.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Sugar Pop Matte Lipcolour - 13 Magenta",
-    "quantity": 20,
-    "price": 249,
-    "discount": 10,
-    "total_price": 224.1,
-    "status": null,
-    "rating": 3.5
-  },
-{
-    "id": "Beauty2",
-    "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/L64620/la-french-victory-eau-de-perfume-for-men-100ml-2-1655560499.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "La French Victory, Eau De Perfume For Men, 100ml",
-    "quantity": 15,
-    "price": 799,
-    "discount": 10,
-    "total_price": null,
-    "status": null,
-    "rating": 3.5
-  },
-{
-    "id": "Beauty3",
-    "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/X97953/sugar-pop-nail-lacquer-15-bold-please-2-1653462263.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Sugar Pop Nail Lacquer 15 Bold Please",
-    "quantity": 23,
-    "price": 129,
-    "discount": 10,
-    "total_price": null,
-    "status": null,
-    "rating": 3.5
-  },
-{
-    "id": "Beauty4",
-    "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/G25968/sugar-pop-matte-lipcolour-15-flamingo-2-1653463314.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Sugar Pop Matte Lipcolour - 15 Flamingo",
-    "quantity": 23,
-    "price": 249,
-    "discount": 10,
-    "total_price": null,
-    "status": null,
-    "rating": 3.5
-  },
-{
-    "id": "Beauty5",
-    "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/Y26576/engage-garden-mystique-deodorant-for-women-spicy-and-woody-skin-friendly-150ml-6.1-1641795563.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Engage Garden Mystique Deodorant For Women, Spicy And Woody, Skin Friendly- 150ml",
-    "quantity": 16,
-    "price": 225,
-    "discount": 10,
-    "total_price": null,
-    "status": null,
-    "rating": 3.5
-  },
-{
-    "id": "Beauty6",
-    "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/G48755/sugar-pop-longwear-compact-03-honey-2-1653658042.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Sugar Pop Longwear Compact - 03 Honey",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/S36514/harpic-power-plus-original-toilet-cleaner-bottle-of-500-ml-2-1667804866.jpg",
+    "product_name": "Harpic Power Plus Original Toilet Cleaner",
     "quantity": 13,
-    "price": 249,
+    "price": 93.06,
     "discount": 10,
-    "total_price": null,
+    "total_price": 89.28,
     "status": null,
-    "rating": 3.5
+    "rating": "3.5",
+    "description": "desc"
   },
-{
-    "id": "Beauty7",
+
+  {
+    "id": "hc3",
     "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/L83723/plum-eye-swear-by-brow-definer-ash-black-03gm-2-1653471045.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Plum Eye- Swear- By Brow Definer - Ash Black - 0.3gm",
-    "quantity": 8,
-    "price": 450,
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/O26428/savlon-surface-disinfectant-spray-170g-2-1654234199.jpg",
+    "product_name": "Savlon Disinfectant Spray",
+    "quantity": 20,
+    "price": 165.00,
     "discount": 10,
-    "total_price": null,
+    "total_price": 115.50,
     "status": null,
-    "rating": 3.5
+    "rating": "3.5",
+    "description": "desc"
   },
-{
-    "id": "Beauty8",
+
+  {
+    "id": "hc4",
     "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/D21553/nivea-men-deo-fresh-active-150ml-2-1654258115.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Nivea Men Deo Fresh Active - 150ml",
-    "quantity": 26,
-    "price": 225,
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/E57716/pril-liquid-actve-lime-dishwash-750-ml-2-1659234596.jpg",
+    "product_name": "Pril Liquid Lime Dishwash 750",
+    "quantity": 2,
+    "price": 190.00,
     "discount": 10,
-    "total_price": null,
+    "total_price": 182.40,
     "status": null,
-    "rating": 3.5
+    "rating": "3.5",
+    "description": "desc"
   },
-{
-    "id": "Beauty9",
+
+  {
+    "id": "hc5",
     "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/V12403/colorbar-matte-touch-lipstick-pink-chiffon-1-1649856462.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Colorbar Matte Touch Lipstick- Pink Chiffon",
-    "quantity": 11,
-    "price": 599,
-    "discount": 10,
-    "total_price": null,
-    "status": null,
-    "rating":3.5
-  },
-{
-    "id": "Beauty10",
-    "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/O80005/yardley-london-morning-dew-daily-wear-perfume-100-ml-2-1641794413.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Yardley London Morning Dew Daily Wear Perfume - 100 Ml",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/V01925/dettol-disinfectant-sanitizer-spray-bottle-original-pine-225ml-2-1654233461.jpg",
+    "product_name": "Dettol Disinfectant Sanitizer Spray",
     "quantity": 18,
-    "price": 549,
+    "price": 159.00,
     "discount": 10,
-    "total_price": null,
+    "total_price": 136.74,
     "status": null,
-    "rating": 3.5
+    "rating": "3.5",
+    "description": "desc"
   },
-{
-    "id": "Beauty11",
+
+  {
+    "id": "hc6",
     "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/T87736/wild-stone-code-titanium-body-perfume-for-men-120ml-pack-of-2-2-1641795780.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Wild Stone Code Titanium Body Perfume For Men - 120ml (Pack Of 2)",
-    "quantity":17,
-    "price": 500,
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/N65859/liveasy-essentials-aloe-vera-face-wipes-2-1646818934.jpg",
+    "product_name": "Liveasy Essentials Aloe Vera Wipes",
+    "quantity": 26,
+    "price": 69.00,
     "discount": 10,
-    "total_price": null,
+    "total_price": 62.00,
     "status": null,
-    "rating": 3.5
+    "rating": "3.5",
+    "description": "desc"
   },
-{
-    "id": "Beauty12",
+
+  {
+    "id": "hc7",
     "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/Y82706/nivea-deo-fresh-natural-women-150ml-2-1641789377.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Nivea Deo Fresh Natural Women - 150ml",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/D09658/harpic-floral-bathroom-cleaner-bottle-of-500-ml-2-1667804731.jpg",
+    "product_name": "Harpic Floor Bathroom Cleaner",
+    "quantity": 2,
+    "price": 99.00,
+    "discount": 10,
+    "total_price": 95.00,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc8",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/K01212/godrej-aer-power-pocket-bathroom-freshner-assorted-pack-of-5-2-1660892982.jpg",
+    "product_name": "Godrej Aer Power Pocket Bathroom Freshner",
+    "quantity": 9,
+    "price": 300.00,
+    "discount": 10,
+    "total_price": 282.00,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc9",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/E07643/lizol-sandal-disinfectant-floor-cleaner-bottle-of-500-ml-2-1641788794.jpg",
+    "product_name": "Lizol Sandal Disinfectant Floor Cleaner",
+    "quantity": 6,
+    "price": 103.00,
+    "discount": 10,
+    "total_price": 93.73,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc10",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/128740/dabur-odomos-naturals-cream-100gm-2-1641398827.jpg",
+    "product_name": "Dabur Odomos Naturals Cream 100gm",
+    "quantity": 17,
+    "price": 105.00,
+    "discount": 10,
+    "total_price": 90.30,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc11",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/M57053/airwick-room-air-freshener-spray-lemon-orange-blossom-245ml-2-1641791095.jpg",
+    "product_name": "Airwick Room Air Freshner Spray 245ml",
     "quantity": 23,
-    "price": 225,
+    "price": 161.00,
     "discount": 10,
-    "total_price": null,
+    "total_price": 127.19,
     "status": null,
-    "rating": 3.5
+    "rating": "3.5",
+    "description": "desc"
   },
-{
-    "id": "Beauty13",
+
+  {
+    "id": "hc12",
     "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/B91653/wild-stone-code-copper-body-perfume-for-men-120ml-pack-of-2-2-1641795650.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Wild Stone Code Copper Body Perfume For Men - 120ml (Pack Of 2)",
-    "quantity": 21,
-    "price": 500,
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/K85733/vanish-oxi-action-stain-remover-liquid-800ml-2-1667804698.jpg",
+    "product_name": "Vanish Oxi Action Stain Remover 800ml",
+    "quantity": 28,
+    "price": 215,
     "discount": 10,
-    "total_price": null,
+    "total_price": 184.90,
     "status": null,
-    "rating": 3.5
+    "rating": "3.5",
+    "description": "desc"
   },
-{
-    "id": "Beauty14",
+
+  {
+    "id": "hc13",
     "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/K55364/engage-new-metal-range-frost-deodorant-spray-for-men-150ml-2-1641789678.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Engage New Metal Range Frost Deodorant Spray For Men -150ml",
-    "quantity": 16,
-    "price": 220,
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/E82070/godrej-aer-home-spray-cool-surf-blue-220ml-2-1650264091.jpg",
+    "product_name": "Godrej Aer Home Spray 200ml",
+    "quantity": 7,
+    "price": 169.00,
     "discount": 10,
-    "total_price": null,
+    "total_price": 158.86,
     "status": null,
-    "rating": 3.5
+    "rating": "3.5",
+    "description": "desc"
   },
-{
-    "id": "Beauty15",
+
+  {
+    "id": "hc14",
     "adminId": "abhishek",
-    "image": "https://cdn01.pharmeasy.in/dam/products_otc/X51926/nivea-deo-protect-care-women-150ml-2-1641789820.jpg?dim=700x0&dpr=1&q=100",
-    "product_name": "Nivea Deo Protect & Care Women - 150ml",
-    "quantity": 34,
-    "price": 225,
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/O69430/ujala-crisp-shine-fabric-enhancer-floral-fusion-200g-bottle-2-1641794288.jpg",
+    "product_name": "Ujala Crisp & Sharped Fabric Enhancer ",
+    "quantity": 13,
+    "price": 157,
+    "discount": 10,
+    "total_price": 150,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc15",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/I48465/bodyguard-baby-diapers-and-sanitary-disposal-bag-75-bags-2-1648798283.jpg",
+    "product_name": "Bodyguard Baby Diapers",
+    "quantity": 32,
+    "price": 399.00,
     "discount": 10,
     "total_price": null,
+    "status": 359.10,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc16",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/T22378/beco-eco-friendly-reusable-kitchen-towel-roll-20-sheets-natural-organic-cleaning-bamboo-cloth-2-1644239822.jpg",
+    "product_name": "Beco Eco-Friendly Resuable Kitchen TOwel",
+    "quantity": 4,
+    "price": 299.00,
+    "discount": 10,
+    "total_price":239.20,
     "status": null,
-    "rating": 3.5
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc17",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/E76033/godrej-good-knight-advanced-power-activ-cartridge-twin-saver-mosquito-repellent-refill-2x45-ml-1-1641794006.jpg",
+    "product_name": "GoodKnight Mosquito Repellent",
+    "quantity": 29,
+    "price": 145.00,
+    "discount": 10,
+    "total_price": 139.20,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc18",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/Q33452/fabric-conditioner-lavender-natural-non-toxic-eco-friendly-soft-shine-500-ml-x-3-2-1656939991.jpg",
+    "product_name": "Fabric Conditioner Lavender 500 Ml X 3",
+    "quantity": 26,
+    "price": 342.00,
+    "discount": 10,
+    "total_price": 307.80,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
   }
+
 ],
-  "Lab Tests": ["Md Monu"],
+
+    }
+
+  ],
+
   "skin care": ["Somesh"],
-  "personal care": ["Rohit"],
+  "personal care": [
+    {
+      "id": "per4",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-6.1-1641398794.jpg",
+      "product_name": "Calcimax Forte Plus Strip Of 30 Tablets",
+      "quantity": "50",
+      "price": "228",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per5",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-1-1641793954.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Supradyn Daily Multivitamin Tablets 15s",
+      "quantity": "100",
+      "price": "50",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per6",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/A75976/liveasy-essentials-handwash-pump-250-ml-2-1653312958.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Liveasy Essentials Handwash Pump 250 Ml",
+      "quantity": "20",
+      "price": "72",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per7",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/031531/calcimax-500-health-supplement-tablets-500-mg-of-calcium-box-of-30-2-1654077366.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Calcimax 500 Health Supplement Tablets (500 Mg Of Calcium) Box Of 30",
+      "quantity": "30",
+      "price": "304",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per10",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/K57596/nair-hair-remover-moisturizing-cream-110g-6.5-1667393241.jpg",
+      "product_name": "Nair Hair Remover Moisturizing Cream - 110g",
+      "quantity": "100",
+      "price": "118",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per11",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/Q03727/philips-hair-dryer-bhd308-30-1600w-thermoprotect-airflower-3-heat-speed-settings-for-quick-drying-2-1653899709.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Philips Hair Dryer Bhd308/30 1600w Thermoprotect Airflower, 3 Heat & Speed Settings For Quick Drying",
+      "quantity": "25",
+      "price": "1630",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per12",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/G87269/vega-go-style-1200-hair-dryer-vhdh-18-2-1641794597.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Vega Go-Style 1200 Hair Dryer - Vhdh-18",
+      "quantity": "30",
+      "price": "971",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per13",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-2-1661760061.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Liveasy Wellness Calcium, Magnesium, Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60 Tabs",
+      "quantity": "40",
+      "price": "330",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per14",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/P26899/ultra-d3-drops-vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-2-1654250369.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Ultra D3 Drops - Vitamin D3 For Infants Vitamin Drops Bottle Of 15 Ml",
+      "quantity": "110",
+      "price": "33",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per15",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-women-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-tablets-1-1654168794.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Revital H Women Multivitamin With Calcium, Zinc, Ginseng For Immunity, Strong Bones & Energy 30 Tablets",
+      "quantity": "60",
+      "price": "306",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per16",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/H49251/mancode-beard-wash-conditioner-200ml-2-1655534171.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Mancode Beard Wash & Conditioner, 200ml",
+      "quantity": "120",
+      "price": "300",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per17",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/J65471/ostocalcium-plus-bottle-of-30-chewable-tablets-3-1641622978.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Ostocalcium Plus Bottle Of 30 Chewable Tablets",
+      "quantity": "30",
+      "price": "168",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per18",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/M09396/streax-professional-canvoline-serum-100-ml-2-1653393335.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Streax Professional Canvoline Serum 100 Ml",
+      "quantity": "50",
+      "price": "420",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per19",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/239792/la-shield-spf-40-sunscreen-gel-50gm-2-1655119017.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "La Shield Spf 40 Sunscreen Gel 50gm",
+      "quantity": "65",
+      "price": "711",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per20",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/P35255/mancode-shea-butter-body-wash-450ml-2-1655797699.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Mancode Shea Butter Body Wash, 450ml",
+      "quantity": "15",
+      "price": "270",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per21",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-2-1661760071.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Everherb (By Pharmeasy) Ashwagandha - Immunity Booster Capsules - Anxiety & Stress Relief - Bottle Of 60",
+      "quantity": "50",
+      "price": "342",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per22",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/R85254/dettol-intense-cool-bathing-soap-bar-with-menthol-buy-4-get-1-free-125g-each-2-1656923385.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Dettol Intense Cool Bathing Soap Bar With Menthol- Buy 4 Get 1 Free - 125g Each",
+      "quantity": "23",
+      "price": "298",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per23",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/083225/himalaya-geriforte-tablets-100s-1-1641398867.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Himalaya Geriforte Tablets - 100'S",
+      "quantity": "40",
+      "price": "141",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    },
+    {
+      "id": "per24",
+      "adminId": "rohithanss",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/U63129/philips-bt3241-15-smart-beard-trimmer-power-adapt-technology-for-precise-trimming-2-1653899852.jpg?dim=700x0&dpr=1&q=100",
+      "product_name": "Philips Bt3241/15 Smart Beard Trimmer- Power Adapt Technology For Precise Trimming",
+      "quantity": "50",
+      "price": "2145",
+      "discount": 10,
+      "total_price": null,
+      "status": null,
+      "rating": "3.5",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+    }
+  ],
 
   "schema": {
     "id": "productId",
@@ -201,6 +523,6 @@
   "admins": {
     "admin Id ": "rohithanss",
     "admin id2": "abhishek",
-    "admin id3": "monu"
+    "admin id": "monu"
   }
 }
