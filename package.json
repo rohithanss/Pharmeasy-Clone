@@ -1,0 +1,22 @@
+{
+  "name": "purple-crook-1402",
+  "version": "1.0.0",
+  "description": "Unit-3 Construct Week Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohithanss/purple-crook-1402.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohithanss/purple-crook-1402/issues"
+  },
+  "homepage": "https://github.com/rohithanss/purple-crook-1402#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

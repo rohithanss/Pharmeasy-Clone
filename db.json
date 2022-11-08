@@ -1,0 +1,41 @@
+{
+  "user": [
+    {
+      "id": "demo_username",
+      "full_name": "demo_name",
+      "mobile": "9878377527",
+      "email": "rohithanss@icloud.com",
+      "password": "being_drunkard",
+      "cart": [],
+      "orders": [
+        {
+          "id": "productId",
+          "adminId": "id",
+          "product_name": "demo_product",
+          "quantity": "2",
+          "price": 1000,
+          "total_price": 2000,
+          "status": "placed"
+        }
+      ]
+    }
+  ],
+  "admin": {
+    "id": "demo_username",
+    "full_name": "demo_name",
+    "mobile": "9878377527",
+    "email": "rohithanss@icloud.com",
+    "password": "being_drunkard",
+    "customers": [],
+    "orders": [],
+    "products": {
+      "health care": [],
+      "beauty": []
+    }
+  },
+  "products": {
+    "beauty": [],
+    "health care": [],
+    "third category": []
+  }
+}
