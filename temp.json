@@ -573,31 +573,5 @@
       "rating": "3.5",
       "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
     }
-  ],
-
-
-
-
-
-
-
-
-  "schema": {
-    "id": "productId",
-    "adminId": "id",
-    "image": "url",
-    "product_name": "demo_product",
-    "quantity": 2,
-    "price": 1000,
-    "discount": 10,
-    "total_price": null,
-    "status": null,
-    "rating": "3.5",
-    "description": "desc"
-  },
-  "admins": {
-    "admin Id ": "rohithanss",
-    "admin id2": "abhishek",
-    "admin id": "monu"
-  }
+  ]
 }
