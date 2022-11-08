@@ -1,5 +1,257 @@
 {
-  "home care": ["abhishek"],
+  "home care": [
+    { "id": "hc1",
+  "adminId": "abhishek",
+  "image": "https://cdn01.pharmeasy.in/dam/products_otc/I40695/dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.jpg",
+  "product_name": "Dettol Antiseptic Liquidbottle of550",
+  "quantity": 10,
+  "price": 214.06,
+  "discount": 10,
+  "total_price": 207.64,
+  "status": null,
+  "rating": "3.5",
+  "description": "desc" },
+
+  {
+    "id": "hc2",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/S36514/harpic-power-plus-original-toilet-cleaner-bottle-of-500-ml-2-1667804866.jpg",
+    "product_name": "Harpic Power Plus Original Toilet Cleaner",
+    "quantity": 13,
+    "price": 93.06,
+    "discount": 10,
+    "total_price": 89.28,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc3",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/O26428/savlon-surface-disinfectant-spray-170g-2-1654234199.jpg",
+    "product_name": "Savlon Disinfectant Spray",
+    "quantity": 20,
+    "price": 165.00,
+    "discount": 10,
+    "total_price": 115.50,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc4",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/E57716/pril-liquid-actve-lime-dishwash-750-ml-2-1659234596.jpg",
+    "product_name": "Pril Liquid Lime Dishwash 750",
+    "quantity": 2,
+    "price": 190.00,
+    "discount": 10,
+    "total_price": 182.40,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc5",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/V01925/dettol-disinfectant-sanitizer-spray-bottle-original-pine-225ml-2-1654233461.jpg",
+    "product_name": "Dettol Disinfectant Sanitizer Spray",
+    "quantity": 18,
+    "price": 159.00,
+    "discount": 10,
+    "total_price": 136.74,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc6",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/N65859/liveasy-essentials-aloe-vera-face-wipes-2-1646818934.jpg",
+    "product_name": "Liveasy Essentials Aloe Vera Wipes",
+    "quantity": 26,
+    "price": 69.00,
+    "discount": 10,
+    "total_price": 62.00,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc7",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/D09658/harpic-floral-bathroom-cleaner-bottle-of-500-ml-2-1667804731.jpg",
+    "product_name": "Harpic Floor Bathroom Cleaner",
+    "quantity": 2,
+    "price": 99.00,
+    "discount": 10,
+    "total_price": 95.00,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc8",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/K01212/godrej-aer-power-pocket-bathroom-freshner-assorted-pack-of-5-2-1660892982.jpg",
+    "product_name": "Godrej Aer Power Pocket Bathroom Freshner",
+    "quantity": 9,
+    "price": 300.00,
+    "discount": 10,
+    "total_price": 282.00,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc9",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/E07643/lizol-sandal-disinfectant-floor-cleaner-bottle-of-500-ml-2-1641788794.jpg",
+    "product_name": "Lizol Sandal Disinfectant Floor Cleaner",
+    "quantity": 6,
+    "price": 103.00,
+    "discount": 10,
+    "total_price": 93.73,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc10",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/128740/dabur-odomos-naturals-cream-100gm-2-1641398827.jpg",
+    "product_name": "Dabur Odomos Naturals Cream 100gm",
+    "quantity": 17,
+    "price": 105.00,
+    "discount": 10,
+    "total_price": 90.30,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc11",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/M57053/airwick-room-air-freshener-spray-lemon-orange-blossom-245ml-2-1641791095.jpg",
+    "product_name": "Airwick Room Air Freshner Spray 245ml",
+    "quantity": 23,
+    "price": 161.00,
+    "discount": 10,
+    "total_price": 127.19,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc12",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/K85733/vanish-oxi-action-stain-remover-liquid-800ml-2-1667804698.jpg",
+    "product_name": "Vanish Oxi Action Stain Remover 800ml",
+    "quantity": 28,
+    "price": 215,
+    "discount": 10,
+    "total_price": 184.90,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc13",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/E82070/godrej-aer-home-spray-cool-surf-blue-220ml-2-1650264091.jpg",
+    "product_name": "Godrej Aer Home Spray 200ml",
+    "quantity": 7,
+    "price": 169.00,
+    "discount": 10,
+    "total_price": 158.86,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc14",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/O69430/ujala-crisp-shine-fabric-enhancer-floral-fusion-200g-bottle-2-1641794288.jpg",
+    "product_name": "Ujala Crisp & Sharped Fabric Enhancer ",
+    "quantity": 13,
+    "price": 157,
+    "discount": 10,
+    "total_price": 150,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc15",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/I48465/bodyguard-baby-diapers-and-sanitary-disposal-bag-75-bags-2-1648798283.jpg",
+    "product_name": "Bodyguard Baby Diapers",
+    "quantity": 32,
+    "price": 399.00,
+    "discount": 10,
+    "total_price": null,
+    "status": 359.10,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc16",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/T22378/beco-eco-friendly-reusable-kitchen-towel-roll-20-sheets-natural-organic-cleaning-bamboo-cloth-2-1644239822.jpg",
+    "product_name": "Beco Eco-Friendly Resuable Kitchen TOwel",
+    "quantity": 4,
+    "price": 299.00,
+    "discount": 10,
+    "total_price":239.20,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc17",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/E76033/godrej-good-knight-advanced-power-activ-cartridge-twin-saver-mosquito-repellent-refill-2x45-ml-1-1641794006.jpg",
+    "product_name": "GoodKnight Mosquito Repellent",
+    "quantity": 29,
+    "price": 145.00,
+    "discount": 10,
+    "total_price": 139.20,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+
+  {
+    "id": "hc18",
+    "adminId": "abhishek",
+    "image": "https://cdn01.pharmeasy.in/dam/products_otc/Q33452/fabric-conditioner-lavender-natural-non-toxic-eco-friendly-soft-shine-500-ml-x-3-2-1656939991.jpg",
+    "product_name": "Fabric Conditioner Lavender 500 Ml X 3",
+    "quantity": 26,
+    "price": 342.00,
+    "discount": 10,
+    "total_price": 307.80,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  }
+
+],
+
   "beauty": ["Meghana"],
   "Lab_Tests": [
     {"Health_Packages":[
