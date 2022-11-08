@@ -1,5 +1,26 @@
 {
-  "beauty": [],
-  "health care": [],
-  "third category": []
+  "home care": ["abhishek"],
+  "beauty": ["Meghana"],
+  "Lab Tests": ["Md Monu"],
+  "skin care": ["Somesh"],
+  "personal care": ["Rohit"],
+
+  "schema": {
+    "id": "productId",
+    "adminId": "id",
+    "image": "url",
+    "product_name": "demo_product",
+    "quantity": 2,
+    "price": 1000,
+    "discount": 10,
+    "total_price": null,
+    "status": null,
+    "rating": "3.5",
+    "description": "desc"
+  },
+  "admins": {
+    "admin Id ": "rohithanss",
+    "admin id2": "abhishek",
+    "admin id3": "monu"
+  }
 }
