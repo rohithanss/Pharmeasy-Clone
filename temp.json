@@ -252,11 +252,79 @@
 
 ],
 
+
+
+  "Lab_Tests": [
+    {"Health_Packages":[
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Healthy 2022 Full Body Checkup","price":999,"id":"Nf1"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Women's Master Checkup with Cancer & Arthritis Screening","price":1999,"id":"Nf2"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Men's Master Checkup with Cancer & Arthiritis Screening","price":1999,"id":"Nf3"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Vitamin D Profile","price":1300,"id":"Nf4"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Comprehensive Full Body Checkup with Vitamin D & B12","price":399,"id":"Nf6"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Women's Advanced Healthcare Packages","price":375,"id":"Nf7"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Aarogyam Full Body Checkup with Vitamins","price":1999,"id":"Nf8"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Complete Diabetes Health Checkup","price":1899,"id":"Nf9"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Advanced Full Body Checkup","price":1049,"id":"Nf10"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Diabetes Care","price":499,"id":"Nf11"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Vitamin D & B12 Combo","price":799,"id":"Nf12"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Thyroid Care","price":499,"id":"Nf13"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Arthirits Screening Health Checkup","price":540,"id":"Nf14"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Basic Health Checkup","price":425,"id":"Nf15"},
+      
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Bone Profile Advanced","price":249,"id":"Nf16"},
+      {"image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg","admin id": "monu","name":"Premium Full Body Checkup","price":449,"id":"Nf17"}
+    ]}
+    ,{
+      "All_Test":[
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Lipid Profile","price":399,"id":"Af1"},
+      
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"HbA1c(Glycosylated  Hemoglobin","price":829,"id":"Af2"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Complete Blood Count/Hemogram (CBC)","price":349,"id":"Af3"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Post Prandial Blood Sugar","price":199,"id":"Af4"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"serum Electrolytes","price":399,"id":"Af6"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Total lgE","price":375,"id":"Af7"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Liver Function Test (LFT)","price":499,"id":"Af8"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Erythrocyte Sedimentation Rate (ESR)","price":249,"id":"Af9"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Fasting Blood Sugar (FBS)","price":199,"id":"Af10"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Total Cholesterol","price":199,"id":"Af11"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Creatinine","price":225,"id":"Af12"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Unine routine","price":449,"id":"Af13"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Free Thyroid Profile","price":540,"id":"Af14"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"C-Reactive Protein - Quanititative (CRP)","price":425,"id":"Af15"},
+        
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Thyroid Stimulating Hormone (TSH)","price":249,"id":"Af16"},
+        {"image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg","admin id": "monu","Test_name":"Renal/Kidney Function Test (RFT/KFT)","price":449,"id":"Af17"}
+      ]
+
     }
 
   ],
 
-  "skin care": ["Somesh"],
   "personal care": [
     {
       "id": "per4",
@@ -506,6 +574,13 @@
       "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
     }
   ],
+
+
+
+
+
+
+
 
   "schema": {
     "id": "productId",
