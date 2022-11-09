@@ -116,6 +116,7 @@ span2.textContent = "Onwards"
 p2.append(span1,span2)
 div.append(img,h2,p1,p2)
 browsed.append(div)
+
 }
 
 }
@@ -127,6 +128,9 @@ const apendAll = (data)=>{
   data.forEach((el)=>{
     let div = document.createElement("div")
     div.setAttribute("class","f_Card")
+    div.onclick = ()=>{
+      localStorage.setItem("Lab_Test",JSON.stringify(el))
+    }
     let img = document.createElement("img")
     let h2  = document.createElement("h3")
     let p1 = document.createElement("p")
@@ -152,6 +156,9 @@ const apendHealth = (data)=>{
   data.forEach((el)=>{
     let div = document.createElement("div")
     div.setAttribute("class","f_Card")
+    div.onclick = ()=>{
+      localStorage.setItem("Lab_Test",JSON.stringify(el))
+    }
     let img = document.createElement("img")
     let h2  = document.createElement("h3")
     let p1 = document.createElement("p")
@@ -168,3 +175,106 @@ const apendHealth = (data)=>{
   Health.append(div)
   })
   }
+
+
+  let a1 = document.querySelector('.a1')
+  a1.onclick = ()=>{
+  let b1= document.querySelector(".b1")
+  b1.style.display = "block"
+  }
+  a1.ondblclick = ()=>{
+    let b1= document.querySelector('.b1')
+    b1.style.display = "none"
+  }
+
+  
+  
+  let a2 = document.querySelector('.a2')
+  a2.onclick = ()=>{
+  let b2= document.querySelector(".b2")
+  b2.style.display = "block"
+  }
+  a2.ondblclick = ()=>{
+    let b2= document.querySelector('.b2')
+    b2.style.display = "none"
+  }
+
+  
+  let a3 = document.querySelector('.a3')
+  a3.onclick = ()=>{
+  let b3= document.querySelector(".b3")
+  b3.style.display = "block"
+  }
+  a3.ondblclick = ()=>{
+    let b3= document.querySelector('.b3')
+    b3.style.display = "none"
+  }
+
+  
+  let a4 = document.querySelector('.a4')
+  a4.onclick = ()=>{
+  let b4= document.querySelector(".b4")
+  b4.style.display = "block"
+  }
+  a4.ondblclick = ()=>{
+    let b4= document.querySelector('.b4')
+    b4.style.display = "none"
+  }
+
+  
+  let a5 = document.querySelector('.a5')
+  a5.onclick = ()=>{
+  let b5= document.querySelector(".b5")
+  b5.style.display = "block"
+  }
+  a5.ondblclick = ()=>{
+    let b5= document.querySelector('.b5')
+    b5.style.display = "none"
+  }
+
+  
+  let a6 = document.querySelector('.a6')
+  a6.onclick = ()=>{
+  let b6= document.querySelector(".b6")
+  b6.style.display = "block"
+  }
+  a6.ondblclick = ()=>{
+    let b6= document.querySelector('.b6')
+    b6.style.display = "none"
+  }
+
+  
+  let a7 = document.querySelector('.a7')
+  a7.onclick = ()=>{
+  let b7= document.querySelector(".b7")
+  b7.style.display = "block"
+  }
+  a7.ondblclick = ()=>{
+    let b7= document.querySelector('.b7')
+    b7.style.display = "none"
+  }
+
+  
+  let a8 = document.querySelector('.a8')
+  a8.onclick = ()=>{
+  let b8= document.querySelector(".b8")
+  b8.style.display = "block"
+  }
+  a8.ondblclick = ()=>{
+    let b8= document.querySelector('.b8')
+    b8.style.display = "none"
+  }
+
+  
+  let a9 = document.querySelector('.a9')
+  a9.onclick = ()=>{
+  let b9= document.querySelector(".b9")
+  b9.style.display = "block"
+  }
+  a9.ondblclick = ()=>{
+    let b9= document.querySelector('.b9')
+    b9.style.display = "none"
+  }
+
+  
+ 

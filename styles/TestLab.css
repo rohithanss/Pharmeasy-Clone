@@ -151,10 +151,32 @@
 
 
 
+
+/* Textsection --------------------- */
+#text{width: 80%; margin:auto;}
+#text>p {margin-bottom: 20px; font-size: 18px;}
+#text ul{margin-left: 30px;}
+/* ------------------ */
+
+
+
+/* #questions------- */
+#questions {width: 80%; margin:auto; margin-top:60px;}
+#qbox>div{border:1px solid rgb(221, 221, 221); margin-top:20px; border-radius: 5px; margin-bottom: 10px; padding: 15px; cursor: pointer;}
+#qbox>div>p{margin-bottom:6px;}
+#qbox>div>p:nth-child(1){font-weight: bold;}
+#qbox>div>P:nth-child(2){display: none;}
+#qbox>div>p:nth-child(1):hover  p{background-color:red;}
+
+
+
+.blk {color:rgb(54, 54, 54); font-weight: bolder;}
 @media screen and (min-width: 50px) and (max-width: 600px){
 #frequently_booked {width: 95%;}
 #previous_browsed{width: 95%;}
 #partner_lab>div:nth-child(2){display: none;}
 #Health_Packages {width: 95%;}
+#text{width: 95%}
+#questions{width: 95%;}
 }
   

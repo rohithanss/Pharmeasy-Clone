@@ -6,11 +6,11 @@ position:relative;
 }
 
 #logo{width: 100px; height:75px; margin-top: 13px;}
-ul {display: flex; justify-content: space-between;
+nav ul {display: flex; justify-content: space-between;
 align-items: center; 
 height: 100%; }
 .glass{background-color: rgb(246, 246, 246); height: 55px; display: flex; align-items: center; min-width: 35px; justify-content: center; border-radius: 8px;}
-li{list-style-type: none; 
+nav li{list-style-type: none; 
   
     padding: 0 10px; 
 }
