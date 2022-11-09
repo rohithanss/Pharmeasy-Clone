@@ -1,7 +1,7 @@
 {
-  "name": "purple-crook-1402",
+  "name": "mars-pharmacy",
   "version": "1.0.0",
-  "description": "Unit-3 Construct Week Project",
+  "description": "Unit-3 Construct Week Project. Project-code - purple-crook-1402",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
