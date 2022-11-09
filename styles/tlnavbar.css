@@ -5,7 +5,7 @@ background-color: #10847e; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 position:relative;
 }
 
-#logo{width: 90px; height:70px; margin-top: 13px;}
+#logo{width: 100px; height:75px; margin-top: 13px;}
 ul {display: flex; justify-content: space-between;
 align-items: center; 
 height: 100%; }

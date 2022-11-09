@@ -79,3 +79,92 @@ function showSlides(n) {
 }
 
 //-----------------------------------------------
+
+// Previous viewed------------------------
+const test_data = async ()=>{
+  const response  = await fetch("http://localhost:1010/admin/monu")
+  let refine_data = await response.json()
+  // {Lab_Test} = refine_data
+  apendAll(refine_data.Lab_Tests[1].All_Test)
+  apendHealth(refine_data.Lab_Tests[0].Health_Packages)
+  apend(refine_data.Lab_Tests[1].All_Test)
+  console.log(refine_data.Lab_Tests)
+}
+test_data()
+
+
+const apend = (data)=>{
+let browsed = document.getElementById("browsed")
+browsed.textContent = null
+for(let i=8; i<11; i++){
+let div = document.createElement("div")
+div.onclick = ()=>{
+  localStorage.setItem("Lab_Test",JSON.stringify(data[i]))
+}
+div.setAttribute("class","browsedCard")
+let img = document.createElement("img")
+let h2  = document.createElement("h3")
+let p1 = document.createElement("p")
+let p2 = document.createElement("p")
+let span1 = document.createElement("span")
+let span2 = document.createElement("span")
+img.src = data[i].image
+h2.textContent = data[i].Test_name
+p1.textContent = "Available at 1 certified lab"
+span1.textContent = data[i].price
+span2.textContent = "Onwards"
+p2.append(span1,span2)
+div.append(img,h2,p1,p2)
+browsed.append(div)
+}
+
+}
+// -------------------------------
+
+const apendAll = (data)=>{
+  let f_booked = document.getElementById("f_book")
+  // f_booked.textContent = null
+  data.forEach((el)=>{
+    let div = document.createElement("div")
+    div.setAttribute("class","f_Card")
+    let img = document.createElement("img")
+    let h2  = document.createElement("h3")
+    let p1 = document.createElement("p")
+    let p2 = document.createElement("p")
+    let btn = document.createElement("button")
+    btn.innerHTML = `Book Now >`; 
+    img.src = el.image
+    h2.textContent = el.Test_name
+    p1.textContent = "Available at 1 certified lab"
+  p2.textContent = el.price
+  let div2 = document.createElement("div")
+  div2.append(p2,btn)
+  div.append(img,h2,p1,div2)
+  f_booked.append(div)
+  })
+  }
+
+
+  
+const apendHealth = (data)=>{
+  let Health = document.getElementById("Health")
+  // Health.textContent = null
+  data.forEach((el)=>{
+    let div = document.createElement("div")
+    div.setAttribute("class","f_Card")
+    let img = document.createElement("img")
+    let h2  = document.createElement("h3")
+    let p1 = document.createElement("p")
+    let p2 = document.createElement("p")
+    let btn = document.createElement("button")
+    // btn.innerHTML = `onwards`;
+    img.src = el.image
+    h2.textContent = el.name
+    p1.textContent = "Available at 1 certified lab"
+  p2.textContent = el.price + "  Onwards"
+  let div2 = document.createElement("div")
+  div2.append(p2,btn)
+  div.append(img,h2,p1,p2)
+  Health.append(div)
+  })
+  }
