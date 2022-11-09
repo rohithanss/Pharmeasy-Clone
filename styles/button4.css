@@ -1,0 +1,23 @@
+
+#color {color: #0315c1;}
+#button4 {display: grid; grid-template-columns: repeat(4,1fr); align-items: center; width: 80%; justify-content: space-between; margin:auto; font-size: 16px; gap: 1%;}
+
+#button4>div{border:1px solid black; border-radius: 50px;  margin:auto; margin:0 2%; min-width: 180px;}
+#button4>div{display: flex; align-items: center; justify-content: center; height: 100%; line-height: 20px;}
+#button4>div>img {width: 40px; height: 40px;}
+
+#button4 span{margin:8px;}
+#para {line-height: 5px;}
+
+#free {width: 80%; margin:auto; margin-top: 20px; gap: 5%;
+    background-color:   #8573e1; color: white; padding: 20px; display: flex; align-items: center; justify-content: left;
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px){
+#button4{display: grid; grid-template-columns: repeat(2,1fr); width: 100%; gap: 20px;}
+
+}
+@media screen and (min-width: 50px) and (max-width: 599px){
+    #button4{display: grid; grid-template-columns: repeat(2,1fr); width: 100%; gap: 20px;}
+   
+}
