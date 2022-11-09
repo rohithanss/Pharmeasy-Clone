@@ -169,6 +169,25 @@
 #qbox>div>p:nth-child(1):hover  p{background-color:red;}
 
 
+/* happy patients--------------------- */
+#happy>div{width: 400px; height: auto; padding-bottom: 40px;}
+#happy {display: flex; flex-direction: row; width: 100%; margin:auto; justify-content: space-around;}
+#happy>div  {margin:10px; display: flex; flex-direction: row;}
+#happy>div div{display: flex; flex-direction: column; gap:10px; margin:10px;}
+#happy img {width: 70px; height: 70px;}
+#happy_pat {width:80%; margin:auto;}
+#hap {background-color: 
+  #f4f7fb; margin-top:80px; padding-top: 40px; margin-bottom: 100px;}
+
+
+
+  /* reports convenience------------------------ */
+#report{display: flex; justify-content: space-around; gap: 10px; width: 72%; margin:auto;}
+#report>div{display: flex; flex-direction: column; gap: 20px; }
+#report img{width: 180px; height: 150px;}
+
+
+
 
 .blk {color:rgb(54, 54, 54); font-weight: bolder;}
 @media screen and (min-width: 50px) and (max-width: 600px){
@@ -178,5 +197,6 @@
 #Health_Packages {width: 95%;}
 #text{width: 95%}
 #questions{width: 95%;}
+#happy>div {flex-direction: column;}
 }
   
