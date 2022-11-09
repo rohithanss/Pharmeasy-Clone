@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARS PHARMACY</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png" />
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href=./styles/navbar.css>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<style>
+    .mid_navbar{
+        display: none;
+    }
+    .bot_navbar{
+        display: none;
+    }
+</style>
+<body>
+    <div id="navbar">
+        <div class="top_navbar">
+            <div class="top_navbar1">
+                <div class="top_navbar1_left">
+                    <div class="logo">
+                        <!-- <img src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0"> -->
+                        <img src="images/logo.png">
+                    </div>
+                    <div id="vl"></div>
+                    <div class="pincode">
+                        <div class="pincodetitle">
+                            <div class="bolt"><img src="https://cdn-icons-png.flaticon.com/512/222/222506.png"></div>
+                            <div class="slogon">Express Delivery to</div>    
+                        </div>
+                        <div class="pincodenumber">
+                            <div class="pincodeDet">201003 Ghaziabd</div>
+                            <div> <span class="material-symbols-outlined">expand_more</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top_navbar1_right">
+                    <div class="app">
+                        <div class="mobile"><img src="https://cdn-icons-png.flaticon.com/512/4443/4443113.png" /></div>
+                        <div class="download"> <span>Download App</span></div>
+                    </div>
+                    <div class="login">
+                        <div class="user"><img src="https://cdn-icons-png.flaticon.com/512/5087/5087592.png" /></div>
+                        <div class="logintext"> <span>Hello, Log in</span></div>
+                    </div>
+                    <div class="offer">
+                        <div class="offericon"><img src="https://cdn-icons-png.flaticon.com/512/3119/3119226.png" /></div>
+                        <div class="offertext"> <span>Offers</span></div>
+                    </div>
+                    <div class="cart">
+                        <div class="carticon"><img src="https://cdn-icons-png.flaticon.com/512/4296/4296929.png" /></div>
+                        <div class="carttext"> <span>Cart</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mid_navbar">
+            <div class="facility">
+                <a href="">Medicine</a>
+                <a href="">Labtest</a>
+                <a href="">Healthcare</a>
+                <a href="">Health Blogs</a>
+                <a href="">Plus</a>
+                <a href="">Offers</a>
+                <a href="">Surgeries</a>
+                <a href="">Value Store</a>
+            </div>
+        </div>
+
+
+        <div class="bot_navbar">
+            <div class="navigation">
+                <a id="disabled" href="">Navigate to</a>
+                <a href="">Categories</a>
+                <a href="">Shop By Concern</a>
+                <a href="">Deals of the day</a>
+                <a href="">Featured Brand</a>
+                <a href="">Lab Test by Concern</a>
+            </div>
+        </div>
+    </div>
+    <div id="body_main">
+        <div class="search_section">
+           
+                <div class="search_heading">
+                    <div class="search_heading_left">What Are You Looking For?</div>
+                    <div class="search_heading_right">
+                        <div class="prescription"><img src="https://cdn-icons-png.flaticon.com/512/8869/8869786.png" /></div>
+                        <div class="order">Order with prescription.</div>
+                        <div class="upload">UPLOAD NOW</div>
+                        <div class="arrow"><img src="https://cdn-icons-png.flaticon.com/512/2951/2951134.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="searcharea">
+                    <div class="sabox">
+                        <div class="search_icon"><img src="https://cdn-icons-png.flaticon.com/512/149/149309.png" /></div>
+                        <div class="input_box"><input type="text" id="search" placeholder="Search for"></div>
+                        <div class="search_btn"><button>Search</button></div>
+                    </div>
+                </div>
+         
+            
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.documentElement.scrollTop > 50) {
+    let navbar1 = document.getElementByclass("mid_navbar")
+    navbar1.display = block;
+  let navbar2 = document.getElementByclass("bot_navbar")
+    navbar2.display = block;
+    
+  } else {
+    let navbar1 = document.getElementByclass("mid_navbar")
+    navbar1.className = "mid_navbar";
+    let navbar2 = document.getElementByclass("bot_navbar")
+    navbar2.className = "bot_navbar";
+  }
+}
+</script>
