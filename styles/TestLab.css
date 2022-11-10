@@ -92,9 +92,7 @@
 #previous_browsed{width: 80%; margin:auto;}
 /* #previous_browsed h3{margin-lef} */
 
-#browsed>div:before {display:block}
-
-#browsed {display:grid; grid-template-columns: repeat(16,1fr); overflow-x:hidden;}
+#browsed {display:grid; grid-template-columns: repeat(16,1fr); overflow-x:hidden; height: 260px;}
 #browsed:hover{overflow-x: auto;}
 
 #browsed>div {width: 250px;height: 230px; background-color: white; color: black; border:1px solid rgb(199, 199, 199); margin-right:20px; padding: 20px; border-radius: 3px; display: flex; flex-direction: column; justify-content: space-around;}

@@ -3,7 +3,7 @@ const navbar = ()=>{
     <ul id="container">
 
         <li class="under">
-<a href="#"> <img src="./images/logoc.png" id="logo"></a>
+<a href="index.html"> <img src="./images/logoc.png" id="logo"></a>
         </li>
 
 
