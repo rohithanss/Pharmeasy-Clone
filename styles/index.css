@@ -3,13 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400,500,600&family=Poppins:ital,wght@1,100&display=swap');
 
 
-
-
 #body_main{
     border:1px solid blue;
     height:2000px;
     width:100%;
-    margin-top: 210px;
+    box-sizing: border-box;
 }
 
 .search_section{
@@ -165,5 +163,293 @@
     line-height: 24px;
     letter-spacing: 1px;
 }
+
+#facilities{
+    border: 0px solid red;
+    width:100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.wrapper{
+    width: 1250px;
+    border: 0px solid green;
+    position: relative;
+    padding: 20 0px ;
+    display: flex;
+    justify-content: center;
+}
+.wrapper i {
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+
+}
+.wrapper i:first-child{
+    left: -23px;
+}
+.wrapper i:last-child{
+    right: -23px;
+}
+.wrapper .carousel{
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+}
+.carousel{
+    width: 1250px;
+    border: 0px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+.carousel div{
+    border: 0px solid rgb(73, 73, 122); 
+    border-radius: 10px;
+    
+}
+.carousel div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+.carousel div p{
+  text-align: center;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-size: 500;
+  line-height: 10px;
+  color: #30363c;
+}
+#discount{
+    font-size: 16px; 
+    color: #f47779;
+}
+.carousel div img{
+    height: 80px;
+    width:130px;
+    object-fit: cover;
+    /* border: 1px solid grey; */
+    border-bottom:1px solid grey; ;
+}
+
+/* @media screen and (max-width:900px) {
+    .carousel div img {
+        height: 80px;
+        width:100px;
+    }  
+}
+
+@media screen and (max-width:500px) {
+    .carousel div img {
+        height: 50px;
+        width:80px;
+    }  
+} */
+
+/* 3 */
+#offer_carousel{
+    border:0px solid blueviolet;
+    width:100%;
+    height: 15%;
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.offers_carousel{
+    display:none
+}
+
+.offers_carousel img{
+  /* height: 200px; */
+  width:600px;
+  margin-left:20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  flex-wrap: nowrap;
+}
+
+ #ltarrow, #rtarrow {
+    top: 50%;
+    border: 0px solid red;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    /* position: relative; */
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    transform: translateY(-10%);
+}
+#rtarrow{
+    margin-left: 10px;
+}
+#ltarrow:first-child{
+    left: -23px;
+}
+#rtarrow:last-child{
+    right: -23px;
+}
+
+/* 4 */
+#discount_tag{
+    border: 1px solid royalblue;
+    width: 100%;
+    height: 200px;
+}
+.dis_heading {
+    font-style: normal;
+    font-size: 26px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    color: #30363c;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.discount_container{
+   
+    border:0px solid red;
+    width:80%;
+    height:45%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dis{
+   border:1px solid rgb(226, 224, 224);
+   width:32%;
+   height:100%;
+   border-radius: 10px;
+   display: inline-flex;
+   justify-content: space-around;
+   align-items: center;
+   cursor: pointer;
+   
+}
+.dis:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.dis p{
+    font-style: normal;
+    font-size: 18px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: #30363c;
+    margin-left: 10px;
+    /* display: inline; */
+}
+.dis_img{
+    border:0px solid green;
+    width:50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.dis_img img{
+    width:100%;
+    border-radius: 5px;
+}
+#log .material-symbols-outlined{
+    font-size: 36px;
+    color: #30363c;;
+}
+#log{
+    background-color: #dffffd;
+}
+#log p {
+    font-size: 20px;
+}
+
+#payment_offers{
+    border: 1px solid royalblue;
+    width: 100%;
+    height: 200px;
+}
+.pay_heading{
+    font-style: normal;
+    font-size: 26px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    color: #30363c;
+    display: inline-block;
+    margin-left: 30px; 
+}
+.sfgh{
+    border:0px solid red;
+    width:100%;
+    height:50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sfgh i{
+    top: 50%;
+    border: 0px solid red;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    /* position: relative; */
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    transform: translateY(-10%);
+}
+.payment_offer_container{
+    border:1px solid red;
+    width:92%;
+    height:100%;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.payment_offer_container div {
+   border:1px solid black;
+   width:31%;
+   height:100%;
+   border-radius: 10px;
+   transition: 0.8s;
+   /* margin-left: 10px; */
+}
+.payment_offer_container div img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.payment_carousel{
+    display: none;
+}
+
+
+
+
 
 
