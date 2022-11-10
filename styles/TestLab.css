@@ -1,0 +1,202 @@
+* {box-sizing:border-box}
+
+/* Slideshow ----------------------------- */
+#slider .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+ 
+}
+
+
+#slider .mySlides {
+  display: none;
+}
+
+
+#slider .prev,#slider .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+#slider .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+#slider .prev:hover, #slider .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+#slider .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+#slider .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+#slider .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(215, 215, 215);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+ #slidedotbtn{
+   position: relative; top: -50px;
+    text-align: center;
+ }
+#slider .active, #slider  .dot:hover {
+  background-color: #22c7bf;
+}
+#slider .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* --------------------------------------- */
+
+/* previous viewed -------------------- */
+#previous_browsed{width: 80%; margin:auto;}
+/* #previous_browsed h3{margin-lef} */
+
+#browsed>div:before {display:block}
+
+#browsed {display:grid; grid-template-columns: repeat(16,1fr); overflow-x:hidden;}
+#browsed:hover{overflow-x: auto;}
+
+#browsed>div {width: 250px;height: 230px; background-color: white; color: black; border:1px solid rgb(199, 199, 199); margin-right:20px; padding: 20px; border-radius: 3px; display: flex; flex-direction: column; justify-content: space-around;}
+#browsed>div img{width: 40px; height: 40px;margin-bottom: --25px;}
+#browsed>div>p:nth-child(1){margin-bottom: -100px;}
+#browsed p>span{margin: 5px; margin-bottom: -10px;}
+#browsed>div:hover{border-color:#10847e;}
+/* ------------------------------------- */
+
+
+/* frequently booked ----------------------------------- */
+#frequently_booked{width: 80%; margin:auto;margin-top: 50px; background-color: #d4e2fa;}
+
+#f_book {display:grid; grid-template-columns: repeat(16,auto); overflow-x:hidden; height: 300px;}
+#f_book:hover{overflow-x: auto;}
+#f_book h2{font-size: 22px;}
+#f_book>div {height: 250px; width: 280px; display: flex;
+    flex-direction: column; justify-content: space-between; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white; color: black; border:1px solid rgb(205, 205, 205);margin-right:20px; padding: 20px; border-radius: 3px;}
+#f_book>div img{width: 40px; height: 40px;margin-bottom: --25px;}
+#f_book>div>p:nth-child(1){margin-bottom: -100px;}
+#f_book>div:hover{border:1px solid #10847e;}
+#f_book>div div {display: flex; justify-content: space-between; margin-top: 10px; position: relative; bottom: 10px;}
+#f_book>div button {color: #10847e; background-color: white; height:40px;  padding:0 10px; font-weight: bold; font-size: 18px;
+    margin-right:-20px;
+     border:none;}
+
+#f_book>div:hover button {color: white; background-color: #10847e;}
+/* ------------------------------------------------ */
+
+#partner_lab {display:flex; width: 100%;  margin:auto; margin-top: 20px;}
+#partner_lab img{width: 70px; height: 70px; border-radius: 50%;}
+#partner_lab>div {display: flex; flex-direction: column; margin-right:10px; height: 250px; border:1px solid rgb(207, 207, 207); width: 270px; padding: 20px; justify-content: space-between; border-radius:3px;}
+#partner_lab>div:hover{border-color:hsl(177,78%,29%);}
+
+
+
+/* Health Packages----------- */
+
+#Health_Packages{width: 80%; margin:auto;}
+
+
+#Health>div:before {display:block}
+
+#Health {display:grid; grid-template-columns: repeat(16,1fr); overflow-x:hidden; height: 260px}
+#Health:hover{overflow-x: auto;}
+
+#Health>div {width: 250px;height: 230px; background-color: white; color: black; border:1px solid rgb(199, 199, 199); margin-right:20px; padding: 20px; border-radius: 3px; display: flex; flex-direction: column; justify-content: space-around;}
+#Health>div img{width: 40px; height: 40px;margin-bottom: --25px;}
+#Health>div>p:nth-child(1){margin-bottom: -100px;}
+#Health p>span{margin: 5px; margin-bottom: -10px;}
+#Health>div:hover{border-color:#10847e;}
+
+
+
+
+
+/* Textsection --------------------- */
+#text{width: 80%; margin:auto;}
+#text>p {margin-bottom: 20px; font-size: 18px;}
+#text ul{margin-left: 30px;}
+/* ------------------ */
+
+
+
+/* #questions------- */
+#questions {width: 80%; margin:auto; margin-top:60px;}
+#qbox>div{border:1px solid rgb(221, 221, 221); margin-top:20px; border-radius: 5px; margin-bottom: 10px; padding: 15px; cursor: pointer;}
+#qbox>div>p{margin-bottom:6px;}
+#qbox>div>p:nth-child(1){font-weight: bold;}
+#qbox>div>P:nth-child(2){display: none;}
+#qbox>div>p:nth-child(1):hover  p{background-color:red;}
+
+
+/* happy patients--------------------- */
+#happy>div{width: 400px; height: auto; padding-bottom: 40px;}
+#happy {display: flex; flex-direction: row; width: 100%; margin:auto; justify-content: space-around;}
+#happy>div  {margin:10px; display: flex; flex-direction: row;}
+#happy>div div{display: flex; flex-direction: column; gap:10px; margin:10px;}
+#happy img {width: 70px; height: 70px;}
+#happy_pat {width:80%; margin:auto;}
+#hap {background-color: 
+  #f4f7fb; margin-top:80px; padding-top: 40px; margin-bottom: 100px;}
+
+
+
+  /* reports convenience------------------------ */
+#report{display: flex; justify-content: space-around; gap: 10px; width: 72%; margin:auto;}
+#report>div{display: flex; flex-direction: column; gap: 20px; }
+#report img{width: 180px; height: 150px;}
+
+
+
+
+.blk {color:rgb(54, 54, 54); font-weight: bolder;}
+@media screen and (min-width: 50px) and (max-width: 600px){
+#frequently_booked {width: 95%;}
+#previous_browsed{width: 95%;}
+#partner_lab>div:nth-child(2){display: none;}
+#Health_Packages {width: 95%;}
+#text{width: 95%}
+#questions{width: 95%;}
+#happy>div {flex-direction: column;}
+}
+  
