@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Care</title>
+    <link rel="stylesheet" href="./styles/skin_care.css">
+    <script src="https://kit.fontawesome.com/bb6c6e3963.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   <!------------------------------ navbar -------------------------->
+    <div id="navbar"></div>
+
+
+    <!----------------------------- middle part -------------------------->
+    <div id="flow">
+        <a href="">Home</a>
+        <p> <span><i class="fa-solid fa-greater-than"></i></span>  All Categories</p>
+        <p> <span><i class="fa-solid fa-greater-than"></i></span> Skin Care</p>
+    </div>
+
+
+    <!------------------------------ container -------------------------->
+    <div id="container">
+
+       <!-------------- container left ---------------> 
+        <div id="left">
+
+            <h1>Filter</h1>
+
+            <div class="subtopic" id="category">
+                <h2 class="subtopic_h2">Category</h2>
+                <label for="">Skin Care
+                    <input type="radio" checked="'checked">
+                </label>
+            </div>
+
+
+            <div class="subtopic" id="sub_category">
+                <h2 class="subtopic_h2">Sub Category</h2>
+                <label for="">Skin Creams & Hair Removal
+                    <input type="radio" >
+                </label>
+                <label for="">Face Wipes
+                    <input type="radio" >
+                </label>
+                <label for="">Facial Masks
+                    <input type="radio" >
+                </label>
+                <label for="">Talcum Powder
+                    <input type="radio" >
+                </label>
+                <label for="">Bathing
+                    <input type="radio" >
+                </label>
+                <p>View More</p>
+            </div>
+
+
+            <div class="subtopic" id="Brand">
+                <h2 class="subtopic_h2">Brand</h2>
+                <div id="search_logo"><input type="search" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <label for="">23 Yards
+                    <input type="checkbox">
+                </label>
+                <label for="">360 Block
+                    <input type="checkbox">
+                </label>
+                <label for="">Abzorb
+                    <input type="checkbox">
+                </label>
+                <label for="">Accare
+                    <input type="checkbox">
+                </label>
+                <label for="">Achigun
+                    <input type="checkbox">
+                </label>
+                <p>View More</p>
+            </div>
+
+            <div class="subtopic" id="price">
+                <h2 class="subtopic_h2">Price</h2>
+                <label for="">Below 99
+                    <input type="checkbox">
+                </label>
+                <label for="">100 - 199
+                    <input type="checkbox">
+                </label>
+                <label for="">200 - 299
+                    <input type="checkbox">
+                </label>
+                <label for="">300 - 399
+                    <input type="checkbox">
+                </label>
+                <label for="">400 - 499
+                    <input type="checkbox">
+                </label>
+                <p>View More</p>
+            </div>
+
+
+        </div>
+
+
+        <!-------------- container right --------------->
+        <div id="right">
+
+            <div id="right_top">
+                <h1>Skin Care</h1>
+
+                <div>
+                    <label for="">Sort By:</label>
+                    <select name="" id="sorting">
+                        <option value="Popularity">Popularity</option>
+                        <option value="LH">Price low to high</option>
+                        <option value="HL">Price high to low</option>
+                        <option value="Discount">Discount</option>
+                    </select>
+                </div>
+                               
+            </div>
+
+            <div id="product_data"></div>
+
+        </div>
+
+    </div>
+
+    <div id="responsive_btn">
+        <button id="responsive_sort">&#8645; Sort</button>
+        <button id="responsive_filter">&#8787; Filter</button>
+    </div>
+
+</body>
+</html>
+
+<script src="./src/scripts/skin_care.js"></script>
+
