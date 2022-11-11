@@ -50,6 +50,12 @@ document.onclick = (e) => {
     nav.classList.remove("show-nav");
     overlay.style.display = "none";
   }
+  if (
+    (e.target.id == "overlay" || e.target.id == "closePromtBox") &&
+    e.target.id != "promtBox"
+  ) {
+    document.getElementById("overlay").style.display = "none";
+  }
 };
 
 navBtnEvents();

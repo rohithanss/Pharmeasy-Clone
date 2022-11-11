@@ -2,7 +2,7 @@ function container() {
   return `  <div id="container">
   <div class="container-heading">
   <h3>Orders</h3>
-    <h3>Drafts</h3>
+  <a href="dashboard.html">  <h3>Drafts</h3></a>
   </div>
   <div class="container-nav">
     <div>
@@ -43,12 +43,12 @@ function container() {
   </table>
 
   <div class="container-pagination">
-    <div>1 - 10 of 20 orders</div>
+    <div>0 - 0 of 0 orders</div>
     <div>
-      <span>1 of 2</span
+      <span>0 of 0</span
       ><span>
-        <i class="fa-solid fa-arrow-left"> </i>
-        <i class="fa-solid fa-arrow-right"> </i>
+        <i class="fa-solid fa-arrow-left prevP"> </i>
+        <i class="fa-solid fa-arrow-right nextP"> </i>
       </span>
     </div>
   </div>

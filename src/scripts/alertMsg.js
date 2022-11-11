@@ -7,7 +7,7 @@ function alertMsg(message, status) {
   msgBox.innerText = message;
   msgBox.style.color = "white";
   let closeBtn = document.createElement("p");
-  closeBtn.innerText = "X";
+  closeBtn.innerHTML = `<i style="color:white" class="fa-solid fa-xmark"></i>`;
   closeBtn.id = "closeAlert";
   closeBtn.style = `
   font-size: 20px;
@@ -19,7 +19,7 @@ function alertMsg(message, status) {
   msgDiv.style = `
 height: 50px;
 display: flex;
-padding: 0 20px;
+padding: 7px 20px;
 position: fixed;
 align-items: center;
 justify-content:space-between;
