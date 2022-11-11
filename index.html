@@ -9,14 +9,17 @@
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href=./styles/navbar.css>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <style>
-    .mid_navbar{
-        display: none;
+    #show_hide_navbar{
+        display: none; 
     }
-    .bot_navbar{
-        display: none;
-    }
+
+
+
+    
 </style>
 <body>
     <div id="navbar">
@@ -60,7 +63,7 @@
             </div>
         </div>
 
-
+     <div id="show_hide_navbar">
         <div class="mid_navbar">
             <div class="facility">
                 <a href="">Medicine</a>
@@ -85,7 +88,9 @@
                 <a href="">Lab Test by Concern</a>
             </div>
         </div>
+     </div>
     </div>
+
     <div id="body_main">
         <div class="search_section">
            
@@ -108,26 +113,106 @@
          
             
         </div>
+
+        <diV id="facilities">
+            <div class="wrapper">
+                <!-- <i class="fa-solid fa-angle-left"></i> -->
+                <div class="carousel">
+                    <div>
+                        <img src="https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0" />
+                        <p>Medicine</p>
+                        <p id="discount">upto 20% Off</p>
+                    </div>
+                    <div>
+                        <img src="https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0" />
+                        <p>Lab Test</p>
+                        <p id="discount">upto 70% Off</p>
+                    </div>
+                    <div>
+                        <img src="https://assets.pharmeasy.in/apothecary/images/healthcare_ff.webp?dim=256x0" />
+                        <p>Health Care</p>
+                        <p id="discount">upto 60% Off</p>
+                    </div>
+                    <div>
+                        <img src="https://assets.pharmeasy.in/apothecary/images/health_blogs_ff.webp?dim=256x0" />
+                        <p>Health Blogs</p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <img src="https://assets.pharmeasy.in/apothecary/images/plus_ff.webp?dim=256x0" />
+                        <p>PLUS</p>
+                        <p id="discount">Save 5% Extra</p>
+                    </div>
+                    <div>
+                        <img src="https://assets.pharmeasy.in/apothecary/images/offers_ff.webp?dim=256x0" />
+                        <p>Offers</p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <img src="https://assets.pharmeasy.in/apothecary/images/offers_1_ff.webp?dim=256x0" />
+                        <p>Surgeries</p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <img src="https://assets.pharmeasy.in/apothecary/images/value_store.png?dim=256x0" />
+                        <p>Value Store</p>
+                        <p id="discount">upto 50% Off</p>
+                    </div>   
+                </div>
+                <!-- <i class="fa-solid fa-angle-right"></i> -->
+            </div>
+        </diV>
+
+        <div id="offer_carousel">
+            <div class="container">    
+                <i class="fa-solid fa-angle-left" id="ltarrow"></i>
+                <div class="offers_carousel" id="c1"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/782553ad506-STAR25.jpg"></div>
+                <div class="offers_carousel" id="c2"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/b3a4bdb683b-1.jpg"></div>
+                <div class="offers_carousel" id="c3"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/2691dabe7c0-thyroid.jpg"></div>
+                <i class="fa-solid fa-angle-right" id="rtarrow"></i>
+            </div>
+        </div>
+
+        <div id="discount_tag">
+            <p class="dis_heading">Offers Just for You</p>
+            <div class="discount_container">
+                <div class="dis">
+                    <div class="dis_img"><img src="https://cms-contents.pharmeasy.in/offer/c287851239f-25_off.jpg?dim=1440x0" /></div>
+                    <p>Flat 25% off on first 3 medicine orders.</p>
+                </div>
+                <div  class="dis">
+                    <div class="dis_img"><img src="https://cms-contents.pharmeasy.in/offer/b1cafb3a0cf-flat_27_off.jpg?dim=1440x0" /></div>
+                    <p>Flat 27% off + upto Rs.1000 cashback.</p>
+                </div>
+                <div  class="dis" id="log">
+                    <span class="material-symbols-outlined">lock</span>
+                    <p>Log in to view more offers</p>
+                        
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="payment_offers">
+            <p class="pay_heading">Payment Offers</p>
+            <div class="sfgh">
+                <i class="fa-solid fa-angle-left" id="payleft"></i>
+                <div class="payment_offer_container">
+                    <div class="payment_carousel" id="p1"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/a93d45ef9eb-HSBC.jpg?dim=1440x0"/></div>
+                    <div class="payment_carousel" id="p2"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/051ca0c08ef-AMAZON-PAY.jpg?dim=1440x0"/></div>
+                    <div class="payment_carousel" id="p3"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/b12a27172b0-hdfcbanner.jpg?dim=1440x0"/></div>
+                    <div class="payment_carousel" id="p4"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/9466405c308-au.jpg?dim=1440x0"/></div>
+                    <div class="payment_carousel" id="p5"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/0c5c9ec6841-mobikwik.jpg?dim=1440x0"/></div>
+                    <div class="payment_carousel" id="p6"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/3c88b411e46-ola-money.jpg?dim=1440x0"/></div>
+                    <div class="payment_carousel" id="p7"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/a93d45ef9eb-HSBC.jpg?dim=1440x0"/></div>
+                    <div class="payment_carousel" id="p"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/051ca0c08ef-AMAZON-PAY.jpg?dim=1440x0"/></div>
+                </div>
+                <i class="fa-solid fa-angle-right" id="payright"></i>
+            </div>
+        
+        </div>
     </div>
 </body>
 </html>
 
-<script>
-
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  if (document.documentElement.scrollTop > 50) {
-    let navbar1 = document.getElementByclass("mid_navbar")
-    navbar1.display = block;
-  let navbar2 = document.getElementByclass("bot_navbar")
-    navbar2.display = block;
-    
-  } else {
-    let navbar1 = document.getElementByclass("mid_navbar")
-    navbar1.className = "mid_navbar";
-    let navbar2 = document.getElementByclass("bot_navbar")
-    navbar2.className = "bot_navbar";
-  }
-}
-</script>
+<script src="./src/scripts/index.js"></script>
