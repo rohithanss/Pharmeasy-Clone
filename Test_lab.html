@@ -5,12 +5,14 @@
     <link rel="stylesheet" href="./styles/tlnavbar.css">
     <link rel="stylesheet" href="./styles/TestLab.css">
     <link rel="stylesheet" href="./styles/button4.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Labs</title>
 </head>
 <body>
+    <button id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
     <nav id="navbar">
     </nav>
 <main>
@@ -26,22 +28,40 @@
 
     <div id="previous_browsed">
         <h3 id="hprev" style="margin-bottom: 20px;">Previously Browsed By You</h3>
+        <div id="br">
+        
+        <i id="bleft" class="fa-solid fa-chevron-left brl"></i>
+   
         <div id="browsed">
          
         </div>
+      
+            <i id="bright" class="fa-solid fa-chevron-right brr"></i>
+   
+        
+
+        </div>
+        
         </div>
 
         
 <div id="booked" style="background-color: #d4e2fa; padding-top: 10px; margin-top: 50px;">
-    <div id="frequently_booked" style="margin-bottom:100px;">
-        <h3 id="hbooked">Frequently Booked Lab Tests</h3>
+    <div id="frequently_booked" style="margin-bottom:100px; padding-bottom: 20px;">
+        <div id="rl">
+            <h3 id="hbooked">Frequently Booked Lab Tests</h3>
+            <div>
+                <div id="right"><i class="fa-solid fa-arrow-left"></i></div>
+                <div id="left"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+        </div>
+        
         <div id="f_book" style=" margin-top:20px;">
 
         </div>
     </div></div>
 
     <div id="lab" style="width: 80%; margin:auto;">
-<h3 >Certified Partner Labs</h3>
+<h3 >Certified Partner Labs <a id="hview" href="#Certified-Partner-Labs.html">View All</a></h3>
 <div id="partner_lab" style="margin-bottom: 100px;">
     
 <div> 
@@ -62,9 +82,13 @@
 </div>
 
 <div id="Health_Packages" style="margin-bottom: 40px;">
-    <h3 style="margin-bottom: 20px;">Affordable Health Packages</h3>
+    <h3 style="margin-bottom: 20px;">Affordable Health Packages <a id="hview" href="HealthPackages.html">View All</a></h3>
+    <div id="br">
+    <i id="bleft"class="fa-solid fa-chevron-left hel"></i>
     <div id="Health">
 
+    </div>
+    <i id="bright" class="fa-solid fa-chevron-right helr"></i>
     </div>
     </div>
 
@@ -131,43 +155,62 @@
 <div id="qbox">
 
     <div>
-        <p class="a1">What are the covid precautions mars is taking for the testing purpose?</p>
+        <!--  -->
+        <p class="a1">What are the covid precautions mars is taking for the testing purpose?
+             <i id="a11" class="fa-solid fa-chevron-down" style="float: right;"></i>
+            <i id="a12" class="fa-solid fa-chevron-up" style="float:right; display: none;"></i>
+        </p>
+       
         <p class="b1">mars takes safety of our patients and staff very seriously. Which is why since the onset of COVID-19, we formulated a 5-step safety program to offer 100% protection to all stakeholders.. Along with this, NABL guidelines are followed to ensure samples are not corrupted during collection, transportation or storage. Here are the safety measures that we adhere to-Vigilance about face masksHand hygiene including sanitization and wearing of glovesFrequent thermal checksHygienic sample collectionCareful disposal of wasteCheck flu symptoms with patients</p>
     </div>
 
 
     <div>
-        <p class="a2">Are the phlebotomist sufficiently qualified?</p>
+        <p class="a2">Are the phlebotomist sufficiently qualified?
+            <i id="a21" class="fa-solid fa-chevron-down" style="float: right;"></i>
+            <i id="a22" class="fa-solid fa-chevron-up" style="float:right; display: none;"></i></p>
         <p class="b2">mars owns 18 state-of-the-art diagnostic laboratories in the country with an inhouse fleet of 500 phlebotomists across 2500+ pincodes. We have a dedicated training team for the technicians which constantly track their performance on parameters like on time arrival, painless collection, adherence to NABL guidelines for sample storage & transport and customer support. We have a very strict hiring process which ensures that every sample collection experience is best in class.</p>
     </div>
 
 
     <div>
-        <p class="a3">How efficient is the collection and analysis process?</p>
+        <p class="a3">How efficient is the collection and analysis process?
+            <i id="a31" class="fa-solid fa-chevron-down" style="float: right;"></i>
+            <i id="a32" class="fa-solid fa-chevron-up" style="float:right; display: none;"></i></p>
         <p class="b3">Utmost care is taken to collect samples while maintaining complete hygiene. Only new and fresh collection kits and needles are used. After collection, the sample is immediately transferred into an icebox to prevent degradation and bacterial build-up which may lead to inaccurate diagnosis. The samples are barcode tagged to prevent mix up and in the laboratories, technicians use high-end, state-of-the-art devices to analyse the samples.</p>
     </div>
 
 
     <div>
-        <p class="a4">Why are lab tests essential?</p>
+        <p class="a4">Why are lab tests essential?
+            <i id="a41" class="fa-solid fa-chevron-down" style="float: right;"></i>
+            <i id="a42" class="fa-solid fa-chevron-up" style="float:right; display: none;"></i></p>
         <p class="b4">Lab tests or diagnostic tests are recommended by doctors when they suspect that there might be something wrong with your health. Samples of your blood, stool, urine, or mucus can reveal a lot about the state of your health when analysed with special devices. Once the problem is detected, your doctor can diagnose and put you on medication or suggest a course of treatment.</p>
     </div>
 
 
     <div>
-        <p class="a5">How long does it take for the report to be delivered?</p>
+        <p class="a5">How long does it take for the report to be delivered? <i id="a51" class="fa-solid fa-chevron-down" style="float: right;"></i>
+            <i id="a52" class="fa-solid fa-chevron-up" style="float:right; display: none;"></i>
+        </p>
         <p class="b5">It takes 24-48 hours for the lab to prepare your report and have it delivered to you.</p>
     </div>
     <div>
-        <p class="a6">How should one prepare for a lab test?</p>
+        <p class="a6">How should one prepare for a lab test? <i id="a61" class="fa-solid fa-chevron-down" style="float: right;"></i>
+            <i id="a62" class="fa-solid fa-chevron-up" style="float:right; display: none;"></i>
+        </p>
         <p class="b6">Different tests have different requirements. Some may need to be on an empty stomach whereas, for some other tests, you may need to consume food before the sample is collected. Speak with your doctor regarding what you need to do to prepare for a lab test. Let your doctor know if you are already on any medication.</p>
     </div>
     <div>
-        <p class="a7">How are lab test reports interpreted?</p>
+        <p class="a7">How are lab test reports interpreted?
+            <i id="a71" class="fa-solid fa-chevron-down" style="float: right;"></i>
+            <i id="a72" class="fa-solid fa-chevron-up" style="float:right; display: none;"></i></p>
         <p class="b7">The reports that our labs will deliver to you will be quite detailed. There will be charts of reference ranges to help you understand the report and a statement from a qualified doctor. But, once you receive your report, it is best to consult your doctor and ask him/her to explain it to you.</p>
     </div>
     <div>
-        <p class="a8">If the lab test result are within the normal range, does that mean no illness has been detected?</p>
+        <p class="a8">If the lab test result are within the normal range, does that mean no illness has been detected?
+            <i id="a81" class="fa-solid fa-chevron-down" style="float: right;"></i>
+            <i id="a82" class="fa-solid fa-chevron-up" style="float:right; display: none;"></i></p>
         <p class="b8">If your reports are within normal range, it is certainly good news. But normal results do not always give you a clean bill of health. If symptoms persist, your doctor will recommend other tests to detect what is triggering the unusual signs.</p>
     </div>
     
@@ -232,19 +275,45 @@
 
 
 
+<div id="timevisit" style="margin-bottom: 100px;">
+    <div>
+        <img src="https://assets.pharmeasy.in/web-assets/dist/9407515b.svg?dim=0x72&dpr=1.5&q=100">
+        <h3>Trusted Labs</h3>
+        <p>Every test booked via PharmEasy is conducted by certified labs that are 100% verified and trustworthy.</p>
+    </div>
 
+    <div>
+        <img src="https://assets.pharmeasy.in/web-assets/dist/0105ddc1.svg?dim=0x72&dpr=1.5&q=100">
+        <h3>Home Visit</h3>
+        <p>With PharmEasy, you get a FREE sample pick-up* by professional phlebotomists from your home or preferred location.</p>
+    </div>
 
+    <div>
+        <img src="https://assets.pharmeasy.in/web-assets/dist/fc71c500.svg?dim=0x72&dpr=1.5&q=100">
+        <h3>Timely and Accurate Reports</h3>
+        <p>Once collected, samples will be sent to labs for processing. Detailed reports will be shared within a stipulated timeline.</p>
+    </div>
 
-
-
+    <div>
+        <img src="https://assets.pharmeasy.in/web-assets/dist/4a11ac5a.svg?dim=0x72&dpr=1.5&q=100">
+        <h3>Up to 70% OFF</h3>
+        <p>At PharmEasy, you save at every step! On diagnostic tests, get up to 70% OFF on various tests and test packages.</p>
+    </div>
+</div>
 
 
 </main>
  
+<footer id="footer">
+
+</footer>
+
 
 
 
 </body>
+
+
 </html>
 
 <script type="module" src="./src/scripts/TestLab.js"></script>
