@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#flow{
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    column-gap: 10px;
+    /* width: 80%; */
+    padding: 10px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 18px;
+    font-weight: 400;
+    color: #4f585e;
+}
+#flow a{
+    text-decoration: none;
+    color: #4f585e;
+}
+#flow span{
+    font-size: 11px;
+    margin: 0 10px;
+    color: #4f585e;
+}
+#flow>:last-child{
+    color: #8897a2;
+}
+#flow>a+p+p{
+    width: 250px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    height: 20px;
+}

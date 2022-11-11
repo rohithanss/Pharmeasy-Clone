@@ -1,5 +1,9 @@
 const api = 'http://localhost:1010';
 
+
+
+/* -----------appending data on product page-------------- */
+
 const append_data = async () => {
     let res = await fetch(`${api}/products`)
     res = await res.json();
@@ -17,7 +21,12 @@ const append_product_data = (data) => {
 
     data.forEach((el) => {
         let div = document.createElement('div')
-        div.id = 'product_card'
+        div.className = 'product_card'
+        div.onclick = () => {
+            // console.log(p_img,p_name,strikedOff_price,final_price,discount);
+            storeDataLS(el);
+            // redirectToProductPage();
+        }
 
         let p_img = document.createElement('img')
         p_img.src = el.image;
@@ -57,6 +66,8 @@ const append_product_data = (data) => {
 }
 
 
+/* -------------------sorting data---------------------- */
+
 const sorting_data = async () => {
     let res = await fetch(`${api}/products`)
     res = await res.json();
@@ -91,3 +102,12 @@ const sorting = (data) => {
 }
 
 
+/*-----------------Function to store data to Local Storage---------------------*/
+const storeDataLS = (el) => {
+    // let lsData = {p_img,p_name,strikedOff_price,final_price,discount};
+    localStorage.setItem('product_Details',JSON.stringify(el))
+}
+
+const redirectToProductPage = () => {
+    window.location.href = 'single_product.html'
+}
