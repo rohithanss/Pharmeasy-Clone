@@ -1,7 +1,6 @@
 import { navBtnEvents } from "./navBtnEvents.js";
 import { navbar } from "../components/navbar.js";
 import { header } from "../components/header.js";
-
 const details = JSON.parse(localStorage.getItem("admin_details")) || null;
 
 // -------------------------------- DEFAULT COMPONENTS APPENDING AND SETTING ----------------------------------
