@@ -200,10 +200,10 @@ gap: 20px;
     font: 1em sans-serif;
    
 }
-#footer_center>div{
+#footer_info{
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    
    padding: 10px 10px;
    font: 1em sans-serif;
 
@@ -219,13 +219,37 @@ gap: 20px;
 #footer_center>div p{
     color: rgb(88,96,102);
     font-size: 16px;
+    cursor: pointer;
 }
 #footer_icons{
     display: flex;
-    gap: 5px;
+    gap: 20px;
+    font-size: 35px;
+    color: rgb(16,132,126);
+    cursor: pointer;
 }
-#footer_icons ion-icons{
-    height: 40px;
+#footer_img{
+  height: 100px;
+
+   padding: 10px 10px;
+   font: 1em sans-serif;
+}
+#footer_img>div{
+    display: flex;
+    gap: 10px;
+}
+#footer_img>div>img{
+    height: 30px;
+}
+#footer_end{
+    height: auto;
+ 
+     display: flex;
+     font: 1em sans-serif;
+     justify-content: space-between;
+  }
+#footer_end>img{
+    height: 30px;
 }
 @media only screen and (min-width: 894px){
 

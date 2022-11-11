@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./styles/payment.css"/>
+</head>
+<body>
+    <div id="payment_navbar">
+        
+        <nav>
+            <img src="./images/logo-white.png" />
+            <div>
+            <ion-icon name="shield-checkmark"></ion-icon><p>100% Secure Payments</p>
+            </div>
+        </nav>
+       
+    </div>
+    <div id="payment_body">
+        <div id="payment_details">
+            <div id="Offers">
+                <h2>Offers</h2>
+                <div id="paytm">
+                    <img src="https://cdn.pharmeasy.in/payments/wallet_icons/paytm.png" />
+                    <div>
+                        <h4>Paytm Wallet</h4>
+                        <button class="pay_button">Link Wallet</button>
+                        </div>
+                        <input type="checkbox" class="checkbox-round"/>
+                </div>
+                <div id="Amazon">
+                    <img src="https://cdn.pharmeasy.in/payments/amazonpay_new.png" />
+                    <div>
+                        <h4>Amazon Pay</h4>
+                        <p>Up to Rs.600 cashback on a minimum transaction of Rs.299. Valid once per user.</p>
+                        <button class="pay_button">Place Order & Pay</button>
+                        </div>
+                    <input type="checkbox" class="checkbox-round" onclick="hideBtn()"/>
+                </div>
+                <div id="Mobi">
+                    <img src="https://cdn.pharmeasy.in/payments/wallet_icons/mobikwik.png" />
+                    <div>
+                        <h4>MobiKwik | ZIP (Pay Later)</h4>
+                        <p>Up to Rs.650 cashback on Mobikwik. Code: MBK650. Valid only once & on orders above Rs.800.</p>
+                        <button class="pay_button">Place Order & Pay</button>
+                        </div>
+                    <input type="checkbox" class="checkbox-round" />
+                </div>
+            </div>
+            <div id="Other_options">
+                <h2>Other Options</h2>
+                <div>
+                    <img src="https://cdn.pharmeasy.in/payments/upi.png" />
+                    <div>
+                        <h4>UPI</h4>
+                        <div>
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/amazonpay.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/gpay.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/bhim.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/paytmUpi.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/phonepeWallet.png" alt="">
+                        </div>
+                        </div>
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div>
+                    <img src="https://cdn.pharmeasy.in/payments/wallet.png" />
+                    <div>
+                        <h4>Wallets</h4>
+                        <div>
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/phonepeWallet.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/amazonpay.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/paytmUpi.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/freecharge-wallet.png" alt="">
+                        </div>
+                        </div>
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div>
+                    <img src="https://cdn.pharmeasy.in/payments/card.png" />
+                    <div>
+                        <h4>Credit/Debit Card</h4>
+                        <div>
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/maestro-logo.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/dinerCard.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/visa.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/mastercard-logo.png" alt="">
+                            <img src="https://consumer-app-images.pharmeasy.in/payment-icons/rupay.png" alt="">
+                        </div>
+                        </div>
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div>
+                    <img src="https://cdn.pharmeasy.in/payments/netbanking.png" />
+                    <div>
+                        <h4>Net Banking</h4>
+                        <p>We support over 100 banks</p>
+                        </div>
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div>
+                    <img src="https://consumer-app-images.pharmeasy.in/payment-icons/cod_disabled.png" />
+                    <div>
+                        <h4>Cash on Delivery</h4>
+                        <p>Cash on delivery is not available</p>
+                        </div>
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div id="priceBreakdown">
+            <div>
+                <h3>Price Breakdown</h3>
+                <div>
+                    <p>Cart Value</p>
+                    <p>₹58.26</p>
+                </div>
+                <div>
+                    <p>Delivery charges</p>
+                    <p>₹99.00</p>
+                </div>
+                <div>
+                    <p>Amount to be paid</p>
+                    <p>₹157.26</p>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./src/scripts/payment.js"></script>
