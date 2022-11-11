@@ -1,0 +1,44 @@
+*{font-family: sans-serif;}
+#cart {display: grid; width: 90%; margin:auto; grid-template-columns: 1fr 1fr; }
+#cart>div {margin:3%;}
+ 
+#testInfo {
+    margin-top: 20px;
+}
+#testInfo>div{
+    margin:20px 10px; padding: 15px; border:1px solid rgb(208, 208, 208); border-radius: 10px;height: auto; cursor:pointer;
+}
+#testInfo>div:hover {border:1px solid teal;}
+#testInfo img{width: 50px; height: 50px;}
+#testInfo>div {display: flex; align-items: flex-start; justify-content: space-around;}
+#testInfo>div>div{margin:  10px  10px;}
+
+#testInfo>div>div:nth-child(1){margin-top: 20px;}
+
+#sele{display: flex; flex-direction: column; }
+#sele button{padding: 13px; font-size: 18px; color: white; background-color: #959595; border:none;
+border-radius: 10px; cursor:pointer; width: 90%;}
+
+
+#testInfo>div button{padding: 13px 60px; font-size: 18px; background-color: #10847e; color: white; border:none; border-radius: 10px; cursor: pointer;}
+
+
+@media screen and (min-width: 100px) and (max-width: 600px){
+    #cart{grid-template-columns: 1fr;}
+    #cart>div {width: 95%;}
+    #sele{display:none;}
+    #cart h2{font-size: 20px;}
+    #testInfo>div {display: flex; flex-direction:column;}
+    #cart button {margin-top: 10px;}
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px){
+
+    #cart{flex-direction: column;}
+    #cart>div {width: 95%;}
+    #cart h2{font-size: 20px;}
+    #view button{width: 70%;}
+#sele{display: none;}
+
+  
+} 

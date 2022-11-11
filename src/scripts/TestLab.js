@@ -62,6 +62,8 @@ dot5.onclick = ()=>{
     currentSlide(5)
 }
 
+let arr = JSON.parse(localStorage.getItem("Lab_Test")) || []
+
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -80,6 +82,17 @@ function showSlides(n) {
 
 //-----------------------------------------------
 
+// button4--------------
+let ltbutton = document.getElementById("ltbutton")
+ltbutton.onclick = ()=>{
+  window.location.href = "Alltest.html"
+}
+let hpbutton = document.getElementById("hpbutton")
+hpbutton.onclick = ()=>{
+  window.location.href = "HealthPackages.html"
+}
+
+
 // Previous viewed------------------------
 const test_data = async ()=>{
   const response  = await fetch("http://localhost:1010/admin/monu")
@@ -96,10 +109,11 @@ test_data()
 const apend = (data)=>{
 let browsed = document.getElementById("browsed")
 browsed.textContent = null
-for(let i=8; i<11; i++){
+for(let i=8; i<12; i++){
 let div = document.createElement("div")
 div.onclick = ()=>{
-  localStorage.setItem("Lab_Test",JSON.stringify(data[i]))
+  arr.push(data[i])
+  localStorage.setItem("Lab_Test",JSON.stringify(arr))
 }
 div.setAttribute("class","browsedCard")
 let img = document.createElement("img")
@@ -129,7 +143,8 @@ const apendAll = (data)=>{
     let div = document.createElement("div")
     div.setAttribute("class","f_Card")
     div.onclick = ()=>{
-      localStorage.setItem("Lab_Test",JSON.stringify(el))
+      arr.push(el)
+      localStorage.setItem("Lab_Test",JSON.stringify(arr))
     }
     let img = document.createElement("img")
     let h2  = document.createElement("h3")
@@ -157,7 +172,8 @@ const apendHealth = (data)=>{
     let div = document.createElement("div")
     div.setAttribute("class","f_Card")
     div.onclick = ()=>{
-      localStorage.setItem("Lab_Test",JSON.stringify(el))
+      arr.push(el)
+      localStorage.setItem("Lab_Test",JSON.stringify(arr))
     }
     let img = document.createElement("img")
     let h2  = document.createElement("h3")

@@ -52,7 +52,7 @@ const slider = ()=>{
 
 
 const button4 = ()=>{
-  return `<div>
+  return `<div id="ltbutton">
   <span><img src="https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg"></span>
   <span id="para">
       <p>All Tests</p> 
@@ -60,7 +60,7 @@ const button4 = ()=>{
 </div>
 
 
-<div>
+<div id="hpbutton">
   <span><img src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"></span>
   <span id="para">
     <p style="margin-bottom: 12px;">  Health</p> <p>Packages</p>
