@@ -13,7 +13,8 @@ window.onscroll = () => {
 // slider for offer
 let body = document.querySelector("body");
 body.onload = showoffer();
-body.onload = showpaymentoffer();
+ body.onload = showpaymentoffer();
+
 
 let leftarrow = document.querySelector("#ltarrow");
 leftarrow.addEventListener("click", moveleft);
@@ -93,9 +94,7 @@ let pleft=1;
 let pright=3;
 
 function paymoveleft(){
-    // let pleft=1;
-    // let pright=3;
-    console.log("clicked");
+    //console.log("clicked");
     if(pleft <= 3 && pright<= 6){
         document.getElementById("p"+left).style.display = "none";
         pleft +=1;
@@ -111,9 +110,7 @@ function paymoveleft(){
 }
 
 function paymoveright() {
-    // let left =1;
-    // let right=2;
-   console.log("rtclicked")
+   //console.log("rtclicked")
   if(pleft >= 2 && pright >= 5){
    document.getElementById("p"+pright).style.display = "none";
    pleft -=1;
@@ -126,3 +123,29 @@ function paymoveright() {
    return; 
 }
 }
+
+
+
+let count =0;
+    document.querySelector("cat_left").onclick = () => {
+        console.log("clicked")
+        
+        if(count =0){
+            return;
+        }
+        count--;
+        let val = count * 10;
+        document.getElementById("categories_container").style.transform = `translateX(${val}vw)`;
+
+    };
+
+    document.querySelector("cat_right").onclick = () => {
+
+        if(count * 10 > 100){
+           return;
+        }
+        count++;
+        let val =count *10;
+        document.getElementById("categories_container").style.transform = `translateX(-${val}vw)`;
+    };
+
