@@ -10,7 +10,13 @@ data.forEach((el)=>{
  img.src  = el.image
  div1.append(img)
  let h2 = document.createElement("h2")
- h2.innerText = el.Test_name
+ let na;
+ if(el.id.includes("Af")){
+    na  = el.Test_name
+ }else{
+    na = el.name
+ }
+ h2.innerText = na
  let p1 = document.createElement("p")
  p1.innerText = "Available at Mars Pharmecy"
  let p2 = document.createElement("span")

@@ -1,6 +1,8 @@
 import { navbar } from "../components/tlnavbar.js";
 import {slider} from "../components/tlsection.js"
 import {button4} from "../components/tlsection.js"
+import {footer} from "../components/footer.js"
+
 let nav = document.getElementById("navbar")
 nav.innerHTML = navbar()
 
@@ -15,6 +17,62 @@ fa_bars.onclick = ()=>{
 //slider---------------------------------------------
 let slid  = document.getElementById("slider")
 slid.innerHTML = slider()
+
+let foot = document.getElementById("footer")
+foot.innerHTML = footer()
+
+
+
+
+let Search = document.getElementById("glass")
+ Search.onclick = async ()=>{
+  let input = document.getElementById("search").value
+  
+  
+  const response = await fetch("http://localhost:1010/admin/monu")
+  let refine_data = await response.json()
+  let actual_data = refine_data.Lab_Tests[1].All_Test
+  let actual_health = refine_data.Lab_Tests[0].Health_Packages
+ 
+let meta = []
+  for(let i =0; i<actual_data.length; i++){
+    if(actual_data[i].Test_name.includes(input)==true){
+      meta.push(actual_data[i])
+    }
+  }
+
+  for(let i =0; i<actual_health.length; i++){
+    if(actual_health[i].name.includes(input)==true){
+      meta.push(actual_health[i])
+    }
+  }
+  if(meta.length>0){
+    localStorage.setItem("TestPackage",JSON.stringify(meta))
+    window.location.href = "Tlsearched.html"
+  }
+  
+}
+
+let myBtn = document.getElementById("myBtn")
+myBtn.onclick = ()=>{
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    myBtn.style.display = "block";
+  } else {
+    myBtn.style.display = "none";
+  }
+}
+
+
+
+
 
 
 let prev = document.querySelector(".prev")
@@ -80,6 +138,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+
+
 //-----------------------------------------------
 
 // button4--------------
@@ -91,6 +151,51 @@ let hpbutton = document.getElementById("hpbutton")
 hpbutton.onclick = ()=>{
   window.location.href = "HealthPackages.html"
 }
+
+let right = document.getElementById("right")
+right.onclick = ()=>{
+  let f_book = document.getElementById("f_book")
+  f_book.scrollLeft -= 400
+}
+
+
+let left = document.getElementById("left")
+left.onclick = ()=>{
+  let f_book = document.getElementById("f_book")
+  f_book.scrollLeft += 400
+}
+
+
+
+let brl = document.querySelector(".brl")
+brl.onclick = ()=>{
+  let browsed = document.getElementById("browsed")
+  browsed.scrollLeft -= 400
+}
+
+
+let brr = document.querySelector(".brr")
+brr.onclick = ()=>{
+  let browsed = document.getElementById("browsed")
+  browsed.scrollLeft += 400
+}
+
+
+
+
+let hel = document.querySelector(".hel")
+hel.onclick = ()=>{
+  let Health = document.getElementById("Health")
+  Health.scrollLeft -= 400
+}
+
+
+let helr = document.querySelector(".helr")
+helr.onclick = ()=>{
+  let Health = document.getElementById("Health")
+  Health.scrollLeft += 400
+}
+
 
 
 // Previous viewed------------------------
@@ -109,7 +214,7 @@ test_data()
 const apend = (data)=>{
 let browsed = document.getElementById("browsed")
 browsed.textContent = null
-for(let i=8; i<12; i++){
+for(let i=8; i<13; i++){
 let div = document.createElement("div")
 div.onclick = ()=>{
   arr.push(data[i])
@@ -197,10 +302,18 @@ const apendHealth = (data)=>{
   a1.onclick = ()=>{
   let b1= document.querySelector(".b1")
   b1.style.display = "block"
+  let a11 = document.getElementById("a11")
+  a11.style.display = "none"
+  let a12 = document.getElementById("a12")
+  a12.style.display = "block"
   }
   a1.ondblclick = ()=>{
     let b1= document.querySelector('.b1')
     b1.style.display = "none"
+     let a11 = document.getElementById("a11")
+  a11.style.display = "block"
+  let a12 = document.getElementById("a12")
+  a12.style.display = "none"
   }
 
   
@@ -209,10 +322,19 @@ const apendHealth = (data)=>{
   a2.onclick = ()=>{
   let b2= document.querySelector(".b2")
   b2.style.display = "block"
+  let a21 = document.getElementById("a21")
+  a21.style.display = "none"
+  let a22 = document.getElementById("a22")
+  a22.style.display = "block"
+
   }
   a2.ondblclick = ()=>{
     let b2= document.querySelector('.b2')
     b2.style.display = "none"
+    let a21 = document.getElementById("a21")
+    a21.style.display = "block"
+    let a22 = document.getElementById("a22")
+    a22.style.display = "none"
   }
 
   
@@ -220,10 +342,20 @@ const apendHealth = (data)=>{
   a3.onclick = ()=>{
   let b3= document.querySelector(".b3")
   b3.style.display = "block"
+
+  let a31 = document.getElementById("a31")
+  a31.style.display = "none"
+  let a32 = document.getElementById("a32")
+  a32.style.display = "block"
   }
   a3.ondblclick = ()=>{
     let b3= document.querySelector('.b3')
     b3.style.display = "none"
+
+    let a31 = document.getElementById("a31")
+    a31.style.display = "block"
+    let a32 = document.getElementById("a32")
+    a32.style.display = "none"
   }
 
   
@@ -231,10 +363,20 @@ const apendHealth = (data)=>{
   a4.onclick = ()=>{
   let b4= document.querySelector(".b4")
   b4.style.display = "block"
+
+  let a41 = document.getElementById("a41")
+  a41.style.display = "none"
+  let a42 = document.getElementById("a42")
+  a42.style.display = "block"
   }
   a4.ondblclick = ()=>{
     let b4= document.querySelector('.b4')
     b4.style.display = "none"
+
+    let a41 = document.getElementById("a41")
+    a41.style.display = "block"
+    let a42 = document.getElementById("a42")
+    a42.style.display = "none"
   }
 
   
@@ -242,10 +384,22 @@ const apendHealth = (data)=>{
   a5.onclick = ()=>{
   let b5= document.querySelector(".b5")
   b5.style.display = "block"
+
+  let a51 = document.getElementById("a51")
+  a51.style.display = "none"
+  let a52 = document.getElementById("a52")
+  a52.style.display = "block"
   }
+
+
   a5.ondblclick = ()=>{
     let b5= document.querySelector('.b5')
     b5.style.display = "none"
+
+    let a51 = document.getElementById("a51")
+    a51.style.display = "block"
+    let a52 = document.getElementById("a52")
+    a52.style.display = "none"
   }
 
   
@@ -253,10 +407,20 @@ const apendHealth = (data)=>{
   a6.onclick = ()=>{
   let b6= document.querySelector(".b6")
   b6.style.display = "block"
+
+  let a61 = document.getElementById("a61")
+  a61.style.display = "none"
+  let a62 = document.getElementById("a62")
+  a62.style.display = "block"
   }
   a6.ondblclick = ()=>{
     let b6= document.querySelector('.b6')
     b6.style.display = "none"
+
+    let a61 = document.getElementById("a61")
+    a61.style.display = "block"
+    let a62 = document.getElementById("a62")
+    a62.style.display = "none"
   }
 
   
@@ -264,10 +428,20 @@ const apendHealth = (data)=>{
   a7.onclick = ()=>{
   let b7= document.querySelector(".b7")
   b7.style.display = "block"
+
+  let a71 = document.getElementById("a71")
+  a71.style.display = "none"
+  let a72 = document.getElementById("a72")
+  a72.style.display = "block"
   }
   a7.ondblclick = ()=>{
     let b7= document.querySelector('.b7')
     b7.style.display = "none"
+
+    let a71 = document.getElementById("a71")
+    a71.style.display = "block"
+    let a72 = document.getElementById("a72")
+    a72.style.display = "none"
   }
 
   
@@ -275,22 +449,26 @@ const apendHealth = (data)=>{
   a8.onclick = ()=>{
   let b8= document.querySelector(".b8")
   b8.style.display = "block"
+
+  let a81 = document.getElementById("a81")
+  a81.style.display = "none"
+  let a82 = document.getElementById("a82")
+  a82.style.display = "block"
   }
+
+
   a8.ondblclick = ()=>{
     let b8= document.querySelector('.b8')
     b8.style.display = "none"
+
+    let a81 = document.getElementById("a81")
+    a81.style.display = "block"
+    let a82 = document.getElementById("a82")
+    a82.style.display = "none"
   }
 
   
-  let a9 = document.querySelector('.a9')
-  a9.onclick = ()=>{
-  let b9= document.querySelector(".b9")
-  b9.style.display = "block"
-  }
-  a9.ondblclick = ()=>{
-    let b9= document.querySelector('.b9')
-    b9.style.display = "none"
-  }
+  
 
   
  

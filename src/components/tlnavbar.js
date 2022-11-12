@@ -2,8 +2,9 @@ const navbar = ()=>{
     return `
     <ul id="container">
 
-        <li class="under">
+        <li class="under" style="display:flex;  align-items: center;">
 <a href="index.html"> <img src="./images/logoc.png" id="logo"></a>
+ <a href="Test_lab.html" style="color:white; font-size: 20px;">TestLab</a>
         </li>
 
 
@@ -13,9 +14,9 @@ const navbar = ()=>{
              
                 <li class="under one" style="width: 160px;border:1px solid black; border-width: 0 1px 0 0;"><a href="#Gif" style="color:#10847e;">Select Pincode <i class="fa-solid fa-caret-down"></i> </a>
                 <li style="width: 80%;">  <input  
-                    style="min-width: 160px; width: 100%" type="search" placeholder="Search for Tests/Packages/Labs" id="search" color: #10847e;></li>
+                    style="min-width: 160px; width: 100%" id="search" type="search" placeholder="Search for Tests/Packages/Labs" id="search" color: #10847e;></li>
              
-                <li class="under one glass"><a href="#Translate"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="under one glass"><a href="#Translate"><i id="glass" class="fa-solid fa-magnifying-glass"></i></a></li>
             </ul>
         </li>
 

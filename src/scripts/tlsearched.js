@@ -4,14 +4,15 @@ import {footer} from "../components/footer.js"
 
 let nav = document.getElementById("navbar")
 nav.innerHTML = navbar()
+
 const fetch_data = async()=>{
-    const response = await fetch("http://localhost:1010/admin/monu")
-    const refine_data = await response.json()
-    apall(refine_data.Lab_Tests[0].Health_Packages)
-   console.log(refine_data.Lab_Tests[0])
+    // const response = await fetch("http://localhost:1010/admin/monu")
+    // const refine_data = await response.json()
+    let m = JSON.parse(localStorage.getItem("TestPackage"))
+    apall(m)
+//    console.log(refine_data.Lab_Tests[0])
 }
 fetch_data()
-
 
 
 let foot = document.getElementById("footer")
