@@ -1,9 +1,13 @@
 import { addToCart } from "./addToCart.js";
 import { showForm } from "./showForm.js";
 import { logout } from "./auth.js";
-import { placeOrder } from "./placeOrder.js";
+// import { placeOrder } from "./placeOrder.js";
 import { alertMsg } from "./alertMsg.js";
+import { footer } from '../components/footer.js'
+
 const api = "http://localhost:1010";
+
+
 let lsData = JSON.parse(localStorage.getItem("product_Details"));
 console.log(lsData);
 
@@ -163,3 +167,7 @@ document.querySelector("#navbar > button:last-child").onclick = () => {
   let res = logout();
   alertMsg(res.message, res.status);
 };
+
+
+let footer_show = document.getElementById('footer')
+footer_show.innerHTML = footer();

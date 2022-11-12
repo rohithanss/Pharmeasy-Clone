@@ -67,7 +67,7 @@ const footer = ()=>{
 
 
        
-        <div id="footer_img" style="margin:0; ">
+        <div id="footer_img" >
             
             <h3>Our Payments Partners</h3>
             
