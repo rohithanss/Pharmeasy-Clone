@@ -14,6 +14,8 @@ nav li{list-style-type: none;
   
     padding: 0 10px; 
 }
+
+#forever{display:flex; gap: 7px;}
 #part {margin:0; border:none; background-color: white; border-radius: 8px;}
 nav a{ text-decoration:none;}
 #search{font-size: 18px;}
@@ -21,7 +23,7 @@ input[type="search"]{
      outline:none; border-width:0;  padding: 17px 10px; font-size: 16px;
 }
 .fa-magnifying-glass{color:rgb(151, 149, 149);}
-#login{padding: 8px 13px; width: auto; background-color: #10847e; color: white; margin-right: 10px;}
+#login{padding: 8px 13px; width: auto; background-color: #10847e; color: white; margin-right: 10px; display: flex; gap: 10px;}
 
 #check{float:left;}
 label{float:left; margin-top: 6px;}
