@@ -8,7 +8,7 @@ const append_data = async () => {
     let res = await fetch(`${api}/products`)
     res = await res.json();
     // console.log(res)
-    data = res.skin_care;
+    data = res["skin care"]
     console.log(data)
     append_product_data(data)
 }
@@ -25,7 +25,7 @@ const append_product_data = (data) => {
         div.onclick = () => {
             // console.log(p_img,p_name,strikedOff_price,final_price,discount);
             storeDataLS(el);
-            // redirectToProductPage();
+            redirectToProductPage();
         }
 
         let p_img = document.createElement('img')
@@ -72,7 +72,7 @@ const sorting_data = async () => {
     let res = await fetch(`${api}/products`)
     res = await res.json();
     // console.log(res)
-    data = res.skin_care;
+    data = res["skin care"];
     sorting(data)
 }
 
