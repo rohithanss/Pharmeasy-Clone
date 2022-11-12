@@ -1,17 +1,24 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
+#container{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+}
+
 #flow{
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     margin: auto;
     column-gap: 10px;
-    /* width: 80%; */
     padding: 10px;
     font-size: 12px;
-    font-family: "Open Sans", sans-serif;
     line-height: 18px;
     font-weight: 400;
     color: #4f585e;
@@ -35,4 +42,176 @@
     -webkit-line-clamp: 1;
     overflow: hidden;
     height: 20px;
+}
+#left{
+    width: 65%;
+    margin-top: 40px;
+}
+#right{
+    width: 30%;
+}
+#product_details{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    display: flex;
+    column-gap: 20px;
+    padding: 10px;
+}
+.prod_img_div{
+    border: 1px solid rgba(128, 128, 128, 0.413);
+    height: 300px;
+    width: 30%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.prod_final_div{
+    width: 70%;
+}
+.prod_img_div img{
+    height: 190px;
+    max-width: 100%;
+    object-fit: contain;
+}
+.prod_desc_div{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 0px ;
+}
+.prod_desc_div div+p{
+    font-size: 10px;
+    font-weight: 400;
+    color: #8897a2;
+    line-height: 13px;
+    margin-bottom: 10px;
+}
+.price_div{
+    /* border: 1px solid black; */
+    display: flex;
+    column-gap: 7px;
+    align-items: flex-end;
+}
+.price_div > p:first-child{
+    font-size: 20px;
+    color: #4f585e;
+    line-height: 25px;
+    font-weight: 700;
+}
+.price_div>p:first-child+p{
+    font-size: 14px;
+    color: #8897a2;
+    line-height: 18px;
+    font-weight: 400;
+}
+.price_div > p:last-child{
+    background-image: url('https://assets.pharmeasy.in/web-assets/_next/icons/pdp-discount.png');
+    background-repeat: no-repeat;
+    font-size: 10px;
+    line-height: 13px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 4px;
+    padding-right: 18px;
+}
+.prod_name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #4f585e;
+    line-height: 25px;
+    margin: 10px 90px 20px 0;
+    /* margin-bottom: 20px;
+    margin-right: 80px; */
+}
+.addToCartBtn{
+    padding: 0px 20px 0px 20px;
+    border-radius: 8px;
+    background-color: #10847e;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*-------------------- right container----------------- */
+#right{
+    /* padding: 40px 10px 40px 10px; */
+    margin-top: 100px;
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+}
+#num_of_items{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #4f585e;
+    margin-bottom: 10px;
+}
+#view_cart_btn{
+    padding: 12px 150px 12px 150px;
+    border: none;
+    border-radius: 6px;
+    background-color: #10847e;
+    margin-bottom: 20px;
+}
+#view_cart_btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}
+#offer_div{
+    border: 1px dotted red;
+    padding: 20px;
+    cursor: pointer;
+}
+#offer_div h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #4f585e;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+#offer_div p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #4f585e;
+    line-height: 8px;
+    margin-top: 10px;
+}
+
+
+/*-----------description------------------------------*/
+#description, #product_about{
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4f585e;
+    font-weight: 500;
+    padding: 15px;
+    /* margin-bottom: 0px; */
+}
+#description p{
+    margin-bottom: 15px;
+}
+#description p+ul{
+    padding-left: 20px;
+}
+#prod_disclaimer{
+    box-sizing: border-box;
+    font-size: 10px;
+    line-height: 14px;
+    color: #4f585e;
+    font-weight: 200;
+    padding: 15px;
+    display: grid;
+    row-gap: 10px;
 }
