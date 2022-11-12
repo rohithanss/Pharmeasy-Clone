@@ -4,7 +4,7 @@ const navbar = ()=>{
 
         <li class="under" style="display:flex;  align-items: center;">
 <a href="index.html"> <img src="./images/logoc.png" id="logo"></a>
- <a href="Test_lab.html" style="color:white; font-size: 20px;">TestLab</a>
+ <a href="Test_lab.html" style="color:white; font-size: 20px;">LabTest</a>
         </li>
 
 
