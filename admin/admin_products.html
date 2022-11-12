@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mars - Admin Products</title>
-    <title>Mars - Admin Customers</title>
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/dashboard.css" />
+    <link rel="stylesheet" href="styles/productDetails.css" />
     <script>
       let details = localStorage.getItem("admin_details") || null;
       if (details == null) {
@@ -18,7 +18,82 @@
     </script>
   </head>
   <body>
-    <div id="overlay"></div>
+    <div id="overlay">
+      <div id="promtBox">
+        <div class="product-heading">
+          <h2>Product Id: <span class="product-id"> #per63</span></h2>
+          <h2>
+            <i id="closePromtBox" class="fa-solid fa-xmark"></i>
+          </h2>
+        </div>
+        <div id="product-form">
+          <div>
+            <div class="product-inputBox">
+              <p>Name</p>
+              <input
+                type="text"
+                name="product_name"
+                id="product_name"
+                placeholder="Product Name"
+              />
+            </div>
+            <div class="product-inputBox">
+              <p>Price</p>
+              <input
+                type="number"
+                name="price"
+                id="price"
+                placeholder="Product Price"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="product-inputBox">
+              <p>Image Url</p>
+              <input
+                type="text"
+                name="image"
+                id="image"
+                placeholder="Product image url"
+              />
+            </div>
+            <div class="product-inputBox">
+              <p>Category</p>
+              <select name="product_category" id="product_category">
+                <option value="">Select Category</option>
+                <option value="hc">Home care</option>
+                <option value="per">Personal Care</option>
+                <option value="sc">Skin Care</option>
+                <option value="Beauty">Beauty</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div class="product-inputBox">
+              <p>Stock</p>
+              <input type="number" name="stock" id="stock_quantity" />
+            </div>
+            <div class="product-inputBox">
+              <p>Discount</p>
+              <input
+                type="number"
+                name="discount"
+                id="discount"
+                placeholder="Product image url"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="product-inputBox">
+              <p>Description</p>
+              <input type="textarea" name="desc" id="desc" />
+            </div>
+
+            <button class="submit-product-form">Add Product</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <main>
       <nav id="nav">
@@ -28,7 +103,59 @@
         <header>
           <!-- Header is getting appended by Dashboard.js -->
         </header>
-        <section></section>
+        <section>
+          <div id="container">
+            <div class="container-heading">
+              <h3 class="products-product-page">Products</h3>
+              <a href="admin_categories.html"
+                ><h3 class="products-category-page">Categories</h3></a
+              >
+            </div>
+            <div class="container-nav">
+              <div>
+                <select name="filter-by-category" id="filter-by-category">
+                  <option value="">Filter by Category</option>
+                  <option value="hc">Home care</option>
+                  <option value="per">Personal Care</option>
+                  <option value="sc">Skin Care</option>
+                  <option value="Beauty">Beauty</option>
+                </select>
+                <select name="sort-by-stock" id="sort-by-stock">
+                  <option value="">Sort by Stock</option>
+                  <option value="hl">High-Low</option>
+                  <option value="lh">Low-High</option>
+                </select>
+              </div>
+              <div class="container-add-product">
+                <button>+ Add Product</button>
+              </div>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Product Id</th>
+                  <th>Image</th>
+                  <th>Product</th>
+                  <th>Category</th>
+                  <th>Inventory</th>
+                  <th>View Detail</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+
+            <div class="container-pagination">
+              <div>0 - 0 of 0 Products</div>
+              <div>
+                <span>0 of 0</span
+                ><span>
+                  <i class="fa-solid fa-arrow-left prevP"> </i>
+                  <i class="fa-solid fa-arrow-right nextP"> </i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   </body>

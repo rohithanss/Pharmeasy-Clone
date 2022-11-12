@@ -46,7 +46,10 @@ async function orderDetail(order) {
 </div>
 <div id="order-summary">
   <h1>Summary</h1>
-  <div class="order-products"></div>
+  <table class="order-detail-table">
+  <tbody class="order-products"></tbody>
+</table>
+ 
   <div>
     <h4>Net Total</h4>
     <h2 id="total-amount">Rs.<span> ${orderTotal}</span></h2>

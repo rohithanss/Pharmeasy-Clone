@@ -2,6 +2,7 @@
 .order-page > span:first-child {
   color: rgb(180, 92, 235);
   cursor: pointer;
+  padding: 0 10px;
 }
 #order-number {
   width: 100%;
@@ -42,43 +43,14 @@
   border: 1px solid rgb(202, 202, 202);
   border-radius: 10px;
 }
-.order-products {
-  margin: 40px 0;
-}
-.product-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px;
-  margin: 10px 0;
-}
-.product-card:hover {
-  background-color: rgb(239, 239, 239);
-}
-.product-card > div {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  gap: 20px;
-}
-.product-card > div > p {
-  font-weight: 500;
-  font-size: 18px;
-}
-.product-card > div > img {
-  height: 50px;
-}
 
-.product-card > p {
-  align-items: center;
-  display: flex;
-  gap: 10px;
+.order-detail-table {
+  margin-top: 40px;
 }
-.product-card > p > span:last-child {
-  font-weight: 500;
+.order-detail-table td {
+  border: none;
 }
-
-.order-products + div {
+.order-detail-table + div {
   padding: 20px 10px;
   display: flex;
   justify-content: space-between;

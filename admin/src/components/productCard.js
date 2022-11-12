@@ -1,20 +1,37 @@
-function productCard(imgUrl, title, price, quantity, total_price) {
+function productCard(imgUrl, title, quantity, price, total_price) {
   title = title.split(",")[0];
   title = title.split("(")[0];
-  return `             <div class="product-card">
-    <div>
-      <img
-        src=${imgUrl}
-        alt=""
-      />
-      <p>${title}</p>
-    </div>
+  title = title.split("/")[0];
 
-    <p>
-      <span class="product-price">${price}</span>X
-      <span class="product-quantity">${quantity}</span
-      ><span class="product-total">Rs. ${total_price}</span>
-    </p>
-  </div>`;
+  let imgDiv = document.createElement("div");
+  let img = document.createElement("img");
+  img.src = imgUrl;
+  img.style = `
+  height: 50px
+  `;
+  imgDiv.append(img);
+
+  let td1 = document.createElement("td");
+  td1.append(imgDiv);
+  let td2 = document.createElement("td");
+  td2.style = `
+  width: 70%;
+  text-align: left;
+  `;
+  td2.innerText = title;
+  let td3 = document.createElement("td");
+  td3.innerHTML = price + " X";
+  td3.style = `
+  text-align: right;
+  `;
+  let td4 = document.createElement("td");
+  td4.innerText = quantity;
+  td4.style.textAlign = "left";
+  let td5 = document.createElement("td");
+  td5.innerText = "Rs. " + total_price;
+  td5.style.fontWeight = "600";
+  let tr = document.createElement("tr");
+  tr.append(td1, td2, td3, td4, td5);
+  document.querySelector(".order-products").append(tr);
 }
 export { productCard };

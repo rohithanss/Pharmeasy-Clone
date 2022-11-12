@@ -9,12 +9,6 @@ body {
     rgb(142, 93, 255, 1) 23%,
     rgb(241, 147, 255, 1) 100%
   );
-  /* background: rgb(223, 222, 223);
-  background: linear-gradient(
-    135deg,
-    rgba(223, 222, 223, 1) 23%,
-    rgba(60, 60, 60, 1) 100%
-  ); */
 
   font-family: "Roboto", sans-serif;
 }
@@ -103,7 +97,7 @@ main > h2 + p {
 main > p:last-child {
   margin: 20px 0;
   /* background-color: bisque; */
-  position: absolute;
+  /* position: absolute; */
   bottom: 20px;
 }
 main > p:last-child > a {

@@ -93,8 +93,9 @@ section {
 }
 .container-heading > * {
   cursor: pointer;
+  text-decoration: none;
 }
-.container-heading > h3:last-child {
+.container-heading > a > h3 {
   color: gray;
 }
 
@@ -103,7 +104,19 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+.container-nav select {
+  background: none;
+  padding: 7px;
+  font-weight: 600;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0;
+}
 
+.container-nav select:hover {
+  background-color: rgb(244, 244, 244);
+}
 .container-searchBar {
   display: flex;
   align-items: center;
@@ -135,10 +148,8 @@ th {
 tbody > tr {
   cursor: pointer;
 }
-.tr-hover,
-tr:hover {
+tbody > tr:hover {
   background-color: rgb(244, 244, 244);
-  color: blue;
 }
 td {
   border-bottom: 1px solid rgb(202, 202, 202);
@@ -232,11 +243,15 @@ td {
   tr th:nth-child(5) {
     display: none;
   }
+  tr td:last-child,
+  tr th:last-child {
+    display: table-cell;
+  }
 }
 
 #overlay {
   position: fixed;
-
+  box-sizing: border-box;
   height: 100vh;
   width: 100vw;
   display: none;
@@ -244,4 +259,9 @@ td {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.199);
   z-index: 100;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  transition: all 10000s ease-in-out 0s;
 }
