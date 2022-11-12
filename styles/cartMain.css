@@ -59,7 +59,99 @@ ion-icon{
 }
 #cartMainbody{
     border: 1px solid black;
-    height: 900px;
+    height: auto;
+    
+    margin: auto;
+    width:100%;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+#cartMainbody>div{
+    margin-top: 100px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    
+    top:100px;
+}
+#addedItems{
+    width: 70%;
+    border: 1px solid red;
+    height: 500px;
+}
+#value_display{
+    width: 25%;
+}
+#dashedDiv{
+    margin-top: 20px;
+    border: 1px dashed rgb(16,132,126);
+   
+    background-color: rgb(242,255,248);
+    border-radius: 5px;
+    font: 1em sans-serif;
+    color:rgb(16,132,126) ;
+}
+#applybtn{
+    padding:15px 15px;
+    background-color: white;
+    color:rgb(16,132,126) ;
+    border: 1.5px solid rgb(16,132,126);
+    border-radius: 5px;
+    font: 1em sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100%;
+}
+#delbtn{
+    padding:15px 60px;
+    margin-top: 20px;
+    background-color:rgb(16,132,126) ;
+    cursor: pointer;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font: 1em sans-serif;
+    font-weight: bolder;
+    width: 100%;
+}
+#priceBreakdown{
+    width: 40%;
+   
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 130px;
+}
+#order_summary>div{
+    width: 100%;
+    
+    margin: auto;
+    font: 1em sans-serif;
+}
+#order_summary>div h3{
+    font: 1em sans-serif;
+    color: gray;
+    font-weight: 600;
+}
+#order_summary>div>div{
+    display:flex;
+    justify-content: space-between;
+}
+#order_summary>div>div>p{
+    color: rgb(116, 116, 116);
+    height: auto;
+    margin: 0;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+#AmountPaid{
+    border-bottom: 1px dashed rgb(192, 192, 192);
+    border-top: 1px dashed rgb(192, 192, 192);
+}
+#additionalNotes{
+    
 }
 #cart_details{
     border-bottom: 1px solid rgb(214, 214, 214);
