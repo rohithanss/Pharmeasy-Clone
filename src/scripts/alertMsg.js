@@ -27,7 +27,7 @@ gap:50px;
 top: -10px;
 min-width: 20%;
 left: 50%;
-z-index: 1000;
+z-index: 1004;
 transform: translateX(-50%);
 color: white;
 opacity: 0.6;

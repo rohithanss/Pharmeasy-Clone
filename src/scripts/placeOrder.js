@@ -1,6 +1,11 @@
+import { showForm } from "./showForm.js";
 const api = "http://localhost:1010";
 
 async function placeOrder(user) {
+  if (user == null) {
+    showForm("signup");
+    return { message: "Login or Signup first to place order", status: "fail" };
+  }
   let custId = user.id;
   let orderId = await generateOrderId();
   let order = user.cart;
@@ -38,7 +43,7 @@ async function placeOrder(user) {
 
     let flag = true;
     for (let i = 0; i < admin.customers.length; i++) {
-      console.log(admin.customers[i].id, custId);
+      // console.log(admin.customers[i].id, custId);
       if (admin.customers[i].id == custId) {
         admin.customers[i] = final_customer;
         flag = false;
@@ -64,6 +69,9 @@ async function placeOrder(user) {
         "content-type": "application/json",
       },
     });
+
+    // Updating on the local storage
+    localStorage.removeItem("ls_cart");
     return {
       status: "success",
       message: "Order placed successfully",

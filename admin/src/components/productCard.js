@@ -1,4 +1,4 @@
-function productCard(imgUrl, title, quantity, price, total_price) {
+function productCard(imgUrl, title, quantity, price, discount, total_price) {
   title = title.split(",")[0];
   title = title.split("(")[0];
   title = title.split("/")[0];
@@ -15,7 +15,7 @@ function productCard(imgUrl, title, quantity, price, total_price) {
   td1.append(imgDiv);
   let td2 = document.createElement("td");
   td2.style = `
-  width: 70%;
+width: 60%;
   text-align: left;
   `;
   td2.innerText = title;
@@ -27,11 +27,19 @@ function productCard(imgUrl, title, quantity, price, total_price) {
   let td4 = document.createElement("td");
   td4.innerText = quantity;
   td4.style.textAlign = "left";
+  let original_total = +quantity * +price;
+  let discount_amt = (original_total * +discount) / 100;
+  let dis = document.createElement("td");
+  dis.innerText = `(${original_total} - ${discount_amt})`;
+  dis.style = `
+  color: red;
+  font-weight: 500;
+  `;
   let td5 = document.createElement("td");
   td5.innerText = "Rs. " + total_price;
   td5.style.fontWeight = "600";
   let tr = document.createElement("tr");
-  tr.append(td1, td2, td3, td4, td5);
+  tr.append(td1, td2, td3, td4, dis, td5);
   document.querySelector(".order-products").append(tr);
 }
 export { productCard };

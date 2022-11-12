@@ -145,10 +145,9 @@ async function switchToOrderDetail(order) {
   // APPENDING ALL THE PRODUCTS IN AN ORDER
 
   products.forEach((el) => {
-    let { image, product_name, quantity, price, total_price } = el;
-    let div = document.createElement("div");
+    let { image, product_name, quantity, price, discount, total_price } = el;
 
-    productCard(image, product_name, quantity, price, total_price);
+    productCard(image, product_name, quantity, price, discount, total_price);
   });
 
   // EVENT LISTENER TO VIEW ALL ORDERS AGAIN

@@ -42,6 +42,10 @@ async function login(type, username, password) {
     res = await res.json();
     if (res.id != undefined) {
       if (res.password == password) {
+        if (type == "user") {
+          localStorage.setItem("user_details", JSON.stringify(res));
+          localStorage.setItem("ls_cart", JSON.stringify(res.cart));
+        }
         return {
           status: "success",
           message: "Login success",
@@ -67,4 +71,10 @@ async function login(type, username, password) {
   }
 }
 
-export { signup, login };
+function logout() {
+  localStorage.removeItem("user_details");
+  localStorage.removeItem("ls_cart");
+  return { message: "Logged Out successfully", status: "success" };
+}
+
+export { signup, login, logout };
