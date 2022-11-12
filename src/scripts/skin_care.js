@@ -1,3 +1,5 @@
+import { footer } from '../components/footer.js'
+
 const api = "http://localhost:1010";
 
 /* -----------appending data on product page-------------- */
@@ -6,7 +8,7 @@ const append_data = async () => {
   let res = await fetch(`${api}/products`);
   res = await res.json();
   // console.log(res)
-  data = res["skin care"];
+  let data = res["skin care"];
   console.log(data);
   append_product_data(data);
 };
@@ -103,3 +105,6 @@ const storeDataLS = (el) => {
 const redirectToProductPage = () => {
   window.location.href = "single_product.html";
 };
+
+let footer_show = document.getElementById('footer')
+footer_show.innerHTML = footer();

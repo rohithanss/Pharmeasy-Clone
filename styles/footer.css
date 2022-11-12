@@ -25,16 +25,23 @@ display: flex;
 
 #buttons button{
   margin-right:20px;
-    padding: 18px 35px;
+    padding: 18px 50px;
     background-color: rgb(88,96,102);
     color: white;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     cursor: pointer;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 #buttons p{
     color: rgb(88,96,102);
-    font-size: 20px;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
 } 
 
 
@@ -64,17 +71,23 @@ display: flex;
    font: 1em sans-serif;
   
 }
-#footer_info>div {padding:0 8px 0 0;}
+#footer_info>div {
+    padding:0 8px 0 0;
+    margin-top: 20px;
+}
 
 #footer_center>div h3{
     color: rgb(65, 65, 65);
- 
+    margin-bottom: 17px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 #footer_center>div p{
     color: rgb(88,96,102);
     font-size: 16px;
     cursor: pointer;
+    margin-bottom: 17px;
 }
 #footer_icons{
     display: flex;
@@ -83,21 +96,30 @@ display: flex;
     color: rgb(16,132,126);
     cursor: pointer;
 }
- #footer_icons>i{font-size: 40px;margin:0 10px;}
+ #footer_icons>i{
+    font-size: 40px;
+    margin:0 10px;
+}
 
 
 
-#footer_img{padding:25px;}
+#footer_img{
+    /* border: 1px solid black; */
+    padding:25px;
+    margin-left: 14px;
+}
 #footer_box{
 
     display: flex;
       flex-wrap: wrap;
       align-items: center;
+      row-gap: 20px;
 }
 
 #footer_img img{
-    height: 30px; 
-     margin-right:10px;
+    height: 25px; 
+     margin-right:28px;
+
 } 
 
 #footer_box{margin-top:30px;}
@@ -105,13 +127,24 @@ display: flex;
 
 
 @media screen and (min-width:100px) and (max-width: 650px){
-#cart_footer>div{flex-direction: column; margin-bottom: 100px;}
-#footer_info{flex-direction: column;}
-#footer_img{padding:0px;}
+#cart_footer>div{
+    flex-direction: column;
+     margin-bottom: 100px;}
+#footer_info{
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+#footer_img{
+    padding:0px;
+}
 }
 
 @media screen and (min-width: 651px) and (max-width: 950px){
-#footer_info{display: grid; grid-template-columns: repeat(3,auto);}
-#footer_img{padding:0px;}
+#footer_info{
+    display: grid; 
+    grid-template-columns: repeat(3,auto);}
+#footer_img{
+    padding:0px;
+}
 
 }
