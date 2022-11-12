@@ -5,7 +5,8 @@
 
 #body_main{
     border:1px solid blue;
-    height:8000px;
+    /* height:8000px; */
+    height: auto;
     width:100%;
     box-sizing: border-box;
 }
@@ -863,6 +864,7 @@
     border:1px solid brown;
     width: 100%;
     height: 600px;
+    /* display: flex; */
 }
 #fblt_head{
     font-style: normal;
@@ -877,5 +879,21 @@
 #fblt_container{
     border: 1px solid red;
     width: 95%;
-    height: 80%;
+    height:450px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fblt_card{
+    border:1px solid black;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+.fblt_btn{
+    margin-left: 10px;
+    margin-top: 20px;
+    width:100px
+
 }
