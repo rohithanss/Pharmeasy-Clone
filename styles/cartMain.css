@@ -7,7 +7,7 @@ body{
 #cart_navbar{
     height: 100px;
     background-color: rgb(16,132,126);
-    position: fixed;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -62,32 +62,34 @@ ion-icon{
     height: auto;
     
     margin: auto;
-    width:100%;
     
+    margin: 50px;
     display: flex;
     justify-content: space-between;
     
 }
 #cartMainbody>div{
-    margin-top: 100px;
-    width: 70%;
+    
+    width: 60%;
     display: flex;
     justify-content: space-between;
+    margin:auto;
+    gap: 30px;
     
-    top:100px;
 }
 #addedItems{
-    width: 70%;
-    border: 1px solid red;
+    width: 60%;
+   
     height: 500px;
 }
 #value_display{
-    width: 25%;
+   
+    
 }
-#dashedDiv{
+.dashedDiv{
     margin-top: 20px;
     border: 1px dashed rgb(16,132,126);
-   
+   padding-left: 5px;
     background-color: rgb(242,255,248);
     border-radius: 5px;
     font: 1em sans-serif;
@@ -115,6 +117,11 @@ ion-icon{
     font: 1em sans-serif;
     font-weight: bolder;
     width: 100%;
+    text-decoration: none;
+}
+#delbtn>a{
+    text-decoration: none;
+    color: white;
 }
 #priceBreakdown{
     width: 40%;
@@ -151,12 +158,26 @@ ion-icon{
     border-top: 1px dashed rgb(192, 192, 192);
 }
 #additionalNotes{
-    
+    font-family: sans-serif;
+    color: rgb(79,88,94);
+}
+#additionalNotes>p{
+    font-size: 15px;
+}
+#additionalNotes>input{
+    padding: 2px 10px;
+    width:80%;
+    height: 55px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: 0px;
+    border-color: none;
 }
 #cart_details{
     border-bottom: 1px solid rgb(214, 214, 214);
     height: 280px;
-    width: 100%;
+    
     margin: 0;
     top: 0;
     font-family:Arial, sans-serif;
@@ -186,7 +207,7 @@ ion-icon{
 #cart_footer{
     border-bottom: 1px solid rgb(214, 214, 214);
     height: 450px;
-    width: 100%;
+    
     margin: 0;
     top: 0;
     font-family:Arial, sans-serif;
