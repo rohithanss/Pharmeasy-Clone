@@ -5,7 +5,7 @@
 
 #body_main{
     border:1px solid blue;
-    height:2000px;
+    height:8000px;
     width:100%;
     box-sizing: border-box;
 }
@@ -292,7 +292,6 @@
     width: 40px;
     cursor: pointer;
     font-size: 1.2rem;
-    /* position: relative; */
     display: inline-block;
     text-align: center;
     line-height: 40px;
@@ -413,7 +412,6 @@
     width: 40px;
     cursor: pointer;
     font-size: 1.2rem;
-    /* position: relative; */
     display: inline-block;
     text-align: center;
     line-height: 40px;
@@ -448,8 +446,436 @@
     display: none;
 }
 
+#categories{
+    border:1px solid green;
+    width:100%;
+    height: 8%;
+    
+}
+.cate_heading{
+    font-style: normal;
+    font-size: 26px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    color: #30363c;
+    display: inline-block;
+    margin-left: 30px;  
+}
+.arbtn{
+    border:1px solid red;
+    /* width:100%; */
+    height:50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.arbtn i{
+    top: 50%;
+    border: 0px solid red;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background: #30363c;
+    color: #fff;
+    border-radius: 50%;
+    transform: translateY(-10%);
+}
+.arbtn i:hover{
+  background-color: rgb(20, 20, 20);  
+}
+
+#categories_main{
+    border: 1px solid teal;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#categories_container{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    border: 1px solid blue;
+    transition: all 1s;
+}
+.cate_cards{
+    height: 200px;
+    width: 12vw;
+    border: 1px solid black;
+}
 
 
+#newLaunch{
+    border:0px solid blue;
+    width:100%;
+    height: 450px;
+}
+.newLaunch_heading{
+    font-style: normal;
+    font-size: 26px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    color: #30363c;
+    margin-left: 30px;  
+}
+.newLaunch_subheading{
+    font-style: normal;
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 14px;
+    color: #30363c;  
+    margin-left: 30px;  
+}
+.nlarbtn{
+    border:1px solid red;
+    /* width:100%; */
+    height:80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;   
+}
+.nlarbtn i{
+    top: 50%;
+    border: 0px solid red;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background: #30363c;
+    color: #fff;
+    border-radius: 50%;
+    transform: translateY(-10%);
+}
+#main{
+ border: 0px solid blue;
+ width: 90vw;
+ height: 90%;
+ display: flex;
+ justify-content: center;
+ align-items:center ;
+}
+.newLaunch_container{
+    border:0px solid black;
+    width:90vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.launch_card{
+    border:0px solid green;
+    width:13vw;
+    height: 100%;
+    
+}
+.launch_card_img{
+    width:100%;
+    height: 60%;
+    border:1px solid rgb(212, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.launch_card_img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.launch_card_img img{
+    width:50%;
+    height: 70%;
+}
+.product_name{
+    font-style: normal;
+    font-size: 17px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30363c;  
+    
+}
+.mrp{
+    font-style: normal;
+    font-size: 14px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30363c;   
+}
+.mrp span{
+    text-decoration: line-through;
+}
+.dis_price{
+    font-style: normal;
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    color: #30363c;    
+}
+.dis_price span{
+    font-size: 15px;
+    color: #f47779;  ;
+}
+
+/* LabTest */
+#labTest{
+    border:0px solid brown;
+    width: 100%;
+    height: 450px;
+    background-color: #f4f8ff;
+}
+.labtest_head{
+    font-style: normal;
+    font-size: 26px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    line-height: 18px;
+    color: #30363c;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.labtest_subhead{
+    font-style: normal;
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 14px;
+    color: #30363c;  
+    margin-left: 30px;   
+}
+.labtest_subhead span img{
+    width:100px;
+    height: 20px;
+
+}
+.labtest_tags{
+    border: 0px solid palevioletred;
+    width:90%;
+    height: 80px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tags{
+    border: 0px solid rgb(63, 31, 42);
+    width: 15%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tags span,p{
+    margin-left: 10px;
+}
+.tags p{
+    font-style: normal;
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    color: #30363c;
+}
+#labtest_slider{
+    border: 1px solid blueviolet;
+    width: 90%;
+    height: 200px;
+}
+#ltarbtn{
+    border:1px solid red;
+    /* width:100%; */
+    height:50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+#ltarbtn i{
+    top: 50%;
+    border: 0px solid red;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background: #30363c;
+    color: #fff;
+    border-radius: 50%;
+    transform: translateY(-10%);
+}
+.labtest_slider_container{
+    border: 1px solid green;
+    width:100%;
+    height: 100%;
+}
 
 
+/* banner */
+#banner{
+    border: 0px solid purple;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #8678de;
+}
+#banner div{
+    border: 0px solid blue;
+    height: 90%;
+}
+#banner_left{
+    width: 30%;
+    align-items: center;
+}
+.banner_left_top{
+    font-style: normal;
+    font-size: 22px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    color: #fff;
+}
+.banner_left_top span{
+    font-size: 24px;
+    color: orangered;
+}
+.banner_left_bot{
+    font-style: normal;
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: #cfc9f2;
+}
+#banner_mid{
+    width:45%;
+}
+#banner_btn{
+   margin-left: 10px;
+   margin-top: 20px;
+   width:140px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 600;
+   color: #fff;
+   background-color: #f5b326;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.material-symbols-outlined{
+    margin-left: 5px;
+}
+#banner_right{
+    width:15%;
+}
+#banner_right img{
+    width: 100%;
+    height: 100%;
+}
 
+/* shop by concern */
+#shopby{
+    border: 0px solid salmon;
+    width: 100%;
+    height: 400px;
+}
+.shopby_head{
+    font-style: normal;
+    font-size: 26px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    color: #30363c;
+    margin-left: 30px; 
+    padding-top: 20px; 
+}
+.shopby_subhead{
+    font-style: normal;
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    line-height: 14px;
+    color: #30363c;  
+    margin-left: 30px;  
+}
+#shopby_container{
+  border: 0px solid olivedrab;
+  width: 95%;
+  height: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.shoby_card{
+    border: 0px solid black;
+    width:180px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shoby_card p{
+    font-style: normal;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #30363c;
+}
+.shoby_card_img{
+    border: 0px solid black;
+    width:150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.shoby_card_img:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.shoby_card_img img{
+    width: 100%;
+}
+
+/* Frequent lab Test Booking */
+#fblt{
+    border:1px solid brown;
+    width: 100%;
+    height: 600px;
+}
+#fblt_head{
+    font-style: normal;
+    font-size: 26px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    color: #30363c;
+    margin-left: 30px; 
+    padding-top: 20px;   
+}
+#fblt_container{
+    border: 1px solid red;
+    width: 95%;
+    height: 80%;
+}
