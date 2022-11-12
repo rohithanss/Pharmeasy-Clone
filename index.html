@@ -11,23 +11,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/login_signup.css">
 </head>
 <style>
     #show_hide_navbar{
         display: none; 
-    }
-
-
-
-    
+    }    
 </style>
 <body>
+    <div id="overLay">
+        <div id="overLay-box"></div>
+    </div>
     <div id="navbar">
         <div class="top_navbar">
             <div class="top_navbar1">
                 <div class="top_navbar1_left">
                     <div class="logo">
-                        <!-- <img src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0"> -->
                         <img src="images/logo.png">
                     </div>
                     <div id="vl"></div>
@@ -45,21 +44,21 @@
                 <div class="top_navbar1_right">
                     <div class="app">
                         <div class="mobile"><img src="https://cdn-icons-png.flaticon.com/512/4443/4443113.png" /></div>
-                        <div class="download"> <span>Download App</span></div>
+                        <div class="download"> Download App</div>
                     </div>
                     <div class="login">
                         <div class="user"><img src="https://cdn-icons-png.flaticon.com/512/5087/5087592.png" /></div>
-                        <div class="logintext"> <span>Hello, Log in</span></div>
+                        <div class="logintext"><span>Hello, Log in</span><span id="LogOut">Log out</span></div>
                     </div>
                     <div class="offer">
                         <div class="offericon"><img src="https://cdn-icons-png.flaticon.com/512/3119/3119226.png" /></div>
-                        <div class="offertext"> <span>Offers</span></div>
+                        <div class="offertext">Offers</div>
                     </div>
                     <div class="cart">
-                        <a href="./cart.html">
-                        <div class="carticon"><img src="https://cdn-icons-png.flaticon.com/512/4296/4296929.png" /></div>
-                        <div class="carttext"> <span>Cart</span></div>
-                    </a>
+                        <!-- <a href="./cart.html"> -->
+                        <div class="carticon"><img src="https://cdn-icons-png.flaticon.com/512/4296/4296929.png" /><span>1</span> </div>
+                        <div class="carttext">Cart</div>
+                    <!-- </a> -->
                     </div>
                 </div>
             </div>
@@ -69,7 +68,7 @@
         <div class="mid_navbar">
             <div class="facility">
                 <a href="">Medicine</a>
-                <a href="">Labtest</a>
+                <a href="Test_lab.html">Labtest</a>
                 <a href="">Healthcare</a>
                 <a href="">Health Blogs</a>
                 <a href="">Plus</a>
@@ -83,7 +82,7 @@
         <div class="bot_navbar">
             <div class="navigation">
                 <a id="disabled" href="">Navigate to</a>
-                <a href="">Categories</a>
+                <a href="#categories">Categories</a>
                 <a href="">Shop By Concern</a>
                 <a href="">Deals of the day</a>
                 <a href="">Featured Brand</a>
@@ -125,7 +124,7 @@
                         <p>Medicine</p>
                         <p id="discount">upto 20% Off</p>
                     </div>
-                    <div>
+                    <div id="LabTest">
                         <img src="https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0" />
                         <p>Lab Test</p>
                         <p id="discount">upto 70% Off</p>
@@ -167,12 +166,12 @@
 
         <div id="offer_carousel">
             <div class="container">    
-                <i class="fa-solid fa-angle-left" id="ltarrow"></i>
                 <div class="offers_carousel" id="c1"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/782553ad506-STAR25.jpg"></div>
                 <div class="offers_carousel" id="c2"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/b3a4bdb683b-1.jpg"></div>
                 <div class="offers_carousel" id="c3"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/2691dabe7c0-thyroid.jpg"></div>
-                <i class="fa-solid fa-angle-right" id="rtarrow"></i>
             </div>
+            <i class="fa-solid fa-angle-left" id="ltarrow"></i>
+            <i class="fa-solid fa-angle-right" id="rtarrow"></i>
         </div>
 
         <div id="discount_tag">
@@ -195,10 +194,10 @@
             
         </div>
 
+        <!-- Payment offers -->
         <div id="payment_offers">
             <p class="pay_heading">Payment Offers</p>
             <div class="sfgh">
-                <i class="fa-solid fa-angle-left" id="payleft"></i>
                 <div class="payment_offer_container">
                     <div class="payment_carousel" id="p1"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/a93d45ef9eb-HSBC.jpg?dim=1440x0"/></div>
                     <div class="payment_carousel" id="p2"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/051ca0c08ef-AMAZON-PAY.jpg?dim=1440x0"/></div>
@@ -207,8 +206,10 @@
                     <div class="payment_carousel" id="p5"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/0c5c9ec6841-mobikwik.jpg?dim=1440x0"/></div>
                     <div class="payment_carousel" id="p6"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/3c88b411e46-ola-money.jpg?dim=1440x0"/></div>
                     <div class="payment_carousel" id="p7"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/a93d45ef9eb-HSBC.jpg?dim=1440x0"/></div>
-                    <div class="payment_carousel" id="p"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/051ca0c08ef-AMAZON-PAY.jpg?dim=1440x0"/></div>
+                    <div class="payment_carousel" id="p8"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/051ca0c08ef-AMAZON-PAY.jpg?dim=1440x0"/></div>
                 </div>
+                <i class="fa-solid fa-angle-left" id="payleft"></i>
+
                 <i class="fa-solid fa-angle-right" id="payright"></i>
             </div>
         
@@ -219,21 +220,28 @@
         <div id="categories">
             <p class="cate_heading">Shop By Categories</p>
             <div class="arbtn">
-                <i class="fa-solid fa-angle-left" id="cat_left"></i>
+                
                 <div id="categories_main">
                     <div id="categories_container">
-                        <div class="cate_cards"></div>
-                        <div class="cate_cards"></div>
-                        <div class="cate_cards"></div>
-                        <div class="cate_cards"></div>
-                        <div class="cate_cards"></div>
-                        <div class="cate_cards"></div>
-                        <div class="cate_cards"></div>
+                        <div class="cate_cards " ><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/b26fa52dd35339e1a4e00c47b04e12d0.jpg?f=jpg?dim=256x0" /><p>Pet Care</p></div>
+                        
+                        <div class="cate_cards personalcareP"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/1e622b0308ec3ab48887512eaa3488a5.png?f=png?dim=256x0" alt=""><p>Personal Care</p></div>
+                        <div class="cate_cards beautyP"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/403b8ada7b113c7cb2e8d09e3420edfa.png?f=png?dim=256x0" alt=""><p>Beauty</p></div>
+                        <div class="cate_cards homecareP"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/dc96175686f135b5a22d1e57165d0246.png?f=png?dim=256x0" alt=""><p>Home Care</p></div>
+                        <div class="cate_cards skincareP"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/154dec0567b23244b7dcbf2158d39eee.png?f=png?dim=256x0" alt=""><p>Skin Care</p></div>
+                        <div class="cate_cards"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/fa936f30b4563fc4abd187fb22fe5258.png?f=png?dim=256x0" alt=""><p>Elder Care</p></div>
+                        <div class="cate_cards"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/d1b29f7a2b5f3d62a3d47b617aceef1b.png?f=png?dim=256x0" alt=""><p>Sexual wellness</p></div>
+                        <div class="cate_cards"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/ecad9a974e003fb987858b3ee81413c6.png?f=png?dim=256x0" alt=""><p>Ayurvedic Care</p></div>
+                        <div class="cate_cards"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/8a31db906db93f7cba59f1c48d3ba239.png?f=png?dim=256x0" alt=""><p>Health Condition</p></div>
+                        <div class="cate_cards"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/f692f7243b8036ed97d99a7973dd42b3.png?f=png?dim=256x0" alt=""><p>Mother & Baby Care</p></div>
+                        <div class="cate_cards"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/514d0d7d01a63502b4ebfec9ae26f4d2.png?f=png?dim=256x0" alt=""><p>Fitness Supplements</p></div>
+                        <div class="cate_cards"><img src="https://cdn01.pharmeasy.in/dam/discovery/categoryImages/105ceca515ee30509f93309ae75306aa.png?f=png?dim=256x0" alt=""><p>Diabetic Care</p></div>
+                        
                     </div>
-                  
-                  
+                    <i class="fa-solid fa-angle-left" id="cat_left"></i>
+                    <i class="fa-solid fa-angle-right" id="cat_right"></i>
                 </div>
-                <i class="fa-solid fa-angle-right" id="cat_right"></i>
+                
             </div>
         </div>
 
@@ -243,9 +251,8 @@
            <p class="newLaunch_heading">New Launches</p>
            <p class="newLaunch_subheading">New wellness range just for you!</p>
            <div class="nlarbtn">
-           <i class="fa-solid fa-angle-left" id="cat_left"></i>
            <div id="main">
-            <div class="newLaunch_container">
+            <div id="newLaunch_container">
                  <div class="launch_card" id="lc1">
                     <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/Z07796/supradyn-immuno-multivitamin-natural-immunity-booster-with-vit-c-vit-d-zinc-30-tablets-2-1665045164.jpg?dim=1440x0" alt=""></div>
                     <p class="product_name">Supradyn Immuno+, Multivitamin Natural</p>
@@ -283,8 +290,10 @@
                     <p class="dis_price">160.55 <span>5% OFF</span></p>
                  </div>
             </div>
-           </div>
-           <i class="fa-solid fa-angle-right" id="cat_right"></i>
+            <i class="fa-solid fa-angle-left" id="category_left"></i>
+            <i class="fa-solid fa-angle-right" id="category_right"></i>
+        </div>
+           
         </div>
         </div>
 
@@ -294,49 +303,64 @@
             <p class="newLaunch_heading">Trending Near You</p>
             <p class="newLaunch_subheading">Popular in your city</p>
             <div class="nlarbtn">
-            <i class="fa-solid fa-angle-left" id="cat_left"></i>
-            <div id="main">
-             <div class="newLaunch_container">
-                  <div class="launch_card" id="lc1">
-                     <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/I06487/dr-morepen-bg-03-glucometer-test-strips-box-of-25-1-1654168049.jpg?dim=1440x0" alt=""></div>
-                     <p class="product_name">Dr Morpen Bg 03 Glucometer Test Strip</p>
-                     <p class="mrp">MRP <span>499.00</span></p>
-                     <p class="dis_price">374.25 <span>25% OFF</span></p>
-                  </div>
-                  <div class="launch_card" id="lc2">
-                     <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-2-1666336637.jpg?dim=1440x0" alt=""></div>
-                     <p class="product_name">Everherb karela Jamun Jucice</p>
-                     <p class="mrp">MRP <span>399.00</span></p>
-                     <p class="dis_price">207.48 <span>48% OFF</span></p>
-                  </div>
-                  <div class="launch_card" id="lc3">
-                     <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/368810/threptin-vanilla-butterscotch-nutrition-diskettes-tin-of-275-g-2-1663585628.jpg?dim=1440x0" alt=""></div>
-                     <p class="product_name">Threptin Vanilla Butterscotch Nutrition</p>
-                     <p class="mrp">MRP <span>465.00</span></p>
-                     <p class="dis_price">395.25 <span>15% OFF</span></p>
-                  </div>
-                  <div class="launch_card" id="lc4">
-                     <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/266249/depura-60000-iu-vitamin-d3-oral-solution-helps-bones-healthy-aids-in-boosting-immunity-sugarfree-2-1654077895.jpg?dim=1440x0" alt=""></div>
-                     <p class="product_name">Depura 60000 IU Vitamin D3</p>
-                     <p class="mrp">MRP <span>94.99</span></p>
-                     <p class="dis_price">75.99 <span>20% OFF</span></p>
-                  </div>
-                  <div class="launch_card" id="lc5">
-                     <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/Q83701/pharmeasy-all-in-one-vaporizer-1-1654233812.jpg?dim=1440x0" alt=""></div>
-                     <p class="product_name">Pharmeasy All-in-one Vapourizer</p>
-                     <p class="mrp">MRP <span>599.00</span></p>
-                     <p class="dis_price">269.55 <span>55% OFF</span></p>
-                  </div>
-                  <div class="launch_card" id="lc6">
-                     <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/105920/himalaya-liv52-tablets-100s-2-1654078567.jpg?dim=1440x0" alt=""></div>
-                     <p class="product_name">Himalaya Liv52 Tablets</p>
-                     <p class="mrp">MRP <span>150.00</span></p>
-                     <p class="dis_price">142.55 <span>5% OFF</span></p>
-                  </div>
+                <div id="main">
+                 <div id="newLaunch_container">
+                      <div class="launch_card" id="lc1">
+                         <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/I06487/dr-morepen-bg-03-glucometer-test-strips-box-of-25-1-1654168049.jpg?dim=1440x0" /></div>
+                         <p class="product_name">Dr Morepen Bg 03 Glucometer Test Strip</p>
+                         <p class="mrp">MRP <span>499.00</span></p>
+                         <p class="dis_price">374.25 <span>25% OFF</span></p>
+                      </div>
+                      <div class="launch_card" id="lc2">
+                         <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-2-1666336637.jpg?dim=1440x0" /></div>
+                         <p class="product_name">Everherb Karela Jamun Juice-Helps Maintains</p>
+                         <p class="mrp">MRP <span>390.00</span></p>
+                         <p class="dis_price">207.48 <span>48% OFF</span></p>
+                      </div>
+                      <div class="launch_card" id="lc3">
+                         <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/105920/himalaya-liv52-tablets-100s-2-1654078567.jpg?dim=1440x0" /></div>
+                         <p class="product_name">Hiamalya Liv52 Tablets-100's</p>
+                         <p class="mrp">MRP <span>150.00</span></p>
+                         <p class="dis_price">142.00 <span>5% OFF</span></p>
+                      </div>
+                      <div class="launch_card" id="lc4">
+                         <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/368810/threptin-vanilla-butterscotch-nutrition-diskettes-tin-of-275-g-2-1663585628.jpg?dim=1440x0https://cdn01.pharmeasy.in/dam/products_otc/368810/threptin-vanilla-butterscotch-nutrition-diskettes-tin-of-275-g-2-1663585628.jpg?dim=1440x0" /></div>
+                         <p class="product_name">Therptin Vanilla Buttersctch Nutrition</p>
+                         <p class="mrp">MRP <span>465.00</span></p>
+                         <p class="dis_price">395.25 <span>15% OFF</span></p>
+                      </div>
+                      <div class="launch_card" id="lc5">
+                         <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/Q83701/pharmeasy-all-in-one-vaporizer-1-1654233812.jpg?dim=1440x0" /></div>
+                         <p class="product_name">PharmaEasy All-in-One vapourizer</p>
+                         <p class="mrp">MRP <span>599.00</span></p>
+                         <p class="dis_price">269.55 <span>55% OFF</span></p>
+                      </div>
+                      <div class="launch_card" id="lc6">
+                         <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/181140/vicks-vaporub-50ml-relief-from-cold-cough-headache-and-body-pain-2-1654078748.jpg?dim=1440x0" /></div>
+                         <p class="product_name">Vicks Vapourb 50ml,Relief From Cold</p>
+                         <p class="mrp">MRP <span>155.00</span></p>
+                         <p class="dis_price">148.80 <span>4% OFF</span></p>
+                      </div>
+                      <div class="launch_card" id="lc7">
+                        <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/V62842/liveasy-essentials-all-in-one-vaporizer-2-1654233309.jpg?dim=1440x0" /></div>
+                        <p class="product_name">Liveasy Essential All-in-One vapourize</p>
+                        <p class="mrp">MRP <span>399.00</span></p>
+                        <p class="dis_price">383.04 <span>4% OFF</span></p>
+                     </div>
+                     <div class="launch_card" id="lc8">
+                        <div class="launch_card_img"><img src="https://cdn01.pharmeasy.in/dam/products_otc/266249/depura-60000-iu-vitamin-d3-oral-solution-helps-bones-healthy-aids-in-boosting-immunity-sugarfree-2-1654077895.jpg?dim=1440x0" /></div>
+                        <p class="product_name">Depura, 6000 Iu Vitamin D3 Oral</p>
+                        <p class="mrp">MRP <span>94.99</span></p>
+                        <p class="dis_price">75.99 <span>20% OFF</span></p>
+                     </div>
+                 </div>
+                 <i class="fa-solid fa-angle-left" id="category_left"></i>
+                 <i class="fa-solid fa-angle-right" id="category_right"></i>
              </div>
-            </div>
-            <i class="fa-solid fa-angle-right" id="cat_right"></i>
-         </div>
+                
+             </div>
+            </div>  
+                 
          </div>
 
       
@@ -428,8 +452,9 @@
             </div>
         </div>
 
+
     </div>
 </body>
 </html>
 
-<script src="./src/scripts/index.js"></script>
+<script type="module" src="./src/scripts/index.js"></script>
