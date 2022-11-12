@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+#overLay * {
+  padding: 0;
+  margin: 0;
+}
+#overLay {
+  z-index: 1001;
+  background: rgba(0, 0, 0, 0.132);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: none;
+  /* display: none; */
+}
+#overLay-box {
+  z-index: 1002;
+  background-color: white;
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  width: 35vw;
+  /* padding: 30px 20px; */
+  box-sizing: border-box;
+}
+
+#overLay .header {
+  display: flex;
+  /* gap: 50px; */
+  align-items: center;
+  padding: 20px;
+  background-color: #10847e;
+  gap: 10%;
+}
+.header > div {
+  flex: 1;
+  display: flex;
+  margin: auto;
+  gap: 10px;
+  align-items: center;
+}
+.header > div > img {
+  width: 15%;
+}
+.header h1 {
+  color: white;
+}
+#close-overLay-box {
+  cursor: pointer;
+}
+
+#overLay .heading {
+  margin: 30px 20px;
+  /* text-align: center; */
+}
+#overLay form {
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+#overLay form > input {
+  width: 80%;
+  padding: 10px 8px;
+  outline: none;
+  border: 1px solid rgb(202, 202, 202);
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+#overLay #pass_div {
+  display: flex;
+  padding: 10px 8px;
+  align-items: center;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 7px;
+  box-sizing: border-box;
+  width: 80%;
+}
+#overLay #pass_div > input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+#overLay #pass_div > i {
+  /* padding: 0 7px; */
+  cursor: pointer;
+}
+#overLay form > input[type="submit"] {
+  background-color: #10847e;
+  color: white;
+  box-sizing: border-box;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
