@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1024px){
 body{
     margin: 0;
     padding: 0;
@@ -34,8 +35,9 @@ nav>div{
 ion-icon{
   margin-right:10px;
   font-weight:bolder;
-  color: rgb(16, 132, 126);
+  color: rgb(255, 255, 255);
  font-size: 18px;
+ margin-top: 32px;
 }
 #payment_body{
     height: auto;
@@ -173,12 +175,144 @@ ion-icon{
     justify-content: space-between;
 }
 #priceBreakdown>div>div>p{
-    color: rgb(71, 71, 71);
+    color: rgb(116, 116, 116);
     height: auto;
     margin: 0;
     padding: 5px;
+    font-weight: 500;
+    font-size: 17px;
 }
-#priceBreakdown>div>div:nth-child(4){
-    border-bottom: 1px dashed gray;
-    border-top: 1px dashed gray;
+#AmountPaid{
+    border-bottom: 1px dashed rgb(192, 192, 192);
+    border-top: 1px dashed rgb(192, 192, 192);
+}
+}
+@media (max-width: 1023px) and (min-width: 0px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #payment_navbar{
+        display: none;
+    }
+    #priceBreakdown{
+        display: none;
+    }
+    #payment_body{
+        height: auto;
+        margin-top: 100px;
+        
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #payment_details{
+       width: 100%;
+        
+        margin-top: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #payment_details h2{
+        color: rgb(79,88,94);
+        font-size: 27px;
+    }
+    #payment_details>div>div{
+        display: flex;
+        border-bottom: 1px solid rgb(216, 213, 213);
+        height: auto;
+        padding: 10px 10px;
+        justify-content: space-between;
+    }
+    #Offers{
+        
+        height: auto;
+        width: 100%;
+       
+    }
+    #Offers>div{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    #Offers>div h4{
+        font-size:18px;
+        color: rgb(75, 75, 75);
+        font-weight: 500;
+    }
+    #Offers>div>div{
+        width: 80%;
+        margin-top:-15px;
+    }
+    #Offers p{
+        font: 1em sans-serif;
+        font-size: 12px;
+        color: gray;
+        margin-top: -15px;
+    }
+    #Offers button{
+        padding: 10px 25px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(16,132,126);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        display: none;
+    }
+    #paytm>img{
+        height: 15px;
+        margin-top: 20px;
+    }
+    #Amazon>img{
+        height: 45px;
+        margin-top: 5px;
+    }
+    #Mobi>img{
+        height: 45px;
+    }
+    .checkbox-round {
+        width: 1.3em;
+        height: 1.3em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 1px solid rgb(167, 167, 167);
+        appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .checkbox-round:checked {
+        background-color:rgb(16,132,126);
+        border: 1px solid rgb(16,132,126);
+        
+    }
+    #Other_options>div h4{
+        font-size:18px;
+        color: rgb(75, 75, 75);
+        font-weight: 500;
+    }
+    #Other_options img{
+       height:45px;
+    }
+    #Other_options p{
+        font: 1em sans-serif;
+        font-size: 12px;
+        color: gray;
+        margin-top: -15px;
+    }
+    #Other_options>div>div{
+        width: 80%;
+        margin-top:-15px;
+    }
+    #Other_options>div>div>div{
+        margin-top:-15px;
+        height: 35px;
+    }
+   .material-symbols-outlined{
+    color: rgb(16,132,126);
+   }
 }
