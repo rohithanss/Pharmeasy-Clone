@@ -2,9 +2,76 @@ import { navbar } from "../components/tlnavbar.js";
 import {slider} from "../components/tlsection.js"
 import {button4} from "../components/tlsection.js"
 import {footer} from "../components/footer.js"
-
+import{showForm} from "../scripts/showForm.js"
 let nav = document.getElementById("navbar")
 nav.innerHTML = navbar()
+
+let logn = document.getElementById("logn")
+logn.addEventListener("click",fun)
+
+function fun(){
+  showForm("login")
+}
+
+// logn.onclick = ()=>{
+
+// }
+
+
+let signup = document.getElementById("signup")
+signup.onclick = ()=>{
+  showForm("signup")
+}
+
+let user = JSON.parse(localStorage.getItem("user_details")) || null
+// console.log(user)
+
+window.onload =()=>{
+  if(user==undefined){
+    let forever = document.getElementById("forever")
+    let ll = document.createElement("span")
+    let ss = document.createElement("span")
+    ll.setAttribute("id","logn")
+    ss.setAttribute("id","signup")
+    forever.append(ll,ss)
+
+  }
+  else{
+    
+    let forever = document.getElementById("forever")
+    forever.innerText  = null
+    let username = document.createElement("span")
+    username.innerText = user.full_name
+   let outlog = document.createElement("span")
+outlog.setAttribute("id","logout")
+outlog.textContent = "Logout"
+    forever.append(username," ",outlog)
+
+    let logout = document.getElementById("logout")
+logoutie(logout)
+
+   
+  }
+}
+
+function logoutie(logout){
+if(logout!=null){
+    logout.onclick = ()=>{
+      let forever = document.getElementById("forever")
+      forever.innerText  = null
+      let login = document.createElement("span")
+      login.setAttribute("id","logn")
+      login.innerText = "Login"
+      let signup = document.createElement("signup")
+      signup.innerText = "Signup"
+      signup.setAttribute("id","signup")
+      forever.append(login,signup)
+      }
+      localStorage.setItem("user_details",JSON.stringify(null))
+}
+}
+
+
 
 let buttn4 = document.getElementById("button4")
 buttn4.innerHTML = button4()

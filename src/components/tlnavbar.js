@@ -32,7 +32,16 @@ const navbar = ()=>{
                 <li class="under two"><a href="#Gif">Select Pincode <i class="fa-solid fa-arrow-down-long"></i> </a></li>
               <li>
            
-                <li style="width: 200px" id="loginc"><a href="#login" id="login"><i class="fa-solid fa-circle-user"></i> Login/Signup</a> </li>
+                 <li style="width: 200px" id="loginc">
+                 <span id="login" >
+                 
+                 <i  class="fa-solid fa-circle-user"></i> 
+                 <div id="forever">
+                 <span id="logn">Login</span>
+                 
+                 <span id="signup">Signup</span>
+                 <div>
+                 </li>
             </ul>
         </li>
     </ul>
