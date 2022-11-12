@@ -29,12 +29,21 @@
     <div id="cartMainbody">
         <div>
         <div id="addedItems">
+            <div id="addingcartItems">
 
+            </div>
+            <div id="additionalNotes">
+                <h2>Additional Notes</h2>
+                <input type="text" placeholder="Enter any additional information regarding your order.">
+                <p><ion-icon name="radio-button-on-outline"></ion-icon>A licensed pharmacy would be delivering your order basis availability of product & fastest delivery.<a href="#">Details</a></p>
+                <p><ion-icon name="radio-button-on-outline"></ion-icon>Prices are indicative and may change after billing</p>
+                <p><ion-icon name="radio-button-on-outline"></ion-icon>PharmEasy is a technology platform to connect sellers and buyers and is not involved in sales of any product. Offer for sale on the products and services are provided/sold by the sellers only. For detail read  <a href="#">Terms and Conditions</a></p>
+            </div>
         </div>
         <div id="value_display">
-            <button id="applybtn"><ion-icon name="cash-outline"></ion-icon>Apply Coupons/View Offers....<ion-icon name="chevron-forward-outline"></ion-icon></button><br>
+            <button id="applybtn"><ion-icon name="cash-outline"></ion-icon>Apply Coupon / View Offers....<ion-icon name="chevron-forward-outline"></ion-icon></button><br>
             <button id="delbtn" ><a href="./payment.html">Select Delivery Address</a></button>
-            <div id="dashedDiv">
+            <div class="dashedDiv">
                 
                 <p><ion-icon name="navigate-outline"></ion-icon>Order above ₹1000 to save on delivery charges.</p>
             </div>
@@ -51,7 +60,7 @@
                     </div>
                     <div>
                         <p>Packaging Charges</p>
-                        <p>₹10.00 ₹3.00</p>
+                        <p> ₹3.00</p>
                     </div>
                     <div id="AmountPaid">
                         <p>Amount to be paid</p>
@@ -59,15 +68,11 @@
                     </div>
                 </div>
             </div>
-            <div></div>
+            <div class="dashedDiv">
+                <p><ion-icon name="navigate-outline"></ion-icon>Total savings on Order.</p>
+            </div>
         </div>
     </div>
-    </div>
-    <div id="additionalNotes">
-        <input type="text" placeholder="Enter any additional information regarding your order.">
-        <p>A licensed pharmacy would be delivering your order basis availability of product & fastest delivery.<a href="#">Details</a></p>
-        <p>Prices are indicative and may change after billing</p>
-        <p>PharmEasy is a technology platform to connect sellers and buyers and is not involved in sales of any product. Offer for sale on the products and services are provided/sold by the sellers only. For detail read  <a href="#">Terms and Conditions</a></p>
     </div>
     <div id="cart_details">
         <div>
@@ -175,3 +180,4 @@
 </html>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src-="./src/scripts/cartMain.js"></script>
