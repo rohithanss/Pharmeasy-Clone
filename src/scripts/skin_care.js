@@ -1,4 +1,12 @@
 import { footer } from '../components/footer.js'
+import { navbar } from '../components/pro_navbar.js';
+
+import {showForm} from "./showForm.js";
+import {logout} from "./auth.js"
+
+
+let navbar_show = document.getElementById('navbar')
+navbar_show.innerHTML = navbar();
 
 const api = "http://localhost:1010";
 
@@ -68,7 +76,7 @@ const sorting_data = async () => {
   let res = await fetch(`${api}/products`);
   res = await res.json();
   // console.log(res)
-  data = res["skin care"];
+  let data = res["skin care"];
   sorting(data);
 };
 
@@ -102,9 +110,65 @@ const storeDataLS = (el) => {
   localStorage.setItem("product_Details", JSON.stringify(el));
 };
 
+
+
+/*-----------------to Redirect to different pages---------------------*/
+
 const redirectToProductPage = () => {
   window.location.href = "single_product.html";
 };
 
+let all_cat = document.getElementById('cat_care')
+all_cat.onclick = () => {
+  window.location.href = 'index.html#categories'
+}
+
+let home_redir = document.querySelector('.logo')
+home_redir.onclick = () => {
+  window.location.href = 'index.html'
+}
+
+let cart_redirect  = document.querySelector('.cart')
+cart_redirect.onclick = () => {
+  window.location.href = 'cartMain.html'
+}
+
 let footer_show = document.getElementById('footer')
 footer_show.innerHTML = footer();
+
+
+
+// cart items display
+let ls_cart = JSON.parse(localStorage.getItem("ls_cart")) || null;
+// ls_cart = [1,2,3,4]
+if(ls_cart!=null){
+    let number = ls_cart.length;
+    document.querySelector(".carticon>span").innerHTML = number;
+    document.querySelector(".carticon>span").style.display = "inline-block"
+}
+
+let user = JSON.parse(localStorage.getItem("user_details")) || null;
+
+if(user!=null){
+    let log_in = document.querySelector(".logintext>span:first-child");
+    let log_out = document.querySelector("#LogOut");
+    log_in.innerHTML = user.full_name.split(" ")[0];
+    log_out.style.display = "inline-block";
+    log_out.onclick = ()=>{
+        logout()
+    window.location.reload()
+
+    }
+};
+
+
+// Login form popup
+document.querySelector(".login").onclick= async () => {
+  let res =  await showForm("login");
+  console.log('res',res);
+ 
+  if(res.status === "success"){
+     window.location.reload()
+  }
+  
+ }
