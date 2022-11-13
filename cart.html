@@ -1,160 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./styles/cart.css"/>
-    
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="./styles/cart.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/login_signup.css" />
+  </head>
+  <body>
+    <div id="overLay"><div id="overLay-box"></div></div>
     <div id="cart_navbar">
-        
-        <nav>
-            <img src="./images/logo-white.png" />
-            <ul>
-                <li><a href="#">Order Medicines</a></li>
-                <li><a href="#">Healthcare Products</a></li>
-                <li><a href="#">Lab Tests</a></li>
-                <li><a href="#">RTPCR</a></li>
-            </ul>
-            <ul>
-                <li><a href="#"><ion-icon name="cash-outline"></ion-icon>Offers</a></li>
-                <li><a href="#"><ion-icon name="person-outline"></ion-icon>Login/Signup</a></li>
-                <li><a href="#"><ion-icon name="cart-outline"></ion-icon>Cart</a></li>
-            </ul>
-        </nav>
-       
+      <nav>
+        <img id="cart-logo" src="./images/logo-white.png" />
+        <ul>
+          <li>Order Medicines</li>
+          <li>Healthcare Products</li>
+          <li>Lab Tests</li>
+          <li>RTPCR</li>
+        </ul>
+        <ul>
+          <li><ion-icon name="cash-outline"></ion-icon>Offers</li>
+          <li class="log-in-li">
+            <ion-icon name="person-outline"></ion-icon>Log in
+          </li>
+          <li class="sign-up-li">
+            <ion-icon name="person-outline"></ion-icon>Sign up
+          </li>
+          <li class="cart-li"><ion-icon name="cart-outline"></ion-icon>Cart</li>
+        </ul>
+      </nav>
     </div>
     <div id="cart_body">
-        <div>
-            <div id="cart_body_1">
-                <h2>Cart</h2>
-                <div>
-                    <div id="cb11">
-                            <p><ion-icon name="checkmark-circle-outline"></ion-icon>Flat 15% Off</p>
-                            <p><ion-icon name="shield-checkmark-outline"></ion-icon>1 Lakh+ Products</p>
-                            <p><ion-icon name="reload-outline"></ion-icon>Easy Returns</p>
-                    </div>
-                    
-                        <h4>Search for Medicines / Healthcare Products</h4>
-                    <div id="cb12">
-                        <input placeholder="444101, Akot | e.g. Ecosprin, Telma or colgate" type="text" >
-                        
-                    </div>
-                </div>
+      <div>
+        <div id="cart_body_1">
+          <h2>Cart</h2>
+          <div>
+            <div id="cb11">
+              <p>
+                <ion-icon name="checkmark-circle-outline"></ion-icon>Flat 15%
+                Off
+              </p>
+              <p>
+                <ion-icon name="shield-checkmark-outline"></ion-icon>1 Lakh+
+                Products
+              </p>
+              <p><ion-icon name="reload-outline"></ion-icon>Easy Returns</p>
             </div>
-            <div id="cart_body_2">
-                    <h2>Your Cart is Empty</h2>
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/bb14593e.svg" />
+
+            <h4>Search for Medicines / Healthcare Products</h4>
+            <div id="cb12">
+              <input
+                placeholder="444101, Akot | e.g. Ecosprin, Telma or colgate"
+                type="text"
+              />
             </div>
+          </div>
         </div>
+        <div id="cart_body_2">
+          <h2>Your Cart is Empty</h2>
+          <img src="https://assets.pharmeasy.in/web-assets/dist/bb14593e.svg" />
+        </div>
+      </div>
     </div>
-    
+
     <div id="cart_details">
-        <div>
+      <div>
         <div class="cards">
-            <img src="https://assets.pharmeasy.in/web-assets/dist/9ac2da37.svg?dim=0x72&dpr=1&q=100" />
-            <h3>1 Lakh+ Products</h3>
-            <p> We maintain strict quality controls on all our partner retailers, so that you always get standard quality products.</p>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/9ac2da37.svg?dim=0x72&dpr=1&q=100"
+          />
+          <h3>1 Lakh+ Products</h3>
+          <p>
+            We maintain strict quality controls on all our partner retailers, so
+            that you always get standard quality products.
+          </p>
         </div>
         <div class="cards">
-            <img src="https://assets.pharmeasy.in/web-assets/dist/2f258fe0.svg?dim=0x72&dpr=1&q=100" />
-            <h3>Secure Payment</h3>
-            <p> 100% secure and trusted payment protection</p>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/2f258fe0.svg?dim=0x72&dpr=1&q=100"
+          />
+          <h3>Secure Payment</h3>
+          <p>100% secure and trusted payment protection</p>
         </div>
         <div class="cards">
-            <img src="https://assets.pharmeasy.in/web-assets/dist/256fe591.svg?dim=0x72&dpr=1&q=100" />
-            <h3>Easy Return</h3>
-            <p> We have a new and dynamic return window policy for medicines and healthcare items. Refer FAQs section for more details.</p>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/256fe591.svg?dim=0x72&dpr=1&q=100"
+          />
+          <h3>Easy Return</h3>
+          <p>
+            We have a new and dynamic return window policy for medicines and
+            healthcare items. Refer FAQs section for more details.
+          </p>
         </div>
-    </div>
+      </div>
     </div>
     <div id="cart_footer">
-        <div>
+      <div>
         <div id="mobile_img">
-            <img src="https://assets.pharmeasy.in/web-assets/dist/34a16ae8.jpg" />
+          <img src="https://assets.pharmeasy.in/web-assets/dist/34a16ae8.jpg" />
         </div>
         <div id="buttons">
-            <p>Download the App for Free</p>
-            <div>
-            <button><ion-icon name="logo-google-playstore"></ion-icon>Google Play</button>
+          <p>Download the App for Free</p>
+          <div>
+            <button>
+              <ion-icon name="logo-google-playstore"></ion-icon>Google Play
+            </button>
             <button><ion-icon name="logo-apple"></ion-icon>App Store</button>
+          </div>
         </div>
-        </div>
-        </div>
-        
+      </div>
     </div>
     <div id="common_footer">
-        <div id="footer_center">
-            <div id="footer_info">
-                <div>
-                    <h4>Company</h4>
-                    <p>About Us</p>
-                    <p>Careers</p>
-                    <p>Blog</p>
-                    <p>Partner with PharmEasy</p>
-                    <p>Sell at PharmEasy</p>
-                    <h4>Our services</h4>
-                    <p>Order Medicine</p>
-                    <p>Healthcare Products</p>
-                    <p>Lab Tests</p>
-                    <p>Find Nearest Collection Centre</p>
-                    
-                </div>
-                <div> 
-                    <h4>Need Help</h4>
-                    <p>Browse All Medicines</p>
-                    <p>Browse All Molecules</p>
-                    <p>Browse All Cities</p>
-                    <p>Browse All Stores</p>
-                    <p>FAQs</p>
-                </div>
-                <div> 
-                    <h4>Policy Info</h4>
-                    <p>Editorial Policy</p>
-                    <p>Privacy Policy</p>
-                    <p>Vulnerability Disclosure Policy</p>
-                    <p>Terms and Conditions</p>
-                    <p>Customer Support Policy</p>
-                    <p>Return Policy</p>
-                </div>
-                <div>
-                    <h3>FOLLOW US</h3>
-                    <div id="footer_icons">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                        <ion-icon name="logo-facebook"></ion-icon>
-                        <ion-icon name="logo-youtube"></ion-icon>
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </div>
-                </div>
+      <div id="footer_center">
+        <div id="footer_info">
+          <div>
+            <h4>Company</h4>
+            <p>About Us</p>
+            <p>Careers</p>
+            <p>Blog</p>
+            <p>Partner with PharmEasy</p>
+            <p>Sell at PharmEasy</p>
+            <h4>Our services</h4>
+            <p>Order Medicine</p>
+            <p>Healthcare Products</p>
+            <p>Lab Tests</p>
+            <p>Find Nearest Collection Centre</p>
+          </div>
+          <div>
+            <h4>Need Help</h4>
+            <p>Browse All Medicines</p>
+            <p>Browse All Molecules</p>
+            <p>Browse All Cities</p>
+            <p>Browse All Stores</p>
+            <p>FAQs</p>
+          </div>
+          <div>
+            <h4>Policy Info</h4>
+            <p>Editorial Policy</p>
+            <p>Privacy Policy</p>
+            <p>Vulnerability Disclosure Policy</p>
+            <p>Terms and Conditions</p>
+            <p>Customer Support Policy</p>
+            <p>Return Policy</p>
+          </div>
+          <div>
+            <h3>FOLLOW US</h3>
+            <div id="footer_icons">
+              <ion-icon name="logo-instagram"></ion-icon>
+              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-youtube"></ion-icon>
+              <ion-icon name="logo-twitter"></ion-icon>
             </div>
-            <div id="footer_img">
-                
-                <h4>Our Payments Partners</h4>
-                
-                <div>
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg" />
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg" alt="">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg" alt="">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt="">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg" alt="">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg" alt="">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg" alt="">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg" alt="">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg" alt="">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg" alt="">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg" alt="">
-                </div>
-            </div>
-            <div id="footer_end">
-                <img src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg" />
-                <p>© 2022 PharmEasy. All Rights Reserved</p>
-            </div>
+          </div>
         </div>
+        <div id="footer_img">
+          <h4>Our Payments Partners</h4>
+
+          <div>
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg"
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg"
+              alt=""
+            />
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div id="footer_end">
+          <img src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg" />
+          <p>© 2022 PharmEasy. All Rights Reserved</p>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+<script src="./src/scripts/cart.js" type="module"></script>
+<script
+  src="https://kit.fontawesome.com/b15e709a55.js"
+  crossorigin="anonymous"
+></script>

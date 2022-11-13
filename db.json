@@ -22,457 +22,11 @@
   ],
   "admin": [
     {
-      "id": "abhishek",
-      "full_name": "demo_name",
-      "mobile": "9878377527",
-      "email": "rohithanss@icloud.com",
-      "password": "being_drunkard",
-      "customers": [],
-      "orders": [],
-      "products": {
-        "home care": [
-          {
-            "id": "hc1",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/I40695/dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.jpg",
-            "product_name": "Dettol Antiseptic Liquidbottle of550",
-            "quantity": 10,
-            "price": 214.06,
-            "discount": 10,
-            "total_price": 207.64,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc2",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/S36514/harpic-power-plus-original-toilet-cleaner-bottle-of-500-ml-2-1667804866.jpg",
-            "product_name": "Harpic Power Plus Original Toilet Cleaner",
-            "quantity": 13,
-            "price": 93.06,
-            "discount": 10,
-            "total_price": 89.28,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc3",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/O26428/savlon-surface-disinfectant-spray-170g-2-1654234199.jpg",
-            "product_name": "Savlon Disinfectant Spray",
-            "quantity": 20,
-            "price": 165.0,
-            "discount": 10,
-            "total_price": 115.5,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc4",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/E57716/pril-liquid-actve-lime-dishwash-750-ml-2-1659234596.jpg",
-            "product_name": "Pril Liquid Lime Dishwash 750",
-            "quantity": 2,
-            "price": 190.0,
-            "discount": 10,
-            "total_price": 182.4,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc5",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/V01925/dettol-disinfectant-sanitizer-spray-bottle-original-pine-225ml-2-1654233461.jpg",
-            "product_name": "Dettol Disinfectant Sanitizer Spray",
-            "quantity": 18,
-            "price": 159.0,
-            "discount": 10,
-            "total_price": 136.74,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc6",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/N65859/liveasy-essentials-aloe-vera-face-wipes-2-1646818934.jpg",
-            "product_name": "Liveasy Essentials Aloe Vera Wipes",
-            "quantity": 26,
-            "price": 69.0,
-            "discount": 10,
-            "total_price": 62.0,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc7",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/D09658/harpic-floral-bathroom-cleaner-bottle-of-500-ml-2-1667804731.jpg",
-            "product_name": "Harpic Floor Bathroom Cleaner",
-            "quantity": 2,
-            "price": 99.0,
-            "discount": 10,
-            "total_price": 95.0,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc8",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/K01212/godrej-aer-power-pocket-bathroom-freshner-assorted-pack-of-5-2-1660892982.jpg",
-            "product_name": "Godrej Aer Power Pocket Bathroom Freshner",
-            "quantity": 9,
-            "price": 300.0,
-            "discount": 10,
-            "total_price": 282.0,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc9",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/E07643/lizol-sandal-disinfectant-floor-cleaner-bottle-of-500-ml-2-1641788794.jpg",
-            "product_name": "Lizol Sandal Disinfectant Floor Cleaner",
-            "quantity": 6,
-            "price": 103.0,
-            "discount": 10,
-            "total_price": 93.73,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc10",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/128740/dabur-odomos-naturals-cream-100gm-2-1641398827.jpg",
-            "product_name": "Dabur Odomos Naturals Cream 100gm",
-            "quantity": 17,
-            "price": 105.0,
-            "discount": 10,
-            "total_price": 90.3,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc11",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/M57053/airwick-room-air-freshener-spray-lemon-orange-blossom-245ml-2-1641791095.jpg",
-            "product_name": "Airwick Room Air Freshner Spray 245ml",
-            "quantity": 23,
-            "price": 161.0,
-            "discount": 10,
-            "total_price": 127.19,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc12",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/K85733/vanish-oxi-action-stain-remover-liquid-800ml-2-1667804698.jpg",
-            "product_name": "Vanish Oxi Action Stain Remover 800ml",
-            "quantity": 28,
-            "price": 215,
-            "discount": 10,
-            "total_price": 184.9,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc13",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/E82070/godrej-aer-home-spray-cool-surf-blue-220ml-2-1650264091.jpg",
-            "product_name": "Godrej Aer Home Spray 200ml",
-            "quantity": 7,
-            "price": 169.0,
-            "discount": 10,
-            "total_price": 158.86,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc14",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/O69430/ujala-crisp-shine-fabric-enhancer-floral-fusion-200g-bottle-2-1641794288.jpg",
-            "product_name": "Ujala Crisp & Sharped Fabric Enhancer ",
-            "quantity": 13,
-            "price": 157,
-            "discount": 10,
-            "total_price": 150,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc15",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/I48465/bodyguard-baby-diapers-and-sanitary-disposal-bag-75-bags-2-1648798283.jpg",
-            "product_name": "Bodyguard Baby Diapers",
-            "quantity": 32,
-            "price": 399.0,
-            "discount": 10,
-            "total_price": null,
-            "status": 359.1,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc16",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/T22378/beco-eco-friendly-reusable-kitchen-towel-roll-20-sheets-natural-organic-cleaning-bamboo-cloth-2-1644239822.jpg",
-            "product_name": "Beco Eco-Friendly Resuable Kitchen TOwel",
-            "quantity": 4,
-            "price": 299.0,
-            "discount": 10,
-            "total_price": 239.2,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc17",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/E76033/godrej-good-knight-advanced-power-activ-cartridge-twin-saver-mosquito-repellent-refill-2x45-ml-1-1641794006.jpg",
-            "product_name": "GoodKnight Mosquito Repellent",
-            "quantity": 29,
-            "price": 145.0,
-            "discount": 10,
-            "total_price": 139.2,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          },
-
-          {
-            "id": "hc18",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/Q33452/fabric-conditioner-lavender-natural-non-toxic-eco-friendly-soft-shine-500-ml-x-3-2-1656939991.jpg",
-            "product_name": "Fabric Conditioner Lavender 500 Ml X 3",
-            "quantity": 26,
-            "price": 342.0,
-            "discount": 10,
-            "total_price": 307.8,
-            "status": null,
-            "rating": "3.5",
-            "description": "desc"
-          }
-        ],
-        "beauty": [
-          {
-            "id": "Beauty1",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/B48723/sugar-pop-matte-lipcolour-13-magenta-2-1653658065.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Sugar Pop Matte Lipcolour - 13 Magenta",
-            "quantity": 20,
-            "price": 249,
-            "discount": 10,
-            "total_price": 224.1,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty2",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/L64620/la-french-victory-eau-de-perfume-for-men-100ml-2-1655560499.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "La French Victory, Eau De Perfume For Men, 100ml",
-            "quantity": 15,
-            "price": 799,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty3",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/X97953/sugar-pop-nail-lacquer-15-bold-please-2-1653462263.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Sugar Pop Nail Lacquer 15 Bold Please",
-            "quantity": 23,
-            "price": 129,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty4",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/G25968/sugar-pop-matte-lipcolour-15-flamingo-2-1653463314.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Sugar Pop Matte Lipcolour - 15 Flamingo",
-            "quantity": 23,
-            "price": 249,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty5",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/Y26576/engage-garden-mystique-deodorant-for-women-spicy-and-woody-skin-friendly-150ml-6.1-1641795563.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Engage Garden Mystique Deodorant For Women, Spicy And Woody, Skin Friendly- 150ml",
-            "quantity": 16,
-            "price": 225,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty6",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/G48755/sugar-pop-longwear-compact-03-honey-2-1653658042.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Sugar Pop Longwear Compact - 03 Honey",
-            "quantity": 13,
-            "price": 249,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty7",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/L83723/plum-eye-swear-by-brow-definer-ash-black-03gm-2-1653471045.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Plum Eye- Swear- By Brow Definer - Ash Black - 0.3gm",
-            "quantity": 8,
-            "price": 450,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty8",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/D21553/nivea-men-deo-fresh-active-150ml-2-1654258115.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Nivea Men Deo Fresh Active - 150ml",
-            "quantity": 26,
-            "price": 225,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty9",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/V12403/colorbar-matte-touch-lipstick-pink-chiffon-1-1649856462.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Colorbar Matte Touch Lipstick- Pink Chiffon",
-            "quantity": 11,
-            "price": 599,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty10",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/O80005/yardley-london-morning-dew-daily-wear-perfume-100-ml-2-1641794413.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Yardley London Morning Dew Daily Wear Perfume - 100 Ml",
-            "quantity": 18,
-            "price": 549,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty11",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/T87736/wild-stone-code-titanium-body-perfume-for-men-120ml-pack-of-2-2-1641795780.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Wild Stone Code Titanium Body Perfume For Men - 120ml (Pack Of 2)",
-            "quantity": 17,
-            "price": 500,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty12",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/Y82706/nivea-deo-fresh-natural-women-150ml-2-1641789377.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Nivea Deo Fresh Natural Women - 150ml",
-            "quantity": 23,
-            "price": 225,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty13",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/B91653/wild-stone-code-copper-body-perfume-for-men-120ml-pack-of-2-2-1641795650.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Wild Stone Code Copper Body Perfume For Men - 120ml (Pack Of 2)",
-            "quantity": 21,
-            "price": 500,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty14",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/K55364/engage-new-metal-range-frost-deodorant-spray-for-men-150ml-2-1641789678.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Engage New Metal Range Frost Deodorant Spray For Men -150ml",
-            "quantity": 16,
-            "price": 220,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          },
-          {
-            "id": "Beauty15",
-            "adminId": "abhishek",
-            "image": "https://cdn01.pharmeasy.in/dam/products_otc/X51926/nivea-deo-protect-care-women-150ml-2-1641789820.jpg?dim=700x0&dpr=1&q=100",
-            "product_name": "Nivea Deo Protect & Care Women - 150ml",
-            "quantity": 34,
-            "price": 225,
-            "discount": 10,
-            "total_price": null,
-            "status": null,
-            "rating": 3.5
-          }
-        ]
-      }
-    },
-    {
       "id": "rohithanss",
-      "full_name": "demo_name",
+      "full_name": "Rohit Hans",
       "mobile": "9878377527",
       "email": "rohithanss@icloud.com",
-      "password": "being_drunkard",
+      "password": "mars@phar",
       "customers": [],
       "orders": [],
       "products": {
@@ -934,6 +488,441 @@
             "status": null,
             "rating": "3.5",
             "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body and controlling the greying of hair, anaemia, upset stomach and infections. It is also useful in the case of diabetic neuropathy and heartburn and further helps to overcome Vitamin C & Zinc deficiency./You can take this tablet as advised by your doctor to attain maximum benefit. These health supplements are usually safe and do not cause any side effects when taken as per the doctor's recommendation."
+          }
+        ],
+        "home care": [
+          {
+            "id": "hc1",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/I40695/dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.jpg",
+            "product_name": "Dettol Antiseptic Liquidbottle of550",
+            "quantity": 10,
+            "price": 214.06,
+            "discount": 10,
+            "total_price": 207.64,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc2",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/S36514/harpic-power-plus-original-toilet-cleaner-bottle-of-500-ml-2-1667804866.jpg",
+            "product_name": "Harpic Power Plus Original Toilet Cleaner",
+            "quantity": 13,
+            "price": 93.06,
+            "discount": 10,
+            "total_price": 89.28,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc3",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/O26428/savlon-surface-disinfectant-spray-170g-2-1654234199.jpg",
+            "product_name": "Savlon Disinfectant Spray",
+            "quantity": 20,
+            "price": 165.0,
+            "discount": 10,
+            "total_price": 115.5,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc4",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/E57716/pril-liquid-actve-lime-dishwash-750-ml-2-1659234596.jpg",
+            "product_name": "Pril Liquid Lime Dishwash 750",
+            "quantity": 2,
+            "price": 190.0,
+            "discount": 10,
+            "total_price": 182.4,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc5",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/V01925/dettol-disinfectant-sanitizer-spray-bottle-original-pine-225ml-2-1654233461.jpg",
+            "product_name": "Dettol Disinfectant Sanitizer Spray",
+            "quantity": 18,
+            "price": 159.0,
+            "discount": 10,
+            "total_price": 136.74,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc6",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/N65859/liveasy-essentials-aloe-vera-face-wipes-2-1646818934.jpg",
+            "product_name": "Liveasy Essentials Aloe Vera Wipes",
+            "quantity": 26,
+            "price": 69.0,
+            "discount": 10,
+            "total_price": 62.0,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc7",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/D09658/harpic-floral-bathroom-cleaner-bottle-of-500-ml-2-1667804731.jpg",
+            "product_name": "Harpic Floor Bathroom Cleaner",
+            "quantity": 2,
+            "price": 99.0,
+            "discount": 10,
+            "total_price": 95.0,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc8",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/K01212/godrej-aer-power-pocket-bathroom-freshner-assorted-pack-of-5-2-1660892982.jpg",
+            "product_name": "Godrej Aer Power Pocket Bathroom Freshner",
+            "quantity": 9,
+            "price": 300.0,
+            "discount": 10,
+            "total_price": 282.0,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc9",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/E07643/lizol-sandal-disinfectant-floor-cleaner-bottle-of-500-ml-2-1641788794.jpg",
+            "product_name": "Lizol Sandal Disinfectant Floor Cleaner",
+            "quantity": 6,
+            "price": 103.0,
+            "discount": 10,
+            "total_price": 93.73,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc10",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/128740/dabur-odomos-naturals-cream-100gm-2-1641398827.jpg",
+            "product_name": "Dabur Odomos Naturals Cream 100gm",
+            "quantity": 17,
+            "price": 105.0,
+            "discount": 10,
+            "total_price": 90.3,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc11",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/M57053/airwick-room-air-freshener-spray-lemon-orange-blossom-245ml-2-1641791095.jpg",
+            "product_name": "Airwick Room Air Freshner Spray 245ml",
+            "quantity": 23,
+            "price": 161.0,
+            "discount": 10,
+            "total_price": 127.19,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc12",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/K85733/vanish-oxi-action-stain-remover-liquid-800ml-2-1667804698.jpg",
+            "product_name": "Vanish Oxi Action Stain Remover 800ml",
+            "quantity": 28,
+            "price": 215,
+            "discount": 10,
+            "total_price": 184.9,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc13",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/E82070/godrej-aer-home-spray-cool-surf-blue-220ml-2-1650264091.jpg",
+            "product_name": "Godrej Aer Home Spray 200ml",
+            "quantity": 7,
+            "price": 169.0,
+            "discount": 10,
+            "total_price": 158.86,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc14",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/O69430/ujala-crisp-shine-fabric-enhancer-floral-fusion-200g-bottle-2-1641794288.jpg",
+            "product_name": "Ujala Crisp & Sharped Fabric Enhancer ",
+            "quantity": 13,
+            "price": 157,
+            "discount": 10,
+            "total_price": 150,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc15",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/I48465/bodyguard-baby-diapers-and-sanitary-disposal-bag-75-bags-2-1648798283.jpg",
+            "product_name": "Bodyguard Baby Diapers",
+            "quantity": 32,
+            "price": 399.0,
+            "discount": 10,
+            "total_price": null,
+            "status": 359.1,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc16",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/T22378/beco-eco-friendly-reusable-kitchen-towel-roll-20-sheets-natural-organic-cleaning-bamboo-cloth-2-1644239822.jpg",
+            "product_name": "Beco Eco-Friendly Resuable Kitchen TOwel",
+            "quantity": 4,
+            "price": 299.0,
+            "discount": 10,
+            "total_price": 239.2,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc17",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/E76033/godrej-good-knight-advanced-power-activ-cartridge-twin-saver-mosquito-repellent-refill-2x45-ml-1-1641794006.jpg",
+            "product_name": "GoodKnight Mosquito Repellent",
+            "quantity": 29,
+            "price": 145.0,
+            "discount": 10,
+            "total_price": 139.2,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          },
+
+          {
+            "id": "hc18",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/Q33452/fabric-conditioner-lavender-natural-non-toxic-eco-friendly-soft-shine-500-ml-x-3-2-1656939991.jpg",
+            "product_name": "Fabric Conditioner Lavender 500 Ml X 3",
+            "quantity": 26,
+            "price": 342.0,
+            "discount": 10,
+            "total_price": 307.8,
+            "status": null,
+            "rating": "3.5",
+            "description": "desc"
+          }
+        ],
+        "beauty": [
+          {
+            "id": "Beauty1",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/B48723/sugar-pop-matte-lipcolour-13-magenta-2-1653658065.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Sugar Pop Matte Lipcolour - 13 Magenta",
+            "quantity": 20,
+            "price": 249,
+            "discount": 10,
+            "total_price": 224.1,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty2",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/L64620/la-french-victory-eau-de-perfume-for-men-100ml-2-1655560499.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "La French Victory, Eau De Perfume For Men, 100ml",
+            "quantity": 15,
+            "price": 799,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty3",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/X97953/sugar-pop-nail-lacquer-15-bold-please-2-1653462263.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Sugar Pop Nail Lacquer 15 Bold Please",
+            "quantity": 23,
+            "price": 129,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty4",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/G25968/sugar-pop-matte-lipcolour-15-flamingo-2-1653463314.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Sugar Pop Matte Lipcolour - 15 Flamingo",
+            "quantity": 23,
+            "price": 249,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty5",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/Y26576/engage-garden-mystique-deodorant-for-women-spicy-and-woody-skin-friendly-150ml-6.1-1641795563.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Engage Garden Mystique Deodorant For Women, Spicy And Woody, Skin Friendly- 150ml",
+            "quantity": 16,
+            "price": 225,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty6",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/G48755/sugar-pop-longwear-compact-03-honey-2-1653658042.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Sugar Pop Longwear Compact - 03 Honey",
+            "quantity": 13,
+            "price": 249,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty7",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/L83723/plum-eye-swear-by-brow-definer-ash-black-03gm-2-1653471045.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Plum Eye- Swear- By Brow Definer - Ash Black - 0.3gm",
+            "quantity": 8,
+            "price": 450,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty8",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/D21553/nivea-men-deo-fresh-active-150ml-2-1654258115.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Nivea Men Deo Fresh Active - 150ml",
+            "quantity": 26,
+            "price": 225,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty9",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/V12403/colorbar-matte-touch-lipstick-pink-chiffon-1-1649856462.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Colorbar Matte Touch Lipstick- Pink Chiffon",
+            "quantity": 11,
+            "price": 599,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty10",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/O80005/yardley-london-morning-dew-daily-wear-perfume-100-ml-2-1641794413.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Yardley London Morning Dew Daily Wear Perfume - 100 Ml",
+            "quantity": 18,
+            "price": 549,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty11",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/T87736/wild-stone-code-titanium-body-perfume-for-men-120ml-pack-of-2-2-1641795780.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Wild Stone Code Titanium Body Perfume For Men - 120ml (Pack Of 2)",
+            "quantity": 17,
+            "price": 500,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty12",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/Y82706/nivea-deo-fresh-natural-women-150ml-2-1641789377.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Nivea Deo Fresh Natural Women - 150ml",
+            "quantity": 23,
+            "price": 225,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty13",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/B91653/wild-stone-code-copper-body-perfume-for-men-120ml-pack-of-2-2-1641795650.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Wild Stone Code Copper Body Perfume For Men - 120ml (Pack Of 2)",
+            "quantity": 21,
+            "price": 500,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty14",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/K55364/engage-new-metal-range-frost-deodorant-spray-for-men-150ml-2-1641789678.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Engage New Metal Range Frost Deodorant Spray For Men -150ml",
+            "quantity": 16,
+            "price": 220,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
+          },
+          {
+            "id": "Beauty15",
+            "adminId": "abhishek",
+            "image": "https://cdn01.pharmeasy.in/dam/products_otc/X51926/nivea-deo-protect-care-women-150ml-2-1641789820.jpg?dim=700x0&dpr=1&q=100",
+            "product_name": "Nivea Deo Protect & Care Women - 150ml",
+            "quantity": 34,
+            "price": 225,
+            "discount": 10,
+            "total_price": null,
+            "status": null,
+            "rating": 3.5
           }
         ]
       }
@@ -1464,270 +1453,6 @@
         "description": "desc"
       }
     ],
-
-    "Lab_Tests": [
-      {
-        "Health_Packages": [
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Healthy 2022 Full Body Checkup",
-            "price": 999,
-            "id": "Nf1"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Women's Master Checkup with Cancer & Arthritis Screening",
-            "price": 1999,
-            "id": "Nf2"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Men's Master Checkup with Cancer & Arthiritis Screening",
-            "price": 1999,
-            "id": "Nf3"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Vitamin D Profile",
-            "price": 1300,
-            "id": "Nf4"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Comprehensive Full Body Checkup with Vitamin D & B12",
-            "price": 399,
-            "id": "Nf6"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Women's Advanced Healthcare Packages",
-            "price": 375,
-            "id": "Nf7"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Aarogyam Full Body Checkup with Vitamins",
-            "price": 1999,
-            "id": "Nf8"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Complete Diabetes Health Checkup",
-            "price": 1899,
-            "id": "Nf9"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Advanced Full Body Checkup",
-            "price": 1049,
-            "id": "Nf10"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Diabetes Care",
-            "price": 499,
-            "id": "Nf11"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Vitamin D & B12 Combo",
-            "price": 799,
-            "id": "Nf12"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Thyroid Care",
-            "price": 499,
-            "id": "Nf13"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Arthirits Screening Health Checkup",
-            "price": 540,
-            "id": "Nf14"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Basic Health Checkup",
-            "price": 425,
-            "id": "Nf15"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Bone Profile Advanced",
-            "price": 249,
-            "id": "Nf16"
-          },
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
-            "admin id": "monu",
-            "name": "Premium Full Body Checkup",
-            "price": 449,
-            "id": "Nf17"
-          }
-        ]
-      },
-      {
-        "All_Test": [
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Lipid Profile",
-            "price": 399,
-            "id": "Af1"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "HbA1c(Glycosylated  Hemoglobin",
-            "price": 829,
-            "id": "Af2"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Complete Blood Count/Hemogram (CBC)",
-            "price": 349,
-            "id": "Af3"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Post Prandial Blood Sugar",
-            "price": 199,
-            "id": "Af4"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "serum Electrolytes",
-            "price": 399,
-            "id": "Af6"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Total lgE",
-            "price": 375,
-            "id": "Af7"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Liver Function Test (LFT)",
-            "price": 499,
-            "id": "Af8"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Erythrocyte Sedimentation Rate (ESR)",
-            "price": 249,
-            "id": "Af9"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Fasting Blood Sugar (FBS)",
-            "price": 199,
-            "id": "Af10"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Total Cholesterol",
-            "price": 199,
-            "id": "Af11"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Creatinine",
-            "price": 225,
-            "id": "Af12"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Unine routine",
-            "price": 449,
-            "id": "Af13"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Free Thyroid Profile",
-            "price": 540,
-            "id": "Af14"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "C-Reactive Protein - Quanititative (CRP)",
-            "price": 425,
-            "id": "Af15"
-          },
-
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Thyroid Stimulating Hormone (TSH)",
-            "price": 249,
-            "id": "Af16"
-          },
-          {
-            "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
-            "admin id": "monu",
-            "Test_name": "Renal/Kidney Function Test (RFT/KFT)",
-            "price": 449,
-            "id": "Af17"
-          }
-        ]
-      }
-    ],
-
     "personal care": [
       {
         "id": "per4",
@@ -2370,5 +2095,271 @@
         "description": "For dehydrated and sensitive skin, the Venusia moisturizing cream is the perfect skincare product because it is infused with several key ingredients that keep sensitive skin hydrated throughout the day. The Venusia cream is a non-greasy complex of antioxidants like Vitamin E and Aloe Vera, that help protect as well as nourish the skin during the harshest weather conditions. This moisturizing cream comes in a compact pocket-sized plastic can and can thus serve as the most preferred skincare companion on short holidays as well."
       }
     ]
+  },
+  "Lab_Tests": [
+    {
+      "Health_Packages": [
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Healthy 2022 Full Body Checkup",
+          "price": 999,
+          "id": "Nf1"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Women's Master Checkup with Cancer & Arthritis Screening",
+          "price": 1999,
+          "id": "Nf2"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Men's Master Checkup with Cancer & Arthiritis Screening",
+          "price": 1999,
+          "id": "Nf3"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Vitamin D Profile",
+          "price": 1300,
+          "id": "Nf4"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Comprehensive Full Body Checkup with Vitamin D & B12",
+          "price": 399,
+          "id": "Nf6"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Women's Advanced Healthcare Packages",
+          "price": 375,
+          "id": "Nf7"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Aarogyam Full Body Checkup with Vitamins",
+          "price": 1999,
+          "id": "Nf8"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Complete Diabetes Health Checkup",
+          "price": 1899,
+          "id": "Nf9"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Advanced Full Body Checkup",
+          "price": 1049,
+          "id": "Nf10"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Diabetes Care",
+          "price": 499,
+          "id": "Nf11"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Vitamin D & B12 Combo",
+          "price": 799,
+          "id": "Nf12"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Thyroid Care",
+          "price": 499,
+          "id": "Nf13"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Arthirits Screening Health Checkup",
+          "price": 540,
+          "id": "Nf14"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Basic Health Checkup",
+          "price": 425,
+          "id": "Nf15"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Bone Profile Advanced",
+          "price": 249,
+          "id": "Nf16"
+        },
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg",
+          "admin id": "monu",
+          "name": "Premium Full Body Checkup",
+          "price": 449,
+          "id": "Nf17"
+        }
+      ]
+    },
+    {
+      "All_Test": [
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Lipid Profile",
+          "price": 399,
+          "id": "Af1"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "HbA1c(Glycosylated  Hemoglobin",
+          "price": 829,
+          "id": "Af2"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Complete Blood Count/Hemogram (CBC)",
+          "price": 349,
+          "id": "Af3"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Post Prandial Blood Sugar",
+          "price": 199,
+          "id": "Af4"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "serum Electrolytes",
+          "price": 399,
+          "id": "Af6"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Total lgE",
+          "price": 375,
+          "id": "Af7"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Liver Function Test (LFT)",
+          "price": 499,
+          "id": "Af8"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Erythrocyte Sedimentation Rate (ESR)",
+          "price": 249,
+          "id": "Af9"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Fasting Blood Sugar (FBS)",
+          "price": 199,
+          "id": "Af10"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Total Cholesterol",
+          "price": 199,
+          "id": "Af11"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Creatinine",
+          "price": 225,
+          "id": "Af12"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Unine routine",
+          "price": 449,
+          "id": "Af13"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Free Thyroid Profile",
+          "price": 540,
+          "id": "Af14"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "C-Reactive Protein - Quanititative (CRP)",
+          "price": 425,
+          "id": "Af15"
+        },
+
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Thyroid Stimulating Hormone (TSH)",
+          "price": 249,
+          "id": "Af16"
+        },
+        {
+          "image": "https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg",
+          "admin id": "monu",
+          "Test_name": "Renal/Kidney Function Test (RFT/KFT)",
+          "price": 449,
+          "id": "Af17"
+        }
+      ]
+    }
+  ],
+  "OrderId": {
+    "id": "count",
+    "count": 101
   }
 }

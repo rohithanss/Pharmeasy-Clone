@@ -46,6 +46,7 @@ async function login(type, username, password) {
           localStorage.setItem("user_details", JSON.stringify(res));
           localStorage.setItem("ls_cart", JSON.stringify(res.cart));
         }
+        window.location.reload();
         return {
           status: "success",
           message: "Login success",
