@@ -3,15 +3,13 @@ import { showForm } from "./showForm.js";
 import { logout } from "./auth.js";
 // import { placeOrder } from "./placeOrder.js";
 import { alertMsg } from "./alertMsg.js";
-import { navbar } from '../components/pro_navbar.js';
-import { footer } from '../components/footer.js'
+import { navbar } from "../components/pro_navbar.js";
+import { footer } from "../components/footer.js";
 
-let navbar_show = document.getElementById('navbar')
+let navbar_show = document.getElementById("navbar");
 navbar_show.innerHTML = navbar();
 
 const api = "http://localhost:1010";
-
-
 
 let lsData = JSON.parse(localStorage.getItem("product_Details"));
 console.log(lsData);
@@ -109,9 +107,8 @@ const append_product_details = (lsData) => {
       document.getElementById(
         "num_of_items"
       ).innerText = `${newCart.length} Items in cart`;
-      window.location.reload();
+      // window.location.reload();
     };
-    
   };
 
   prod_desc.append(price_div, tax, del_time);
@@ -156,49 +153,45 @@ const seleopt = () => {
     </Option>`;
 };
 
-
-
-let footer_show = document.getElementById('footer')
+let footer_show = document.getElementById("footer");
 footer_show.innerHTML = footer();
-
 
 // cart items display
 let ls_cart = JSON.parse(localStorage.getItem("ls_cart")) || null;
 // ls_cart = [1,2,3,4]
-if(ls_cart!=null){
-    let number = ls_cart.length;
-    document.querySelector(".carticon>span").innerHTML = number;
-    document.querySelector(".carticon>span").style.display = "inline-block"
+if (ls_cart != null) {
+  let number = ls_cart.length;
+  document.querySelector(".carticon>span").innerHTML = number;
+  document.querySelector(".carticon>span").style.display = "inline-block";
 }
 
 // let user = JSON.parse(localStorage.getItem("user_details")) || null;
 
-if(user!=null){
-    let log_in = document.querySelector(".logintext>span:first-child");
-    let log_out = document.querySelector("#LogOut");
-    log_in.innerHTML = user.full_name.split(" ")[0];
-    log_out.style.display = "inline-block";
-    log_out.onclick = ()=>{
-        logout()
-    window.location.reload()
+if (user != null) {
+  let log_in = document.querySelector(".logintext>span:first-child");
+  let log_out = document.querySelector("#LogOut");
+  log_in.innerHTML = user.full_name.split(" ")[0];
+  log_out.style.display = "inline-block";
+  log_out.onclick = () => {
+    logout();
+    window.location.reload();
+  };
+}
 
-    }
+if (ls_cart == null) {
+  document.querySelector("#view_cart_btn").disabled = true;
+  document.querySelector("#view_cart_btn").style.color = "#4f585e";
+}
+
+let viewToCardbtn = document.querySelector("#view_cart_btn");
+viewToCardbtn.onclick = () => {
+  window.location.href = "cartMain.html";
 };
 
-if(ls_cart == null){
-  document.querySelector('#view_cart_btn').disabled = true;
-  document.querySelector('#view_cart_btn').style.color = '#4f585e'
-}
-
-let viewToCardbtn = document.querySelector('#view_cart_btn')
-viewToCardbtn.onclick = () => {
-  window.location.href = 'cartMain.html'
-}
-
-let viewlogo = document.querySelector('.logo')
+let viewlogo = document.querySelector(".logo");
 viewlogo.onclick = () => {
-  window.location.href = 'index.html'
-}
+  window.location.href = "index.html";
+};
 
 // ---------------------- Rough work --------------------------
 
@@ -218,7 +211,3 @@ viewlogo.onclick = () => {
 //   let res = logout();
 //   alertMsg(res.message, res.status);
 // };
-
-
-
-
