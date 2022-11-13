@@ -12,7 +12,7 @@ const navbar = ()=>{
         <li style="width: 65%;">
             <ul id="part" style="width: 100%;">
              
-                <li class="under one" style="width: 160px;border:1px solid black; border-width: 0 1px 0 0;"><a href="#Gif" style="color:#10847e;">Select Pincode <i class="fa-solid fa-caret-down"></i> </a>
+                <li class="under one" style="width: 160px;border:1px solid black; border-width: 0 1px 0 0;"><a href="#Pincode" style="color:#10847e;">Select Pincode <i class="fa-solid fa-caret-down"></i> </a>
                 <li style="width: 80%;">  <input  
                     style="min-width: 160px; width: 100%" id="search" type="search" placeholder="Search for Tests/Packages/Labs" id="search" color: #10847e;></li>
              

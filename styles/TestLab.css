@@ -1,6 +1,8 @@
 * {box-sizing:border-box}
 
-
+#logn{cursor:pointer}
+#signup{cursor:pointer}
+#logout{cursor:pointer}
 
 
 #myBtn {
@@ -237,13 +239,7 @@
 #timevisit p{color:rgb(128, 128, 128); font-size: 18px;}
 #timevisit>div img{width: 60px; height: 60px;}
 
-/* ----------------- footer*/
-#footer_info>div{
-  display: flex;
-flex-direction: column; gap: 20px;
-}
-#buttons p{margin-bottom:20px;}
-/* ---------------------------- */
+
 @media screen and (max-width:900px){
   #timevisit{ grid-template-columns: repeat(3,auto);
   grid-template-rows: auto auto; width: 90%;}
