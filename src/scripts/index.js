@@ -2,7 +2,18 @@
 import {showForm} from "./showForm.js";
 import {logout} from "./auth.js"
 
-// cart items display
+
+/////////////////////////////////////////////////////////////logo link////////////////////////////////////////////////////
+
+let logo_link = document.querySelector(".logo")
+logo_link.style.cursor = "pointer";
+logo_link.onclick = () => {
+    window.location.href = "index.html";
+}
+
+
+///////////////////////////////////////////////////cart items display//////////////////////////////////////////////////////
+
 let ls_cart = JSON.parse(localStorage.getItem("ls_cart")) || null;
 // ls_cart = [1,2,3,4]
 if(ls_cart!=null){
@@ -10,6 +21,8 @@ if(ls_cart!=null){
     document.querySelector(".carticon>span").innerHTML = number;
     document.querySelector(".carticon>span").style.display = "inline-block"
 }
+
+/////////////////////////////////////////////////////////Login///////////////////////////////////////////////////////////
 
 let user = JSON.parse(localStorage.getItem("user_details")) || null;
 
@@ -25,6 +38,23 @@ if(user!=null){
     }
 };
 
+
+
+//////////////////////////////////////////////////////// Login form popup/////////////////////////////////////////////////
+document.querySelector(".login").onclick= async () => {
+    let res =  await showForm("login");
+    console.log('res',res);
+   
+    if(res.status === "success"){
+       window.location.reload()
+    }
+    
+   }
+
+
+///////////////////////////////////////////////////////Links for Different Pages//////////////////////////////////////////
+
+
 document.querySelector(".personalcareP").onclick = ()=>{
     window.location.href = "personal_care.html"
 }
@@ -38,7 +68,7 @@ document.querySelector(".homecareP").onclick = ()=>{
     window.location.href = "home_care.html"
 }
 
-// show and hide navbar
+////////////////////////////////////////////////show and hide navbar//////////////////////////////////////////////////////
 
 window.onscroll = () => {
     if(window.pageYOffset > 200){
@@ -50,7 +80,7 @@ window.onscroll = () => {
     }
 }
 
-//lab Test link
+////////////////////////////////////////////////////////lab Test link////////////////////////////////////////////////////
 let lbtest = document.getElementById("LabTest")
 lbtest.onclick = () => {
     window.location.href = "Test_lab.html";
@@ -58,19 +88,19 @@ lbtest.onclick = () => {
 
 
 // Login form popup
-document.querySelector(".login").onclick= async () => {
- let res =  await showForm("login");
- console.log('res',res);
+// document.querySelector(".login").onclick= async () => {
+//  let res =  await showForm("login");
+//  console.log('res',res);
 
- if(res.status === "success"){
-    window.location.reload()
- }
+//  if(res.status === "success"){
+//     window.location.reload()
+//  }
  
-}
+// }
 
 
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 let count4 =0;
     document.querySelector("#ltarrow").onclick = () => {
@@ -96,7 +126,7 @@ let count4 =0;
     };
 
 
-    /////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////Payment Offers/////////////////////////////////////////////////////////////
 
 let count =0;
     document.querySelector("#payleft").onclick = () => {
@@ -122,7 +152,7 @@ let count =0;
     };
 
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////categories////////////////////////////////////////////////////
 let count1 =0;
     document.querySelector("#cat_left").onclick = () => {
         console.log("clicked")
@@ -146,12 +176,12 @@ let count1 =0;
         document.querySelector("#categories_container").style.transform = `translateX(-${val}px)`;
     };
 
-//3
+///////////////////////////////////New Launches and Tending naer you/////////////////////////////////////////////////////////////////////////////////
     let count2 =0;
     document.querySelector("#category_left").onclick = () => {
         console.log("clicked")
         
-        if(count2 ==0){
+        if(count2 <= 0){
             return;
         }
         count2--;
@@ -162,7 +192,7 @@ let count1 =0;
 
     document.querySelector("#category_right").onclick = () => {
 
-        if(count2 *30 > 5){
+        if(count2  >= 2){
            return;
         }
         count2++;
@@ -170,3 +200,79 @@ let count1 =0;
         document.querySelector("#newLaunch_container").style.transform = `translateX(-${val}vw)`;
     };
 
+    /////////////////////////////Features/////////////////////////////////////////////////////////////////////////////
+
+    let count5 =0;
+    document.querySelector("#feat_left").onclick = () => {
+        console.log("clicked")
+        
+        if(count5 <= 0){
+            return;
+        }
+        count5--;
+        let val = count5 * 20;
+        document.querySelector("#features_container").style.transform = `translateX(-${val}vw)`;
+
+    };
+
+    document.querySelector("#feat_right").onclick = () => {
+
+        if(count5  >= 3){
+           return;
+        }
+        count5++;
+        let val =count5 *20;
+        document.querySelector("#features_container").style.transform = `translateX(-${val}vw)`;
+    };
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    let count6 =0;
+    document.querySelector("#lab_left").onclick = () => {
+        console.log("clicked")
+        
+        if(count6 <= 0){
+            return;
+        }
+        count6--;
+        let val = count6 * 20;
+        document.querySelector(".labtest_slider_container").style.transform = `translateX(-${val}vw)`;
+
+    };
+
+    document.querySelector("#lab_right").onclick = () => {
+
+        if(count6  >= 4){
+           return;
+        }
+        count6++;
+        let val =count6 *11;
+        document.querySelector(".labtest_slider_container").style.transform = `translateX(-${val}vw)`;
+    };
+
+
+    //////////////////////////Tending Near You/////////////////////////////////////////////////////////////////////
+
+    let count7 =0;
+    document.querySelector("#category_left").onclick = () => {
+        console.log("clicked")
+        
+        if(count7 <= 0){
+            return;
+        }
+        count7--;
+        let val = count7 * 20;
+        document.querySelector("#newLaunch_container").style.transform = `translateX(-${val}vw)`;
+
+    };
+
+    document.querySelector("#category_right").onclick = () => {
+
+        if(count7  >= 4){
+           return;
+        }
+        count7++;
+        let val =count7 *20;
+        document.querySelector("#newLaunch_container").style.transform = `translateX(-${val}vw)`;
+    };
