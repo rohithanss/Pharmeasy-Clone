@@ -328,7 +328,7 @@
 
 /* -------------------------- media ----------------------- */
 
-@media all and (min-width:305px) and (max-width:1023px) {
+@media all and (min-width:305px) and (max-width:900px) {
     #container{
         box-sizing: border-box;
         width: 100%;

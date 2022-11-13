@@ -15,7 +15,7 @@ const append_data = async () => {
   let res = await fetch(`${api}/products`);
   res = await res.json();
   // console.log(res)
-  let data = res["home care"];
+  let data = res["beauty"];
   console.log(data);
   append_product_data(data);
 };
@@ -75,7 +75,7 @@ const sorting_data = async () => {
   let res = await fetch(`${api}/products`);
   res = await res.json();
   // console.log(res)
-  data = res["home care"];
+  let data = res["beauty"];
   sorting(data);
 };
 
@@ -108,6 +108,7 @@ const storeDataLS = (el) => {
   // let lsData = {p_img,p_name,strikedOff_price,final_price,discount};
   localStorage.setItem("product_Details", JSON.stringify(el));
 };
+
 
 
 

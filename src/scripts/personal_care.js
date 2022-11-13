@@ -15,7 +15,7 @@ const append_data = async () => {
   let res = await fetch(`${api}/products`);
   res = await res.json();
   // console.log(res)
-  let data = res["home care"];
+  let data = await res["personal care"];
   console.log(data);
   append_product_data(data);
 };
@@ -75,7 +75,7 @@ const sorting_data = async () => {
   let res = await fetch(`${api}/products`);
   res = await res.json();
   // console.log(res)
-  data = res["home care"];
+  let data = res["personal care"];
   sorting(data);
 };
 
@@ -109,9 +109,8 @@ const storeDataLS = (el) => {
   localStorage.setItem("product_Details", JSON.stringify(el));
 };
 
-
-
 /*-----------------to Redirect to different pages---------------------*/
+
 const redirectToProductPage = () => {
   window.location.href = "single_product.html";
 };
