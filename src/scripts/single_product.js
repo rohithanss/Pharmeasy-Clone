@@ -109,7 +109,9 @@ const append_product_details = (lsData) => {
       document.getElementById(
         "num_of_items"
       ).innerText = `${newCart.length} Items in cart`;
+      window.location.reload();
     };
+    
   };
 
   prod_desc.append(price_div, tax, del_time);
@@ -193,6 +195,10 @@ viewToCardbtn.onclick = () => {
   window.location.href = 'cartMain.html'
 }
 
+let viewlogo = document.querySelector('.logo')
+viewlogo.onclick = () => {
+  window.location.href = 'index.html'
+}
 
 // ---------------------- Rough work --------------------------
 

@@ -60,6 +60,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .logo>img{
   /* width:90%; */
