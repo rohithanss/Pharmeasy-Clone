@@ -51,13 +51,7 @@ border-radius: 10px; cursor:pointer; width: 90%;}
 #timevisit p{color:rgb(128, 128, 128); font-size: 18px;}
 #timevisit>div img{width: 60px; height: 60px;}
 
-/* ----------------- footer*/
 
-#footer_info>div{
-  display: flex;
-flex-direction: column; gap: 20px;
-}
-#buttons p{margin-bottom:20px;}
 
 
 @media screen and (min-width: 100px) and (max-width: 600px){
