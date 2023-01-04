@@ -1,4 +1,4 @@
-# purple-crook-1402
+# PharmEasy Clone
 
 User Side:
 
@@ -10,3 +10,6 @@ User Side:
 Admin Side:
 
 - Products and Order Management - Rohit Hans
+
+
+project code: purple-crook-1402
